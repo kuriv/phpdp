@@ -7,7 +7,7 @@ namespace PHPDesignPatterns\Structural\Adapter;
 class EBookAdapter implements BookInterface
 {
     /**
-     * instance that needs to be adapted.
+     * Instance that needs to be adapted.
      *
      * @var KindleInterface
      */
