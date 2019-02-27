@@ -1,14 +1,12 @@
 # Simple Factory
 
-It differs from the static factory because it is not static.
+## Purpose
 
-Therefore, you can have multiple factories, differently parameterized, you can subclass it and you can mock it.
-
-It always should be preferred over a static factory!
+It differs from the static factory because it is not static. Therefore, you can have multiple factories, differently parameterized, you can subclass it and you can mock it. It always should be preferred over a static factory!
 
 ## UML
 
-
+[![Simple Factory][UML-image]][UML-url]
 
 ## Code
 
@@ -23,13 +21,6 @@ namespace PHPDesignPatterns\Creational\SimpleFactory;
 
 abstract class Vehicle
 {
-    /**
-     * Drive to the destination.
-     *
-     * @param  string $destination
-     * @return void
-     */
-    abstract public function drive(string $destination);
 }
 
 ```
@@ -45,15 +36,6 @@ namespace PHPDesignPatterns\Creational\SimpleFactory;
 
 class Bus extends Vehicle
 {
-    /**
-     * Drive to the destination.
-     *
-     * @param  string $destination
-     * @return void
-     */
-    public function drive(string $destination)
-    {
-    }
 }
 
 ```
@@ -69,15 +51,6 @@ namespace PHPDesignPatterns\Creational\SimpleFactory;
 
 class Car extends Vehicle
 {
-    /**
-     * Drive to the destination.
-     *
-     * @param  string $destination
-     * @return void
-     */
-    public function drive(string $destination)
-    {
-    }
 }
 
 ```
@@ -146,3 +119,8 @@ class SimpleFactoryTest extends TestCase
 }
 
 ```
+
+
+
+[UML-image]: https://raw.githubusercontent.com/kuriv/kuriv.github.io/master/.cloud/phpdp/Creational/SimpleFactory/SimpleFactory.svg?sanitize=true
+[UML-url]: https://github.com/kuriv/phpdp/tree/master/src/Creational/SimpleFactory

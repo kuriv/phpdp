@@ -6,13 +6,4 @@ namespace PHPDesignPatterns\Creational\AbstractFactory;
 
 class BusEngine extends Engine
 {
-    /**
-     * Provide power for the vehicle.
-     *
-     * @param  void
-     * @return void
-     */
-    public function power()
-    {
-    }
 }

@@ -1,12 +1,14 @@
 # Static Factory
 
+## Purpose
+
 Similar to the abstract factory, this pattern is used to create series of related or dependent objects.
 
 The difference between this and the abstract factory pattern is that the static factory pattern uses just one static method to create all types of objects it can create.
 
 ## UML
 
-
+[![Static Factory][UML-image]][UML-url]
 
 ## Code
 
@@ -21,13 +23,6 @@ namespace PHPDesignPatterns\Creational\StaticFactory;
 
 abstract class Vehicle
 {
-    /**
-     * Drive to the destination.
-     *
-     * @param  string $destination
-     * @return void
-     */
-    abstract public function drive(string $destination);
 }
 
 ```
@@ -43,15 +38,6 @@ namespace PHPDesignPatterns\Creational\StaticFactory;
 
 class Bus extends Vehicle
 {
-    /**
-     * Drive to the destination.
-     *
-     * @param  string $destination
-     * @return void
-     */
-    public function drive(string $destination)
-    {
-    }
 }
 
 ```
@@ -67,15 +53,6 @@ namespace PHPDesignPatterns\Creational\StaticFactory;
 
 class Car extends Vehicle
 {
-    /**
-     * Drive to the destination.
-     *
-     * @param  string $destination
-     * @return void
-     */
-    public function drive(string $destination)
-    {
-    }
 }
 
 ```
@@ -144,3 +121,8 @@ class StaticFactoryTest extends TestCase
 }
 
 ```
+
+
+
+[UML-image]: https://raw.githubusercontent.com/kuriv/kuriv.github.io/master/.cloud/phpdp/Creational/StaticFactory/StaticFactory.svg?sanitize=true
+[UML-url]: https://github.com/kuriv/phpdp/tree/master/src/Creational/StaticFactory

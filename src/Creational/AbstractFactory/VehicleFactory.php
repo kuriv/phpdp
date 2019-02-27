@@ -7,7 +7,7 @@ namespace PHPDesignPatterns\Creational\AbstractFactory;
 abstract class VehicleFactory
 {
     /**
-     * Create vehicle.
+     * Create engine.
      *
      * @param  void
      * @return Engine

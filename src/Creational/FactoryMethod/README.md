@@ -1,14 +1,14 @@
 # Factory Method
 
-This pattern is a "real" design pattern because it achieves the dependency Inversion principle as known as the "D" in SOLID principles.
+## Purpose
 
-it means the factory method class depends on abstractions, not concrete classes.
+The good point over the simple factory is you can subclass it to implement different ways to create objects. For simple cases, this abstract class could be just an interface.
 
-This is the real trick compared to simple factory or static factory.
+This pattern is a "real" design pattern because it achieves the dependency Inversion principle as known as the "D" in SOLID principles. It means the factory method class depends on abstractions, not concrete classes. This is the real trick compared to simple factory or static factory.
 
 ## UML
 
-
+[![Factory Method][UML-image]][UML-url]
 
 ## Code
 
@@ -23,13 +23,6 @@ namespace PHPDesignPatterns\Creational\FactoryMethod;
 
 abstract class Vehicle
 {
-    /**
-     * Drive to the destination.
-     *
-     * @param  string $destination
-     * @return void
-     */
-    abstract public function drive(string $destination);
 }
 
 ```
@@ -45,15 +38,6 @@ namespace PHPDesignPatterns\Creational\FactoryMethod;
 
 class Bus extends Vehicle
 {
-    /**
-     * Drive to the destination.
-     *
-     * @param  string $destination
-     * @return void
-     */
-    public function drive(string $destination)
-    {
-    }
 }
 
 ```
@@ -69,15 +53,6 @@ namespace PHPDesignPatterns\Creational\FactoryMethod;
 
 class Car extends Vehicle
 {
-    /**
-     * Drive to the destination.
-     *
-     * @param  string $destination
-     * @return void
-     */
-    public function drive(string $destination)
-    {
-    }
 }
 
 ```
@@ -191,3 +166,8 @@ class FactoryMethodTest extends TestCase
 }
 
 ```
+
+
+
+[UML-image]: https://raw.githubusercontent.com/kuriv/kuriv.github.io/master/.cloud/phpdp/Creational/FactoryMethod/FactoryMethod.svg?sanitize=true
+[UML-url]: https://github.com/kuriv/phpdp/tree/master/src/Creational/FactoryMethod

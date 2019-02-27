@@ -1,14 +1,12 @@
 # Abstract Factory
 
-To create series of related or dependent objects without specifying their concrete classes.
+## Purpose
 
-Usually the created classes all implement the same interface.
-
-The client of the abstract factory does not care about how these objects are created, it just knows how they go together.
+To create series of related or dependent objects without specifying their concrete classes. Usually the created classes all implement the same interface. The client of the abstract factory does not care about how these objects are created, it just knows how they go together.
 
 ## UML
 
-
+[![Abstract Factory][UML-image]][UML-url]
 
 ## Code
 
@@ -23,13 +21,6 @@ namespace PHPDesignPatterns\Creational\AbstractFactory;
 
 abstract class Engine
 {
-    /**
-     * Provide power for the vehicle.
-     *
-     * @param  void
-     * @return void
-     */
-    abstract public function power();
 }
 
 ```
@@ -45,15 +36,6 @@ namespace PHPDesignPatterns\Creational\AbstractFactory;
 
 class BusEngine extends Engine
 {
-    /**
-     * Provide power for the vehicle.
-     *
-     * @param  void
-     * @return void
-     */
-    public function power()
-    {
-    }
 }
 
 ```
@@ -69,15 +51,6 @@ namespace PHPDesignPatterns\Creational\AbstractFactory;
 
 class CarEngine extends Engine
 {
-    /**
-     * Provide power for the vehicle.
-     *
-     * @param  void
-     * @return void
-     */
-    public function power()
-    {
-    }
 }
 
 ```
@@ -93,13 +66,6 @@ namespace PHPDesignPatterns\Creational\AbstractFactory;
 
 abstract class Headlight
 {
-    /**
-     * Provide light for the vehicle.
-     *
-     * @param  void
-     * @return void
-     */
-    abstract public function light();
 }
 
 ```
@@ -115,15 +81,6 @@ namespace PHPDesignPatterns\Creational\AbstractFactory;
 
 class BusHeadlight extends Headlight
 {
-    /**
-     * Provide light for the vehicle.
-     *
-     * @param  void
-     * @return void
-     */
-    public function light()
-    {
-    }
 }
 
 ```
@@ -139,15 +96,6 @@ namespace PHPDesignPatterns\Creational\AbstractFactory;
 
 class CarHeadlight extends Headlight
 {
-    /**
-     * Provide light for the vehicle.
-     *
-     * @param  void
-     * @return void
-     */
-    public function light()
-    {
-    }
 }
 
 ```
@@ -164,7 +112,7 @@ namespace PHPDesignPatterns\Creational\AbstractFactory;
 abstract class VehicleFactory
 {
     /**
-     * Create vehicle.
+     * Create engine.
      *
      * @param  void
      * @return Engine
@@ -194,7 +142,7 @@ namespace PHPDesignPatterns\Creational\AbstractFactory;
 class BusFactory extends VehicleFactory
 {
     /**
-     * Create vehicle.
+     * Create engine.
      *
      * @param  void
      * @return Engine
@@ -230,7 +178,7 @@ namespace PHPDesignPatterns\Creational\AbstractFactory;
 class CarFactory extends VehicleFactory
 {
     /**
-     * Create vehicle.
+     * Create engine.
      *
      * @param  void
      * @return Engine
@@ -309,3 +257,8 @@ class AbstractFactoryTest extends TestCase
 }
 
 ```
+
+
+
+[UML-image]: https://raw.githubusercontent.com/kuriv/kuriv.github.io/master/.cloud/phpdp/Creational/AbstractFactory/AbstractFactory.svg?sanitize=true
+[UML-url]: https://github.com/kuriv/phpdp/tree/master/src/Creational/AbstractFactory

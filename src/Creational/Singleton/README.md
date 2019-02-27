@@ -1,10 +1,14 @@
 # Singleton
 
+**THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND MAINTAINABILITY USE DEPENDENCY INJECTION!**
+
+## Purpose
+
 To have only one instance of this object in the application that will handle all calls.
 
 ## UML
 
-
+[![Singleton][UML-image]][UML-url]
 
 ## Code
 
@@ -100,3 +104,8 @@ class SingletonTest extends TestCase
 }
 
 ```
+
+
+
+[UML-image]: https://raw.githubusercontent.com/kuriv/kuriv.github.io/master/.cloud/phpdp/Creational/Singleton/Singleton.svg?sanitize=true
+[UML-url]: https://github.com/kuriv/phpdp/tree/master/src/Creational/Singleton

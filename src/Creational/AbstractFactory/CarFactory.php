@@ -7,7 +7,7 @@ namespace PHPDesignPatterns\Creational\AbstractFactory;
 class CarFactory extends VehicleFactory
 {
     /**
-     * Create vehicle.
+     * Create engine.
      *
      * @param  void
      * @return Engine

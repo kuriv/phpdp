@@ -1,10 +1,14 @@
 # Multiton
 
+**THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND MAINTAINABILITY USE DEPENDENCY INJECTION!**
+
+## Purpose
+
 To have only a list of named instances that are used, like a singleton but with several instances.
 
 ## UML
 
-
+[![Multiton][UML-image]][UML-url]
 
 ## Code
 
@@ -110,3 +114,8 @@ class MultitonTest extends TestCase
 }
 
 ```
+
+
+
+[UML-image]: https://raw.githubusercontent.com/kuriv/kuriv.github.io/master/.cloud/phpdp/Creational/Multiton/Multiton.svg?sanitize=true
+[UML-url]: https://github.com/kuriv/phpdp/tree/master/src/Creational/Multiton

@@ -6,13 +6,4 @@ namespace PHPDesignPatterns\Creational\FactoryMethod;
 
 class Car extends Vehicle
 {
-    /**
-     * Drive to the destination.
-     *
-     * @param  string $destination
-     * @return void
-     */
-    public function drive(string $destination)
-    {
-    }
 }
