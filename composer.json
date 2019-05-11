@@ -1,0 +1,24 @@
+{
+    "name": "kuriv/phpdp",
+    "description": "Sample code for several design patterns in PHP.",
+    "type": "project",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPDesignPatterns\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kuriv Vesti",
+            "email": "kuri.personal@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
