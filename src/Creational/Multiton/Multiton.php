@@ -1,15 +1,15 @@
 <?php
 
-namespace PHPDesignPatterns\Creational\Singleton;
+namespace PHPDesignPatterns\Creational\Multiton;
 
-final class Singleton
+final class Multiton
 {
     /**
-     * Store the current instance.
+     * Store several instances.
      *
-     * @var object
+     * @var array
      */
-    private static $instance;
+    private static $instances = [];
 
     /**
      * Prevent the instance from being constructed.
@@ -44,14 +44,14 @@ final class Singleton
     /**
      * Gets the instance via lazy initialization.
      *
-     * @param  void
-     * @return Singleton
+     * @param  string $instanceName
+     * @return Multiton
      */
-    public static function getInstance(): Singleton
+    public static function getInstance(string $instanceName): Multiton
     {
-        if (static::$instance === null) {
-            static::$instance = new static;
+        if (!isset(static::$instances[$instanceName])) {
+            static::$instances[$instanceName] = new static;
         }
-        return static::$instance;
+        return static::$instances[$instanceName];
     }
 }
