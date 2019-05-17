@@ -1,7 +1,6 @@
 {
     "name": "kuriv/phpdp",
     "description": "Sample code for several design patterns in PHP.",
-    "type": "project",
     "require": {
         "php": ">=7.0.0"
     },

@@ -2,6 +2,6 @@
 
 namespace PHPDesignPatterns\Creational\StaticFactory;
 
-class Car extends Vehicle
+abstract class Vehicle
 {
 }

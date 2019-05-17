@@ -2,6 +2,6 @@
 
 namespace PHPDesignPatterns\Creational\StaticFactory;
 
-class Bus
+class Bus extends Vehicle
 {
 }

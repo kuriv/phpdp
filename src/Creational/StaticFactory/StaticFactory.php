@@ -5,24 +5,18 @@ namespace PHPDesignPatterns\Creational\StaticFactory;
 class StaticFactory
 {
     /**
-     * Create bus.
+     * Create vehicle.
      *
-     * @param  void
-     * @return Bus
+     * @param  string $name
+     * @return Vehicle
      */
-    public static function createBus(): Bus
+    public static function createVehicle(string $name): Vehicle
     {
-        return new Bus;
-    }
-
-    /**
-     * Create car.
-     *
-     * @param  void
-     * @return Car
-     */
-    public static function createCar(): Car
-    {
-        return new Car;
+        if ($name == 'Bus') {
+            return new Bus;
+        }
+        if ($name == 'Car') {
+            return new Car;
+        }
     }
 }

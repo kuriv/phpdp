@@ -44,14 +44,14 @@ final class Multiton
     /**
      * Gets the instance via lazy initialization.
      *
-     * @param  string $instanceName
+     * @param  string $name
      * @return Multiton
      */
-    public static function getInstance(string $instanceName): Multiton
+    public static function getInstance(string $name): Multiton
     {
-        if (!isset(static::$instances[$instanceName])) {
-            static::$instances[$instanceName] = new static;
+        if (!isset(static::$instances[$name])) {
+            static::$instances[$name] = new static;
         }
-        return static::$instances[$instanceName];
+        return static::$instances[$name];
     }
 }

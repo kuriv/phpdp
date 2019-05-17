@@ -2,6 +2,6 @@
 
 namespace PHPDesignPatterns\Creational\SimpleFactory;
 
-class Bus
+class Bus extends Vehicle
 {
 }

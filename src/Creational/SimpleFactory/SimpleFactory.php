@@ -5,24 +5,18 @@ namespace PHPDesignPatterns\Creational\SimpleFactory;
 class SimpleFactory
 {
     /**
-     * Create bus.
+     * Create vehicle.
      *
-     * @param  void
-     * @return Bus
+     * @param  string $name
+     * @return Vehicle
      */
-    public function createBus(): Bus
+    public function createVehicle(string $name): Vehicle
     {
-        return new Bus;
-    }
-
-    /**
-     * Create car.
-     *
-     * @param  void
-     * @return Car
-     */
-    public function createCar(): Car
-    {
-        return new Car;
+        if ($name == 'Bus') {
+            return new Bus;
+        }
+        if ($name == 'Car') {
+            return new Car;
+        }
     }
 }
