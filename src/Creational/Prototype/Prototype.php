@@ -10,5 +10,5 @@ abstract class Prototype
      * @param  void
      * @return void
      */
-    abstract public function __clone();
+    abstract protected function __clone();
 }

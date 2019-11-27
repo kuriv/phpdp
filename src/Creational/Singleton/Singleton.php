@@ -7,7 +7,7 @@ final class Singleton
     /**
      * Store the current instance.
      *
-     * @var object
+     * @var Singleton
      */
     private static $instance;
 
@@ -42,16 +42,14 @@ final class Singleton
     }
 
     /**
-     * Gets the instance via lazy initialization.
+     * Get the instance via lazy initialization.
      *
      * @param  void
      * @return Singleton
      */
     public static function getInstance(): Singleton
     {
-        if (static::$instance === null) {
-            static::$instance = new static;
-        }
+        static::$instance ?? static::$instance = new static;
         return static::$instance;
     }
 }

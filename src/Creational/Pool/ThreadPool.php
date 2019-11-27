@@ -2,7 +2,9 @@
 
 namespace PHPDesignPatterns\Creational\Pool;
 
-class ThreadPool
+use Countable;
+
+class ThreadPool implements Countable
 {
     /**
      * Idle thread.
@@ -26,11 +28,7 @@ class ThreadPool
      */
     public function createThread(): Thread
     {
-        if (count($this->idleThread) == 0) {
-            $thread = new Thread;
-        } else {
-            $thread = array_pop($this->idleThread);
-        }
+        $thread = count($this->idleThread) == 0 ? new Thread : array_pop($this->idleThread);
         return $this->busyThread[spl_object_hash($thread)] = $thread;
     }
 
@@ -42,10 +40,10 @@ class ThreadPool
      */
     public function releaseThread(Thread $thread)
     {
-        $key = spl_object_hash($thread);
-        if (isset($this->busyThread[$key])) {
-            unset($this->busyThread[$key]);
-            $this->idleThread[$key] = $thread;
+        $hash = spl_object_hash($thread);
+        if (isset($this->busyThread[$hash])) {
+            unset($this->busyThread[$hash]);
+            $this->idleThread[$hash] = $thread;
         }
     }
 
