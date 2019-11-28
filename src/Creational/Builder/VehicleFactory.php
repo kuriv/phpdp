@@ -2,7 +2,7 @@
 
 namespace PHPDesignPatterns\Creational\Builder;
 
-interface VehicleBuilder
+interface VehicleFactory
 {
     /**
      * Create vehicle.

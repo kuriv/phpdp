@@ -14,11 +14,11 @@ abstract class Vehicle
     /**
      * Install parts for the vehicle.
      *
-     * @param  string      $name
-     * @param  Parts\Parts $parts
+     * @param  string $name
+     * @param  Parts  $parts
      * @return void
      */
-    public function installParts(string $name, Parts\Parts $parts)
+    public function installParts(string $name, Parts $parts)
     {
         $this->parts[$name] = $parts;
     }

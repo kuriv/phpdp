@@ -2,7 +2,7 @@
 
 namespace PHPDesignPatterns\Creational\Builder;
 
-class BusBuilder implements VehicleBuilder
+class CarFactory implements VehicleFactory
 {
     /**
      * Current vehicle.
@@ -41,7 +41,10 @@ class BusBuilder implements VehicleBuilder
      */
     public function installWheel()
     {
-        $this->vehicle->installParts('carWheel', new Wheel);
+        $this->vehicle->installParts('carWheel1', new Wheel);
+        $this->vehicle->installParts('carWheel2', new Wheel);
+        $this->vehicle->installParts('carWheel3', new Wheel);
+        $this->vehicle->installParts('carWheel4', new Wheel);
     }
 
     /**

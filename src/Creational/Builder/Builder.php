@@ -2,15 +2,15 @@
 
 namespace PHPDesignPatterns\Creational\Builder;
 
-class Director
+class Builder
 {
     /**
      * Build complex instance.
      *
-     * @param  VehicleBuilder $builder
+     * @param  VehicleFactory $builder
      * @return Vehicle
      */
-    public function build(VehicleBuilder $builder): Vehicle
+    public function build(VehicleFactory $builder): Vehicle
     {
         $builder->createVehicle();
         $builder->installEngine();
