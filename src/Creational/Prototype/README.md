@@ -1,7 +1,5 @@
 # Prototype
 
-## Purpose
-
 To avoid the cost of creating objects the standard way and instead create a prototype and clone it.
 
 ## UML
