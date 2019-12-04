@@ -96,4 +96,3 @@ class SingletonTest extends TestCase
 }
 
 ```
-
