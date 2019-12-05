@@ -8,16 +8,18 @@ class CompositeTest extends TestCase
 {
     public function testRender()
     {
-        $section = new Section;
-        $section->addElement(new Text('Username:'));
-        $section->addElement(new Input);
-        $internal = new Section;
-        $internal->addElement(new Text('Password:'));
-        $internal->addElement(new Input);
-        $section->addElement($internal);
+        $form = new Form;
+        $firstSection = new Section;
+        $firstSection->addElement(new Text('Username:'));
+        $firstSection->addElement(new Input);
+        $form->addElement($firstSection);
+        $secondSection = new Section;
+        $secondSection->addElement(new Text('Password:'));
+        $secondSection->addElement(new Input);
+        $form->addElement($secondSection);
         $this->assertEquals(
-            '<section>Username:<input type="text"><section>Password:<input type="text"></section></section>',
-            $section->render()
+            '<form><section>Username:<input type="text"></section><section>Password:<input type="text"></section></form>',
+            $form->render()
         );
     }
 }
