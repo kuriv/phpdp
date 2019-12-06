@@ -5,28 +5,28 @@ namespace PHPDesignPatterns\Structural\FluentInterface;
 class SQL
 {
     /**
-     * Store the fields to be queried.
+     * Store the fields that need to be queried.
      *
      * @var array
      */
     private $fields = [];
 
     /**
-     * Store the table to be queried.
+     * Store the table that need to be queried.
      *
      * @var array
      */
     private $table = [];
 
     /**
-     * Store the condition to be queried.
+     * Store the condition that need to be queried.
      *
      * @var array
      */
     private $condition = [];
 
     /**
-     * Store the fields to be queried.
+     * Store the fields that need to be queried.
      *
      * @param  array  $fields
      * @return SQL
@@ -38,7 +38,7 @@ class SQL
     }
 
     /**
-     * Store the table to be queried.
+     * Store the table that need to be queried.
      *
      * @param  string $table
      * @return SQL
@@ -50,7 +50,7 @@ class SQL
     }
 
     /**
-     * Store the condition to be queried.
+     * Store the condition that need to be queried.
      *
      * @param  string $condition
      * @return SQL

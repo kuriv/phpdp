@@ -18,7 +18,7 @@ namespace PHPDesignPatterns\Structural\Bridge;
 interface Formatter
 {
     /**
-     * Format the input string.
+     * Format the string.
      *
      * @param  string $string
      * @return string
@@ -38,7 +38,7 @@ namespace PHPDesignPatterns\Structural\Bridge;
 class TextFormatter implements Formatter
 {
     /**
-     * Format the input string.
+     * Format the string.
      *
      * @param  string $string
      * @return string
@@ -61,7 +61,7 @@ namespace PHPDesignPatterns\Structural\Bridge;
 class HTMLFormatter implements Formatter
 {
     /**
-     * Format the input string.
+     * Format the string.
      *
      * @param  string $string
      * @return string
@@ -91,7 +91,7 @@ abstract class Printer
     protected $formatter;
 
     /**
-     * Save the instance that used for bridging.
+     * Store the instance that used for bridging.
      *
      * @param  Formatter $formatter
      * @return void

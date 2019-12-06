@@ -5,7 +5,7 @@ namespace PHPDesignPatterns\Structural\Facade;
 interface BIOS
 {
     /**
-     * Define the BIOS method.
+     * Just a test method.
      *
      * @param  void
      * @return void
@@ -13,7 +13,7 @@ interface BIOS
     public function powerOn();
 
     /**
-     * Define the BIOS method.
+     * Just a test method.
      *
      * @param  OS     $os
      * @return void
@@ -21,7 +21,7 @@ interface BIOS
     public function launch(OS $os);
 
     /**
-     * Define the BIOS method.
+     * Just a test method.
      *
      * @param  void
      * @return void

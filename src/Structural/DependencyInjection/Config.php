@@ -26,7 +26,7 @@ class Config
     private $database;
 
     /**
-     * Store all config for the current instance.
+     * Store all config to the current instance.
      *
      * @param  string $host
      * @param  int    $port

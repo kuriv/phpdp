@@ -5,7 +5,7 @@ namespace PHPDesignPatterns\Structural\Bridge;
 class HTMLFormatter implements Formatter
 {
     /**
-     * Format the input string.
+     * Format the string.
      *
      * @param  string $string
      * @return string

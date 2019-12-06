@@ -12,7 +12,7 @@ abstract class Printer
     protected $formatter;
 
     /**
-     * Save the instance that used for bridging.
+     * Store the instance that used for bridging.
      *
      * @param  Formatter $formatter
      * @return void

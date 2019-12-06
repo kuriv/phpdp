@@ -5,7 +5,7 @@ namespace PHPDesignPatterns\Structural\Facade;
 interface OS
 {
     /**
-     * Define the OS method.
+     * Just a test method.
      *
      * @param  void
      * @return void
@@ -13,7 +13,7 @@ interface OS
     public function shutdown();
 
     /**
-     * Define the OS method.
+     * Just a test method.
      *
      * @param  void
      * @return void
