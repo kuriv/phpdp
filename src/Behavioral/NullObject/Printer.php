@@ -5,7 +5,7 @@ namespace PHPDesignPatterns\Behavioral\NullObject;
 interface Printer
 {
     /**
-     * Print the input string.
+     * Print the string.
      *
      * @param  string $string
      * @return void

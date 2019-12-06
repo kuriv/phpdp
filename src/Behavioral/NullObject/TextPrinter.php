@@ -5,7 +5,7 @@ namespace PHPDesignPatterns\Behavioral\NullObject;
 class TextPrinter implements Printer
 {
     /**
-     * Print the input string.
+     * Print the string.
      *
      * @param  string $string
      * @return void

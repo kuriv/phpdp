@@ -90,7 +90,7 @@ class Service
     private $printer;
 
     /**
-     * Store the printer to the current instance.
+     * Store the printer instance to the current instance.
      *
      * @param  Printer $printer
      * @return void

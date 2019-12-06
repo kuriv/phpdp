@@ -39,7 +39,7 @@ class Config
     private $database;
 
     /**
-     * Store all config for the current instance.
+     * Store all config to the current instance.
      *
      * @param  string $host
      * @param  int    $port
@@ -99,14 +99,14 @@ namespace PHPDesignPatterns\Structural\DependencyInjection;
 class Connection
 {
     /**
-     * Store the instance of the config.
+     * Store the config instance.
      *
      * @var Config
      */
     private $config;
 
     /**
-     * Store the instance.
+     * Store the config instance to the current instance.
      *
      * @param  Config $config
      * @return void
