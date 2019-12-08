@@ -25,12 +25,12 @@ class Context
     /**
      * Call the user defined comparison methods.
      *
-     * @param  array  $array
-     * @return array
+     * @param  int    $a
+     * @param  int    $b
+     * @return int
      */
-    public function execute(array $array): array
+    public function call(int $a, int $b): int
     {
-        uasort($array, [$this->comparator, 'compare']);
-        return $array;
+        return call_user_func([$this->comparator, 'compare'], $a, $b);
     }
 }

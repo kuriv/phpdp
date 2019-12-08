@@ -2,7 +2,7 @@
 
 namespace PHPDesignPatterns\Behavioral\Strategy;
 
-interface Comparator
+class FindMinComparator implements Comparator
 {
     /**
      * Return the result of the comparison.
@@ -11,5 +11,8 @@ interface Comparator
      * @param  int    $b
      * @return int
      */
-    public function compare(int $a, int $b): int;
+    public function compare(int $a, int $b): int
+    {
+        return min($a, $b);
+    }
 }

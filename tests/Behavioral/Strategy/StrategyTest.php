@@ -8,20 +8,22 @@ class StrategyTest extends TestCase
 {
     private function provideIntegers()
     {
+        return [2, 3];
     }
 
-    private function provideDates()
+    public function testFindMinComparator()
     {
+        $integers = $this->provideIntegers();
+        $context = new Context(new FindMinComparator);
+        $min = $context->call($integers[0], $integers[1]);
+        $this->assertEquals(2, $min);
     }
 
-    public function testIDComparator()
+    public function testFindMaxComparator()
     {
-        $array = $this->provideIntegers();
-        $context = new Context(new IDComparator);
-        $result = $context->execute($array);
-        var_dump($result);
-        die();
-        // $firstElement = array_shift($result);
-        // $this->assertEquals
+        $integers = $this->provideIntegers();
+        $context = new Context(new FindMaxComparator);
+        $max = $context->call($integers[0], $integers[1]);
+        $this->assertEquals(3, $max);
     }
 }
