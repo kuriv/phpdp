@@ -4,18 +4,43 @@ namespace PHPDesignPatterns\Behavioral\Visitor;
 
 class RecordVisitor implements RoleVisitor
 {
-    private $visited = [];
+    /**
+     * Store the access record.
+     *
+     * @var array
+     */
+    private $record = [];
 
-    public function visitUser(User $role)
+    /**
+     * Record user access.
+     *
+     * @param  User   $role
+     * @return void
+     */
+    public function recordUser(User $role)
     {
+        $this->record[] = $role;
     }
 
-    public function visitGroup(Group $role)
+    /**
+     * Record group access.
+     *
+     * @param  Group  $role
+     * @return void
+     */
+    public function recordGroup(Group $role)
     {
+        $this->record[] = $role;
     }
 
-    public function getVisited(): array
+    /**
+     * Get all the records.
+     *
+     * @param  void
+     * @return array
+     */
+    public function getRecord(): array
     {
-        return $this->visited;
+        return $this->record;
     }
 }

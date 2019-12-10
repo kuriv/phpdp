@@ -23,13 +23,13 @@ class User implements Role
     }
 
     /**
-     * Accept role access.
+     * Allow role access.
      *
      * @param  RoleVisitor $visitor
      * @return void
      */
-    public function accept(RoleVisitor $visitor)
+    public function access(RoleVisitor $visitor)
     {
-        $visitor->visitUser($this);
+        $visitor->recordUser($this);
     }
 }

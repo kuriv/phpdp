@@ -4,7 +4,19 @@ namespace PHPDesignPatterns\Behavioral\Visitor;
 
 interface RoleVisitor
 {
-    public function visitUser(User $role);
+    /**
+     * Record user access.
+     *
+     * @param  User   $role
+     * @return void
+     */
+    public function recordUser(User $role);
 
-    public function visitGroup(Group $role);
+    /**
+     * Record group access.
+     *
+     * @param  Group  $role
+     * @return void
+     */
+    public function recordGroup(Group $role);
 }
