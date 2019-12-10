@@ -1,0 +1,1138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d33b4954-ad6f-46ce-a830-01039ea892e3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+    </include_path>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/phpdp.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/php.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="580" />
+    <option name="y" value="200" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Behavioral" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Behavioral" type="462c0819:PsiDirectoryNode" />
+              <item name="Iterator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Behavioral" type="462c0819:PsiDirectoryNode" />
+              <item name="NullObject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Behavioral" type="462c0819:PsiDirectoryNode" />
+              <item name="Strategy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Behavioral" type="462c0819:PsiDirectoryNode" />
+              <item name="TemplateMethod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Creational" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Creational" type="462c0819:PsiDirectoryNode" />
+              <item name="AbstractFactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Creational" type="462c0819:PsiDirectoryNode" />
+              <item name="Builder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Creational" type="462c0819:PsiDirectoryNode" />
+              <item name="FactoryMethod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Creational" type="462c0819:PsiDirectoryNode" />
+              <item name="Multiton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Creational" type="462c0819:PsiDirectoryNode" />
+              <item name="Pool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Creational" type="462c0819:PsiDirectoryNode" />
+              <item name="Prototype" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Creational" type="462c0819:PsiDirectoryNode" />
+              <item name="SimpleFactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Creational" type="462c0819:PsiDirectoryNode" />
+              <item name="Singleton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Creational" type="462c0819:PsiDirectoryNode" />
+              <item name="StaticFactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Structural" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Structural" type="462c0819:PsiDirectoryNode" />
+              <item name="Adapter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Structural" type="462c0819:PsiDirectoryNode" />
+              <item name="Bridge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Structural" type="462c0819:PsiDirectoryNode" />
+              <item name="Composite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Structural" type="462c0819:PsiDirectoryNode" />
+              <item name="DataMapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Structural" type="462c0819:PsiDirectoryNode" />
+              <item name="Decorator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Structural" type="462c0819:PsiDirectoryNode" />
+              <item name="DependencyInjection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Structural" type="462c0819:PsiDirectoryNode" />
+              <item name="Facade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Structural" type="462c0819:PsiDirectoryNode" />
+              <item name="FluentInterface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Structural" type="462c0819:PsiDirectoryNode" />
+              <item name="Flyweight" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Structural" type="462c0819:PsiDirectoryNode" />
+              <item name="Proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Structural" type="462c0819:PsiDirectoryNode" />
+              <item name="Registry" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d33b4954-ad6f-46ce-a830-01039ea892e3" name="Default Changelist" comment="" />
+      <created>1574856008291</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574856008291</updated>
+      <workItem from="1574856010511" duration="233000" />
+      <workItem from="1574856262075" duration="163000" />
+      <workItem from="1574928299125" duration="4569000" />
+      <workItem from="1574939988878" duration="123000" />
+      <workItem from="1574942685348" duration="2416000" />
+      <workItem from="1575028933030" duration="58000" />
+      <workItem from="1575386997351" duration="661000" />
+      <workItem from="1575450957993" duration="1278000" />
+      <workItem from="1575552779357" duration="1426000" />
+      <workItem from="1575633916501" duration="962000" />
+      <workItem from="1575710292178" duration="1315000" />
+      <workItem from="1575716084420" duration="41000" />
+      <workItem from="1575815038914" duration="665000" />
+      <workItem from="1575888827027" duration="880000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14790000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16176471" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="uml://PHP/\PHPDesignPatterns\Creational\Singleton\Singleton">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>\PHPDesignPatterns\Creational\Singleton\Singleton</OriginalElement>
+          <nodes>
+            <node x="" y="">\PHPDesignPatterns\Creational\Singleton\Singleton</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="47.0" y="13.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Creational">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Creational</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/src/Creational/Singleton</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="47.0" y="13.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Creational/Singleton">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Creational/Singleton</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">\PHPDesignPatterns\Creational\Singleton\Singleton</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="63.0" y="72.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Creational/Singleton/Singleton.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Creational/Multiton">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Creational/Multiton</OriginalElement>
+          <nodes>
+            <node x="" y="">\PHPDesignPatterns\Creational\Multiton\Multiton</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="79.0" y="72.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Creational/StaticFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Creational/StaticFactory</OriginalElement>
+          <nodes>
+            <node x="" y="">\PHPDesignPatterns\Creational\StaticFactory\StaticFactory</node>
+            <node x="" y="">\PHPDesignPatterns\Creational\StaticFactory\Car</node>
+            <node x="" y="">\PHPDesignPatterns\Creational\StaticFactory\Bus</node>
+            <node x="" y="">\PHPDesignPatterns\Creational\StaticFactory\Vehicle</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="76.0" y="98.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Creational/FactoryMethod">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Creational/FactoryMethod</OriginalElement>
+          <nodes>
+            <node x="" y="">\PHPDesignPatterns\Creational\FactoryMethod\Bus</node>
+            <node x="" y="">\PHPDesignPatterns\Creational\FactoryMethod\Vehicle</node>
+            <node x="" y="">\PHPDesignPatterns\Creational\FactoryMethod\VehicleFactory</node>
+            <node x="" y="">\PHPDesignPatterns\Creational\FactoryMethod\CarFactory</node>
+            <node x="" y="">\PHPDesignPatterns\Creational\FactoryMethod\Car</node>
+            <node x="" y="">\PHPDesignPatterns\Creational\FactoryMethod\BusFactory</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="110.0" y="125.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Creational/AbstractFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Creational/AbstractFactory</OriginalElement>
+          <nodes>
+            <node x="" y="">\PHPDesignPatterns\Creational\AbstractFactory\Wheel</node>
+            <node x="" y="">\PHPDesignPatterns\Creational\AbstractFactory\BusWheel</node>
+            <node x="" y="">\PHPDesignPatterns\Creational\AbstractFactory\BusEngine</node>
+            <node x="" y="">\PHPDesignPatterns\Creational\AbstractFactory\CarFactory</node>
+            <node x="" y="">\PHPDesignPatterns\Creational\AbstractFactory\BusFactory</node>
+            <node x="" y="">\PHPDesignPatterns\Creational\AbstractFactory\VehicleFactory</node>
+            <node x="" y="">\PHPDesignPatterns\Creational\AbstractFactory\CarWheel</node>
+            <node x="" y="">\PHPDesignPatterns\Creational\AbstractFactory\Engine</node>
+            <node x="" y="">\PHPDesignPatterns\Creational\AbstractFactory\CarEngine</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="222.0" y="171.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Creational/Prototype">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Creational/Prototype</OriginalElement>
+          <nodes>
+            <node x="" y="">\PHPDesignPatterns\Creational\Prototype\BarPrototype</node>
+            <node x="" y="">\PHPDesignPatterns\Creational\Prototype\FooPrototype</node>
+            <node x="" y="">\PHPDesignPatterns\Creational\Prototype\Prototype</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="124.0" y="74.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Creational/Pool">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Creational/Pool</OriginalElement>
+          <nodes>
+            <node x="" y="">\PHPDesignPatterns\Creational\Pool\ThreadPool</node>
+            <node x="" y="">\Countable</node>
+            <node x="" y="">\PHPDesignPatterns\Creational\Pool\Thread</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="148.0" y="121.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Creational/Builder">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Creational/Builder</OriginalElement>
+          <nodes>
+            <node x="368.5" y="123.0">\PHPDesignPatterns\Creational\Builder\Car</node>
+            <node x="0.0" y="168.0">\PHPDesignPatterns\Creational\Builder\CarFactory</node>
+            <node x="44.25" y="355.0">\PHPDesignPatterns\Creational\Builder\Parts</node>
+            <node x="202.0" y="355.0">\PHPDesignPatterns\Creational\Builder\Builder</node>
+            <node x="155.0" y="168.0">\PHPDesignPatterns\Creational\Builder\BusFactory</node>
+            <node x="0.0" y="431.0">\PHPDesignPatterns\Creational\Builder\Wheel</node>
+            <node x="85.0" y="431.0">\PHPDesignPatterns\Creational\Builder\Engine</node>
+            <node x="77.5" y="0.0">\PHPDesignPatterns\Creational\Builder\VehicleFactory</node>
+            <node x="439.5" y="123.0">\PHPDesignPatterns\Creational\Builder\Bus</node>
+            <node x="335.0" y="0.0">\PHPDesignPatterns\Creational\Builder\Vehicle</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="\PHPDesignPatterns\Creational\Builder\Car" target="\PHPDesignPatterns\Creational\Builder\Vehicle">
+              <point x="0.0" y="-13.0" />
+              <point x="394.0" y="98.0" />
+              <point x="382.25" y="98.0" />
+              <point x="-47.25" y="36.5" />
+            </edge>
+            <edge source="\PHPDesignPatterns\Creational\Builder\Engine" target="\PHPDesignPatterns\Creational\Builder\Parts">
+              <point x="0.0" y="-13.0" />
+              <point x="121.0" y="406.0" />
+              <point x="93.0" y="406.0" />
+              <point x="16.25" y="13.0" />
+            </edge>
+            <edge source="\PHPDesignPatterns\Creational\Builder\Bus" target="\PHPDesignPatterns\Creational\Builder\Vehicle">
+              <point x="0.0" y="-13.0" />
+              <point x="465.0" y="98.0" />
+              <point x="476.75" y="98.0" />
+              <point x="47.25" y="36.5" />
+            </edge>
+            <edge source="\PHPDesignPatterns\Creational\Builder\CarFactory" target="\PHPDesignPatterns\Creational\Builder\VehicleFactory">
+              <point x="0.0" y="-71.0" />
+              <point x="67.5" y="143.0" />
+              <point x="111.25" y="143.0" />
+              <point x="-33.75" y="59.0" />
+            </edge>
+            <edge source="\PHPDesignPatterns\Creational\Builder\Wheel" target="\PHPDesignPatterns\Creational\Builder\Parts">
+              <point x="0.0" y="-13.0" />
+              <point x="32.5" y="406.0" />
+              <point x="60.5" y="406.0" />
+              <point x="-16.25" y="13.0" />
+            </edge>
+            <edge source="\PHPDesignPatterns\Creational\Builder\BusFactory" target="\PHPDesignPatterns\Creational\Builder\VehicleFactory">
+              <point x="0.0" y="-71.0" />
+              <point x="222.5" y="143.0" />
+              <point x="178.75" y="143.0" />
+              <point x="33.75" y="59.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="238.0" y="229.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Creational/SimpleFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Creational/SimpleFactory</OriginalElement>
+          <nodes>
+            <node x="" y="">\PHPDesignPatterns\Creational\SimpleFactory\SimpleFactory</node>
+            <node x="" y="">\PHPDesignPatterns\Creational\SimpleFactory\Bus</node>
+            <node x="" y="">\PHPDesignPatterns\Creational\SimpleFactory\Car</node>
+            <node x="" y="">\PHPDesignPatterns\Creational\SimpleFactory\Vehicle</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="76.0" y="98.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Structural/Adapter">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Structural/Adapter</OriginalElement>
+          <nodes>
+            <node x="" y="">\PHPDesignPatterns\Structural\Adapter\EBookAdapter</node>
+            <node x="" y="">\PHPDesignPatterns\Structural\Adapter\Book</node>
+            <node x="" y="">\PHPDesignPatterns\Structural\Adapter\TextBook</node>
+            <node x="" y="">\PHPDesignPatterns\Structural\Adapter\EBook</node>
+            <node x="" y="">\PHPDesignPatterns\Structural\Adapter\Kindle</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="110.0" y="125.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Structural/Bridge">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Structural/Bridge</OriginalElement>
+          <nodes>
+            <node x="" y="">\PHPDesignPatterns\Structural\Bridge\Formatter</node>
+            <node x="" y="">\PHPDesignPatterns\Structural\Bridge\TextFormatter</node>
+            <node x="" y="">\PHPDesignPatterns\Structural\Bridge\Printer</node>
+            <node x="" y="">\PHPDesignPatterns\Structural\Bridge\HTMLFormatter</node>
+            <node x="" y="">\PHPDesignPatterns\Structural\Bridge\PingTestPrinter</node>
+            <node x="" y="">\PHPDesignPatterns\Structural\Bridge\HelloWorldPrinter</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="152.0" y="195.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Structural/FluentInterface">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Structural/FluentInterface</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">\PHPDesignPatterns\Structural\FluentInterface\SQL</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="66.0" y="94.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Structural/DependencyInjection">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Structural/DependencyInjection</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">\PHPDesignPatterns\Structural\DependencyInjection\Config</node>
+            <node x="0.0" y="234.0">\PHPDesignPatterns\Structural\DependencyInjection\Connection</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="120.0" y="166.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Structural/Registry">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Structural/Registry</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">\PHPDesignPatterns\Structural\Registry\Registry</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="63.0" y="60.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Structural/Composite">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Structural/Composite</OriginalElement>
+          <nodes>
+            <node x="0.0" y="99.0">\PHPDesignPatterns\Structural\Composite\Text</node>
+            <node x="355.0" y="99.5">\PHPDesignPatterns\Structural\Composite\Section</node>
+            <node x="295.0" y="0.0">\PHPDesignPatterns\Structural\Composite\Renderable</node>
+            <node x="162.0" y="99.5">\PHPDesignPatterns\Structural\Composite\Form</node>
+            <node x="548.0" y="123.0">\PHPDesignPatterns\Structural\Composite\Input</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="\PHPDesignPatterns\Structural\Composite\Section" target="\PHPDesignPatterns\Structural\Composite\Renderable">
+              <point x="0.0" y="-48.0" />
+              <point x="441.5" y="79.0" />
+              <point x="357.5" y="79.0" />
+              <point x="12.5" y="24.5" />
+            </edge>
+            <edge source="\PHPDesignPatterns\Structural\Composite\Input" target="\PHPDesignPatterns\Structural\Composite\Renderable">
+              <point x="0.0" y="-24.5" />
+              <point x="596.5" y="69.0" />
+              <point x="382.5" y="69.0" />
+              <point x="37.5" y="24.5" />
+            </edge>
+            <edge source="\PHPDesignPatterns\Structural\Composite\Form" target="\PHPDesignPatterns\Structural\Composite\Renderable">
+              <point x="0.0" y="-48.0" />
+              <point x="248.5" y="79.0" />
+              <point x="332.5" y="79.0" />
+              <point x="-12.5" y="24.5" />
+            </edge>
+            <edge source="\PHPDesignPatterns\Structural\Composite\Text" target="\PHPDesignPatterns\Structural\Composite\Renderable">
+              <point x="0.0" y="-48.5" />
+              <point x="71.0" y="69.0" />
+              <point x="307.5" y="69.0" />
+              <point x="-37.5" y="24.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-499.0" y="-277.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Behavioral/NullObject">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Behavioral/NullObject</OriginalElement>
+          <nodes>
+            <node x="138.0" y="99.0">\PHPDesignPatterns\Behavioral\NullObject\TextPrinter</node>
+            <node x="69.0" y="0.0">\PHPDesignPatterns\Behavioral\NullObject\Printer</node>
+            <node x="0.0" y="193.0">\PHPDesignPatterns\Behavioral\NullObject\Service</node>
+            <node x="0.0" y="99.0">\PHPDesignPatterns\Behavioral\NullObject\NullPrinter</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="\PHPDesignPatterns\Behavioral\NullObject\NullPrinter" target="\PHPDesignPatterns\Behavioral\NullObject\Printer">
+              <point x="0.0" y="-24.5" />
+              <point x="59.0" y="74.0" />
+              <point x="98.5" y="74.0" />
+              <point x="-29.5" y="24.5" />
+            </edge>
+            <edge source="\PHPDesignPatterns\Behavioral\NullObject\TextPrinter" target="\PHPDesignPatterns\Behavioral\NullObject\Printer">
+              <point x="0.0" y="-24.5" />
+              <point x="197.0" y="74.0" />
+              <point x="157.5" y="74.0" />
+              <point x="29.5" y="24.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="128.0" y="145.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Structural/Facade">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Structural/Facade</OriginalElement>
+          <nodes>
+            <node x="" y="">\PHPDesignPatterns\Structural\Facade\BIOS</node>
+            <node x="" y="">\PHPDesignPatterns\Structural\Facade\OS</node>
+            <node x="" y="">\PHPDesignPatterns\Structural\Facade\Facade</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="136.0" y="142.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Structural/Proxy">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Structural/Proxy</OriginalElement>
+          <nodes>
+            <node x="" y="">\PHPDesignPatterns\Structural\Proxy\Record</node>
+            <node x="" y="">\PHPDesignPatterns\Structural\Proxy\RecordProxy</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="77.0" y="107.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Structural/Flyweight">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Structural/Flyweight</OriginalElement>
+          <nodes>
+            <node x="0.0" y="99.0">\PHPDesignPatterns\Structural\Flyweight\TextFactory</node>
+            <node x="0.0" y="362.0">\PHPDesignPatterns\Structural\Flyweight\Character</node>
+            <node x="41.0" y="0.0">\Countable</node>
+            <node x="195.0" y="362.0">\PHPDesignPatterns\Structural\Flyweight\Word</node>
+            <node x="119.0" y="263.0">\PHPDesignPatterns\Structural\Flyweight\Text</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="\PHPDesignPatterns\Structural\Flyweight\Word" target="\PHPDesignPatterns\Structural\Flyweight\Text">
+              <point x="0.0" y="-48.5" />
+              <point x="270.5" y="337.0" />
+              <point x="209.0" y="337.0" />
+              <point x="30.0" y="24.5" />
+            </edge>
+            <edge source="\PHPDesignPatterns\Structural\Flyweight\TextFactory" target="\Countable">
+              <point x="0.0" y="-59.5" />
+              <point x="0.0" y="24.5" />
+            </edge>
+            <edge source="\PHPDesignPatterns\Structural\Flyweight\Character" target="\PHPDesignPatterns\Structural\Flyweight\Text">
+              <point x="0.0" y="-48.5" />
+              <point x="87.5" y="337.0" />
+              <point x="149.0" y="337.0" />
+              <point x="-30.0" y="24.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-646.0" y="-145.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Structural/Decorator">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Structural/Decorator</OriginalElement>
+          <nodes>
+            <node x="" y="">\PHPDesignPatterns\Structural\Decorator\WiFi</node>
+            <node x="" y="">\PHPDesignPatterns\Structural\Decorator\BookingDecorator</node>
+            <node x="" y="">\PHPDesignPatterns\Structural\Decorator\Booking</node>
+            <node x="" y="">\PHPDesignPatterns\Structural\Decorator\ExtraBed</node>
+            <node x="" y="">\PHPDesignPatterns\Structural\Decorator\StandardRoom</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="181.0" y="159.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Structural/DataMapper">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Structural/DataMapper</OriginalElement>
+          <nodes>
+            <node x="" y="">\PHPDesignPatterns\Structural\DataMapper\User</node>
+            <node x="" y="">\PHPDesignPatterns\Structural\DataMapper\StorageAdapter</node>
+            <node x="" y="">\PHPDesignPatterns\Structural\DataMapper\UserMapper</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="180.0" y="154.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Behavioral/TemplateMethod">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Behavioral/TemplateMethod</OriginalElement>
+          <nodes>
+            <node x="120.0" y="215.0">\PHPDesignPatterns\Behavioral\TemplateMethod\People</node>
+            <node x="0.0" y="215.0">\PHPDesignPatterns\Behavioral\TemplateMethod\Programmer</node>
+            <node x="41.5" y="0.0">\PHPDesignPatterns\Behavioral\TemplateMethod\Schedule</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="\PHPDesignPatterns\Behavioral\TemplateMethod\Programmer" target="\PHPDesignPatterns\Behavioral\TemplateMethod\Schedule">
+              <point x="0.0" y="-24.5" />
+              <point x="50.0" y="190.0" />
+              <point x="73.75" y="190.0" />
+              <point x="-32.25" y="82.5" />
+            </edge>
+            <edge source="\PHPDesignPatterns\Behavioral\TemplateMethod\People" target="\PHPDesignPatterns\Behavioral\TemplateMethod\Schedule">
+              <point x="0.0" y="-24.5" />
+              <point x="162.0" y="190.0" />
+              <point x="138.25" y="190.0" />
+              <point x="32.25" y="82.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-714.0" y="-243.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Behavioral/Strategy">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Behavioral/Strategy</OriginalElement>
+          <nodes>
+            <node x="0.0" y="99.0">\PHPDesignPatterns\Behavioral\Strategy\FindMinComparator</node>
+            <node x="93.0" y="0.0">\PHPDesignPatterns\Behavioral\Strategy\Comparator</node>
+            <node x="0.0" y="193.0">\PHPDesignPatterns\Behavioral\Strategy\Context</node>
+            <node x="169.0" y="99.0">\PHPDesignPatterns\Behavioral\Strategy\FindMaxComparator</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="\PHPDesignPatterns\Behavioral\Strategy\FindMaxComparator" target="\PHPDesignPatterns\Behavioral\Strategy\Comparator">
+              <point x="0.0" y="-24.5" />
+              <point x="243.5" y="74.0" />
+              <point x="192.0" y="74.0" />
+              <point x="33.0" y="24.5" />
+            </edge>
+            <edge source="\PHPDesignPatterns\Behavioral\Strategy\FindMinComparator" target="\PHPDesignPatterns\Behavioral\Strategy\Comparator">
+              <point x="0.0" y="-24.5" />
+              <point x="74.5" y="74.0" />
+              <point x="126.0" y="74.0" />
+              <point x="-33.0" y="24.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="159.0" y="145.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Behavioral/Iterator">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Behavioral/Iterator</OriginalElement>
+          <nodes>
+            <node x="" y="">\Countable</node>
+            <node x="" y="">\Iterator</node>
+            <node x="" y="">\PHPDesignPatterns\Behavioral\Iterator\Book</node>
+            <node x="" y="">\iterable</node>
+            <node x="" y="">\Traversable</node>
+            <node x="" y="">\PHPDesignPatterns\Behavioral\Iterator\BookList</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="224.0" y="288.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
