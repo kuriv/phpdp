@@ -17,53 +17,7 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="uml://PHP/C:/Github/phpdp/src/Behavioral/State">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>PHP</ID>
-              <OriginalElement>$PROJECT_DIR$/src/Behavioral/State</OriginalElement>
-              <nodes>
-                <node x="0.0" y="239.0">\PHPDesignPatterns\Behavioral\State\Order</node>
-                <node x="0.0" y="122.0">\PHPDesignPatterns\Behavioral\State\StateDone</node>
-                <node x="144.0" y="122.0">\PHPDesignPatterns\Behavioral\State\StateShipped</node>
-                <node x="288.0" y="122.0">\PHPDesignPatterns\Behavioral\State\StateCreated</node>
-                <node x="144.0" y="0.0">\PHPDesignPatterns\Behavioral\State\State</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="\PHPDesignPatterns\Behavioral\State\StateShipped" target="\PHPDesignPatterns\Behavioral\State\State">
-                  <point x="0.0" y="-36.0" />
-                  <point x="0.0" y="36.0" />
-                </edge>
-                <edge source="\PHPDesignPatterns\Behavioral\State\StateCreated" target="\PHPDesignPatterns\Behavioral\State\State">
-                  <point x="0.0" y="-36.0" />
-                  <point x="350.0" y="97.0" />
-                  <point x="247.33333333333334" y="97.0" />
-                  <point x="41.33333333333334" y="36.0" />
-                </edge>
-                <edge source="\PHPDesignPatterns\Behavioral\State\StateDone" target="\PHPDesignPatterns\Behavioral\State\State">
-                  <point x="0.0" y="-36.0" />
-                  <point x="62.0" y="97.0" />
-                  <point x="164.66666666666666" y="97.0" />
-                  <point x="-41.33333333333334" y="36.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="180.5" y="86.5" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constants</Category>
-                <Category>Constructors</Category>
-                <Category>Methods</Category>
-              </Categories>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -386,16 +340,15 @@
       <workItem from="1575716084420" duration="41000" />
       <workItem from="1575815038914" duration="665000" />
       <workItem from="1575888827027" duration="880000" />
-      <workItem from="1575978168195" duration="832000" />
+      <workItem from="1575978168195" duration="1466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15622000" />
+    <option name="totallyTimeSpent" value="16256000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16295707" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1247,32 +1200,15 @@
           <ID>PHP</ID>
           <OriginalElement>$PROJECT_DIR$/src/Behavioral/State</OriginalElement>
           <nodes>
-            <node x="0.0" y="239.0">\PHPDesignPatterns\Behavioral\State\Order</node>
-            <node x="0.0" y="122.0">\PHPDesignPatterns\Behavioral\State\StateDone</node>
-            <node x="144.0" y="122.0">\PHPDesignPatterns\Behavioral\State\StateShipped</node>
-            <node x="288.0" y="122.0">\PHPDesignPatterns\Behavioral\State\StateCreated</node>
-            <node x="144.0" y="0.0">\PHPDesignPatterns\Behavioral\State\State</node>
+            <node x="" y="">\PHPDesignPatterns\Behavioral\State\Order</node>
+            <node x="" y="">\PHPDesignPatterns\Behavioral\State\StateDone</node>
+            <node x="" y="">\PHPDesignPatterns\Behavioral\State\StateShipped</node>
+            <node x="" y="">\PHPDesignPatterns\Behavioral\State\StateCreated</node>
+            <node x="" y="">\PHPDesignPatterns\Behavioral\State\State</node>
           </nodes>
           <notes />
-          <edges>
-            <edge source="\PHPDesignPatterns\Behavioral\State\StateShipped" target="\PHPDesignPatterns\Behavioral\State\State">
-              <point x="0.0" y="-36.0" />
-              <point x="0.0" y="36.0" />
-            </edge>
-            <edge source="\PHPDesignPatterns\Behavioral\State\StateCreated" target="\PHPDesignPatterns\Behavioral\State\State">
-              <point x="0.0" y="-36.0" />
-              <point x="350.0" y="97.0" />
-              <point x="247.33333333333334" y="97.0" />
-              <point x="41.33333333333334" y="36.0" />
-            </edge>
-            <edge source="\PHPDesignPatterns\Behavioral\State\StateDone" target="\PHPDesignPatterns\Behavioral\State\State">
-              <point x="0.0" y="-36.0" />
-              <point x="62.0" y="97.0" />
-              <point x="164.66666666666666" y="97.0" />
-              <point x="-41.33333333333334" y="36.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="180.5" y="86.5" />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="230.0" y="190.5" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
