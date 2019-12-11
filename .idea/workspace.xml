@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d33b4954-ad6f-46ce-a830-01039ea892e3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Behavioral/Specification/SpecificationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Behavioral/Specification/SpecificationTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="580" />
     <option name="y" value="200" />
     <option name="width" value="1400" />
@@ -78,6 +80,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,6 +105,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Behavioral" type="462c0819:PsiDirectoryNode" />
               <item name="Iterator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Behavioral" type="462c0819:PsiDirectoryNode" />
+              <item name="Memento" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
@@ -294,7 +304,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,16 +350,17 @@
       <workItem from="1575815038914" duration="665000" />
       <workItem from="1575888827027" duration="880000" />
       <workItem from="1575978168195" duration="1466000" />
+      <workItem from="1576059439122" duration="649000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16256000" />
+    <option name="totallyTimeSpent" value="16905000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16295707" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16414945" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1190,6 +1200,7 @@
             <Category>Constructors</Category>
             <Category>Methods</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
@@ -1208,7 +1219,32 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="230.0" y="190.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="230.0" y="191.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Behavioral/Memento">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Behavioral/Memento</OriginalElement>
+          <nodes>
+            <node x="" y="">\PHPDesignPatterns\Behavioral\Memento\State</node>
+            <node x="" y="">\PHPDesignPatterns\Behavioral\Memento\Memento</node>
+            <node x="" y="">\PHPDesignPatterns\Behavioral\Memento\Ticket</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="217.5" y="235.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
