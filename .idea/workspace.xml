@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d33b4954-ad6f-46ce-a830-01039ea892e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Behavioral/Specification/SpecificationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Behavioral/Specification/SpecificationTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +17,39 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://PHP/C:/Github/phpdp/src/More/ServiceLocator">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>PHP</ID>
+              <OriginalElement>$PROJECT_DIR$/src/More/ServiceLocator</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">\PHPDesignPatterns\More\ServiceLocator\ServiceLocator</node>
+                <node x="0.0" y="286.0">\PHPDesignPatterns\More\ServiceLocator\LogService</node>
+                <node x="10.5" y="210.0">\PHPDesignPatterns\More\ServiceLocator\Service</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="\PHPDesignPatterns\More\ServiceLocator\LogService" target="\PHPDesignPatterns\More\ServiceLocator\Service">
+                  <point x="0.0" y="-13.0" />
+                  <point x="0.0" y="13.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="102.0" y="156.0" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constants</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -80,7 +110,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,6 +250,26 @@
               <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
               <item name="phpdp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="More" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="More" type="462c0819:PsiDirectoryNode" />
+              <item name="EAV" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="More" type="462c0819:PsiDirectoryNode" />
+              <item name="ServiceLocator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Structural" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -304,6 +353,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -351,16 +401,18 @@
       <workItem from="1575888827027" duration="880000" />
       <workItem from="1575978168195" duration="1466000" />
       <workItem from="1576059439122" duration="649000" />
+      <workItem from="1576148346244" duration="683000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16905000" />
+    <option name="totallyTimeSpent" value="17588000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16414945" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16534181" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1244,7 +1296,61 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="217.5" y="235.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="218.0" y="235.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/More/EAV">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/More/EAV</OriginalElement>
+          <nodes>
+            <node x="241.0" y="165.0">\PHPDesignPatterns\More\EAV\Attribute</node>
+            <node x="0.0" y="165.0">\PHPDesignPatterns\More\EAV\Entity</node>
+            <node x="0.0" y="0.0">\PHPDesignPatterns\More\EAV\Value</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-613.0" y="-232.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/More/ServiceLocator">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/More/ServiceLocator</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">\PHPDesignPatterns\More\ServiceLocator\ServiceLocator</node>
+            <node x="0.0" y="286.0">\PHPDesignPatterns\More\ServiceLocator\LogService</node>
+            <node x="10.5" y="210.0">\PHPDesignPatterns\More\ServiceLocator\Service</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="\PHPDesignPatterns\More\ServiceLocator\LogService" target="\PHPDesignPatterns\More\ServiceLocator\Service">
+              <point x="0.0" y="-13.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="102.0" y="156.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
