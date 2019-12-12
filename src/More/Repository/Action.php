@@ -5,23 +5,23 @@ namespace PHPDesignPatterns\More\Repository;
 interface Action
 {
     /**
-     * Generate an ID.
+     * Generate an post ID.
      *
      * @param  void
      * @return int
      */
-    public function generateID(): int;
+    public function generatePostID(): int;
 
     /**
      * Find the specified data.
      *
-     * @param  int    $id
+     * @param  int    $postID
      * @return array
      */
-    public function find(int $id): array;
+    public function find(int $postID): array;
 
     /**
-     * Save data.
+     * Save the data.
      *
      * @param  array  $array
      * @return void
@@ -31,8 +31,8 @@ interface Action
     /**
      * Delete the specified data.
      *
-     * @param  int    $id
+     * @param  int    $postID
      * @return void
      */
-    public function delete(int $id);
+    public function delete(int $postID);
 }

@@ -2,7 +2,7 @@
 
 **THIS IS CONSIDERED TO BE AN ANTI-PATTERN!**
 
-`ServiceLocator` hides class dependencies instead of exposing them as you would do using the Dependency Injection. In case of changes of those dependencies you risk to break the functionality of classes which are using them, making your system difficult to maintain.
+To implement a loosely coupled architecture in order to get better testable, maintainable and extendable code. `DependencyInjection` pattern and `ServiceLocator` pattern are an implementation of the Inverse of control pattern.
 
 ## UML
 

@@ -7,11 +7,11 @@ use OutOfBoundsException;
 class PostAction implements Action
 {
     /**
-     * Store the ID.
+     * Store the post ID.
      *
      * @var int
      */
-    private $id;
+    private $postID;
 
     /**
      * Store the data.
@@ -21,12 +21,12 @@ class PostAction implements Action
     private $data = [];
 
     /**
-     * Generate an ID.
+     * Generate an post ID.
      *
      * @param  void
      * @return int
      */
-    public function generateID(): int
+    public function generatePostID(): int
     {
         return ++$this->id;
     }
@@ -34,43 +34,43 @@ class PostAction implements Action
     /**
      * Find the specified data.
      *
-     * @param  int    $id
+     * @param  int    $postID
      * @return array
      */
-    public function find(int $id): array
+    public function find(int $postID): array
     {
-        if (!isset($this->data[$id])) {
+        if (!isset($this->data[$postID])) {
             throw new OutOfBoundsException(
-                sprintf('No data found for ID %d', $id)
+                sprintf('No data found for ID %d', $postID)
             );
         }
-        return $this->data[$id];
+        return $this->data[$postID];
     }
 
     /**
-     * Save data.
+     * Save the data.
      *
      * @param  array  $array
      * @return void
      */
     public function save(array $array)
     {
-        $this->data[$this->id] = $array;
+        $this->data[$this->postID] = $array;
     }
 
     /**
      * Delete the specified data.
      *
-     * @param  int    $id
+     * @param  int    $postID
      * @return void
      */
-    public function delete(int $id)
+    public function delete(int $postID)
     {
-        if (!isset($this->data[$id])) {
+        if (!isset($this->data[$postID])) {
             throw new OutOfBoundsException(
-                sprintf('No data found for ID %d', $id)
+                sprintf('No data found for ID %d', $postID)
             );
         }
-        unset($this->data[$id]);
+        unset($this->data[$postID]);
     }
 }

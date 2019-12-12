@@ -45,79 +45,79 @@ class PostStatus
     ];
 
     /**
-     * Store the ID.
+     * Store the post status ID.
      *
      * @var int
      */
-    private $id;
+    private $postStatusID;
 
     /**
-     * Store the status.
+     * Store the post status.
      *
      * @var string
      */
-    private $status;
+    private $postStatus;
 
     /**
-     * Store the ID and status to the current instance.
+     * Store the post status ID and post status to the current instance.
      *
-     * @param  int    $id
-     * @param  string $status
+     * @param  int    $postStatusID
+     * @param  string $postStatus
      * @return void
      */
-    private function __construct(int $id, string $status)
+    private function __construct(int $postStatusID, string $postStatus)
     {
-        $this->id = $id;
-        $this->status = $status;
+        $this->postStatusID = $postStatusID;
+        $this->postStatus = $postStatus;
     }
 
     /**
-     * Get the created instance by ID.
+     * Get the created instance by post ID.
      *
-     * @param  int    $id
+     * @param  int    $postStatusID
      * @return PostStatus
      */
-    public static function getInstanceByID(int $id): PostStatus
+    public static function getInstanceByPostID(int $postStatusID): PostStatus
     {
-        if (!isset(self::$validStatus[$id])) {
-            throw new InvalidArgumentException('Invalid ID given');
+        if (!isset(self::$validStatus[$postStatusID])) {
+            throw new InvalidArgumentException('Invalid post status ID given');
         }
-        return new self($id, self::$validStatus[$id]);
+        return new self($postStatusID, self::$validStatus[$postStatusID]);
     }
 
     /**
-     * Get the created instance by status.
+     * Get the created instance by post status.
      *
-     * @param  string $status
+     * @param  string $postStatus
      * @return PostStatus
      */
-    public static function getInstanceByStatus(string $status): PostStatus
+    public static function getInstanceByPostStatus(string $postStatus): PostStatus
     {
-        if (!in_array($status, self::$validStatus, true)) {
-            throw new InvalidArgumentException('Invalid status given');
+        if (!in_array($postStatus, self::$validStatus, true)) {
+            throw new InvalidArgumentException('Invalid post status given');
         }
-        return new self(array_search($status, self::$validStatus), $status);
+        return new self(array_search($postStatus, self::$validStatus), $postStatus);
     }
 
     /**
-     * Get the ID.
+     * Get the post status ID.
      *
      * @param  void
      * @return int
      */
-    public function getID(): int
+    public function getPostStatusID(): int
     {
-        return $this->id;
+        return $this->postStatusID;
     }
 
     /**
-     * Get the status.
+     * Get the post status.
      *
      * @param  void
      * @return string
      */
-    public function getStatus(): string
+    public function getPostStatus(): string
     {
-        return $this->status;
+        return $this->postStatus;
     }
 }

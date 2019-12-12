@@ -5,11 +5,11 @@ namespace PHPDesignPatterns\More\Repository;
 class Post
 {
     /**
-     * Store the ID.
+     * Store the post ID instance.
      *
      * @var PostID
      */
-    private $id;
+    private $postID;
 
     /**
      * Store the title.
@@ -26,40 +26,40 @@ class Post
     private $content;
 
     /**
-     * Store the status.
+     * Store the post status instance.
      *
      * @var PostStatus
      */
-    private $status;
+    private $postStatus;
 
     /**
-     * Store the ID, title, content and status to the current instance.
+     * Store the post ID instance, title, content and post status instance to the current instance.
      *
-     * @param  PostID     $id
+     * @param  PostID     $postID
      * @param  string     $title
      * @param  string     $content
-     * @param  PostStatus $status
+     * @param  PostStatus $postStatus
      * @return void
      */
-    private function __construct(PostID $id, string $title, string $content, PostStatus $status)
+    private function __construct(PostID $postID, string $title, string $content, PostStatus $postStatus)
     {
-        $this->id = $id;
+        $this->postID = $postID;
         $this->title = $title;
         $this->content = $content;
-        $this->status = $status;
+        $this->postStatus = $postStatus;
     }
 
     /**
      * Get the instance of the draft.
      *
-     * @param  PostID $id
+     * @param  PostID $postID
      * @param  string $title
      * @param  string $content
      * @return Post
      */
-    public static function draft(PostID $id, string $title, string $content): Post
+    public static function draft(PostID $postID, string $title, string $content): Post
     {
-        return new self($id, $title, $content, PostStatus::getInstanceByStatus(PostStatus::STATUS_DRAFT));
+        return new self($postID, $title, $content, PostStatus::getInstanceByPostStatus(PostStatus::STATUS_DRAFT));
     }
 
     /**
@@ -70,18 +70,18 @@ class Post
      */
     public static function getInstance(array $array): Post
     {
-        return new self(PostID::getInstance($array['id']), $array['title'], $array['content'], PostStatus::getInstanceByID($array['status']));
+        return new self(PostID::getInstance($array['postID']), $array['title'], $array['content'], PostStatus::getInstanceByID($array['postStatus']));
     }
 
     /**
-     * Get the ID.
+     * Get the post ID instance.
      *
      * @param  void
      * @return PostID
      */
-    public function getID(): PostID
+    public function getPostID(): PostID
     {
-        return $this->id;
+        return $this->postID;
     }
 
     /**
@@ -107,13 +107,13 @@ class Post
     }
 
     /**
-     * Get the status.
+     * Get the post status instance.
      *
      * @param  void
      * @return PostStatus
      */
-    public function getStatus(): PostStatus
+    public function getPostStatus(): PostStatus
     {
-        return $this->status;
+        return $this->postStatus;
     }
 }

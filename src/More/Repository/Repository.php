@@ -24,20 +24,26 @@ class Repository
         $this->action = $action;
     }
 
-    public function generateID(): PostID
+    /**
+     * Generate an post ID instance.
+     *
+     * @param  void
+     * @return PostID
+     */
+    public function generatePostID(): PostID
     {
-        return PostID::getInstance($this->action->generateID());
+        return PostID::getInstance($this->action->generatePostID());
     }
 
     public function find(PostID $postID): Post
     {
-        try {
-            $id = $postID->getID();
-            $post = $this->action->find($id);
-        } catch (OutOfBoundsException $e) {
-            throw new OutOfBoundsException(sprintf('Post with ID %d does not exist', $id), 0, $e);
-        }
-        return Post::getInstance($post);
+        // try {
+        //     $id = $postID->getID();
+        //     $post = $this->action->find($id);
+        // } catch (OutOfBoundsException $e) {
+        //     throw new OutOfBoundsException(sprintf('Post with ID %d does not exist', $id), 0, $e);
+        // }
+        // return Post::getInstance($post);
     }
 
     public function save()
