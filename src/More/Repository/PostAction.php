@@ -7,11 +7,11 @@ use OutOfBoundsException;
 class PostAction implements Action
 {
     /**
-     * Store the post ID.
+     * Store the ID.
      *
      * @var int
      */
-    private $postID;
+    private $id;
 
     /**
      * Store the data.
@@ -21,12 +21,12 @@ class PostAction implements Action
     private $data = [];
 
     /**
-     * Generate an post ID.
+     * Generate an ID.
      *
      * @param  void
      * @return int
      */
-    public function generatePostID(): int
+    public function generateID(): int
     {
         return ++$this->id;
     }
@@ -34,17 +34,17 @@ class PostAction implements Action
     /**
      * Find the specified data.
      *
-     * @param  int    $postID
+     * @param  int    $id
      * @return array
      */
-    public function find(int $postID): array
+    public function find(int $id): array
     {
-        if (!isset($this->data[$postID])) {
+        if (!isset($this->data[$id])) {
             throw new OutOfBoundsException(
-                sprintf('No data found for ID %d', $postID)
+                sprintf('No data found for ID %d', $id)
             );
         }
-        return $this->data[$postID];
+        return $this->data[$id];
     }
 
     /**
@@ -55,22 +55,22 @@ class PostAction implements Action
      */
     public function save(array $array)
     {
-        $this->data[$this->postID] = $array;
+        $this->data[$this->id] = $array;
     }
 
     /**
      * Delete the specified data.
      *
-     * @param  int    $postID
+     * @param  int    $id
      * @return void
      */
-    public function delete(int $postID)
+    public function delete(int $id)
     {
-        if (!isset($this->data[$postID])) {
+        if (!isset($this->data[$id])) {
             throw new OutOfBoundsException(
-                sprintf('No data found for ID %d', $postID)
+                sprintf('No data found for ID %d', $id)
             );
         }
-        unset($this->data[$postID]);
+        unset($this->data[$id]);
     }
 }

@@ -7,45 +7,45 @@ use InvalidArgumentException;
 class PostID
 {
     /**
-     * Store the post ID.
+     * Store the ID.
      *
      * @var int
      */
-    private $postID;
+    private $id;
 
     /**
-     * Store the post ID to the current instance.
+     * Store the ID to the current instance.
      *
-     * @param  int $postID
+     * @param  int $id
      * @return void
      */
-    private function __construct(int $postID)
+    private function __construct(int $id)
     {
-        $this->postID = $postID;
+        $this->id = $id;
     }
 
     /**
      * Get the created instance.
      *
-     * @param  int    $postID
+     * @param  int    $id
      * @return PostID
      */
-    public static function getInstance(int $postID): PostID
+    public static function getInstance(int $id): PostID
     {
-        if ($postID <= 0) {
-            throw new InvalidArgumentException('Invalid post ID given');
+        if ($id <= 0) {
+            throw new InvalidArgumentException('Invalid ID given');
         }
-        return new self($postID);
+        return new self($id);
     }
 
     /**
-     * Get the post ID.
+     * Get the ID.
      *
      * @param  void
      * @return int
      */
-    public function getPostID(): int
+    public function getID(): int
     {
-        return $this->postID;
+        return $this->id;
     }
 }
