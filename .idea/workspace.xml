@@ -2,213 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2f03888-21b4-486d-a716-cb83551bb6fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpdp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpdp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/ChainOfResponsibilities/Handler.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/ChainOfResponsibilities/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/Command/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/Iterator/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/Iterator/Book.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/Iterator/BookList.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/Iterator/BookList.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/Iterator/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/Iterator/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/Mediator/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/Memento/Memento.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/Memento/Memento.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/Memento/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/Memento/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/Memento/State.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/Memento/State.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/Memento/Ticket.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/Memento/Ticket.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/NullObject/NullObject.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/NullObject/NullObject.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/NullObject/NullPrinter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/NullObject/NullPrinter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/NullObject/Printer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/NullObject/Printer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/NullObject/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/NullObject/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/NullObject/Service.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/NullObject/Service.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/NullObject/TextPrinter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/NullObject/TextPrinter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/Observer/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/Specification/Item.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/Specification/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/Specification/Specification.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/State/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/State/Order.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/State/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/State/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/State/State.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/State/State.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/State/State.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/State/State.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/State/StateCreated.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/State/StateCreated.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/State/StateDone.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/State/StateDone.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/State/StateShipped.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/State/StateShipped.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/Strategy/Comparator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/Strategy/Comparator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/Strategy/Context.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/Strategy/Context.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/Strategy/FindMaxComparator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/Strategy/FindMaxComparator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/Strategy/FindMinComparator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/Strategy/FindMinComparator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/Strategy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/Strategy/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/TemplateMethod/People.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/TemplateMethod/People.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/TemplateMethod/Programmer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/TemplateMethod/Programmer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/TemplateMethod/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/TemplateMethod/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/TemplateMethod/Schedule.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/TemplateMethod/Schedule.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/Visitor/Group.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/Visitor/Group.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/Visitor/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/Visitor/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/Visitor/RecordVisitor.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/Visitor/RecordVisitor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/Visitor/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/Visitor/Role.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/Visitor/RoleVisitor.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/Visitor/RoleVisitor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/Visitor/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behavioral/Visitor/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/AbstractFactory/AbstractFactory.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/AbstractFactory/AbstractFactory.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/AbstractFactory/BusEngine.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/AbstractFactory/BusEngine.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/AbstractFactory/BusFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/AbstractFactory/BusFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/AbstractFactory/BusWheel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/AbstractFactory/BusWheel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/AbstractFactory/CarEngine.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/AbstractFactory/CarEngine.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/AbstractFactory/CarFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/AbstractFactory/CarFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/AbstractFactory/CarWheel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/AbstractFactory/CarWheel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/AbstractFactory/Engine.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/AbstractFactory/Engine.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/AbstractFactory/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/AbstractFactory/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/AbstractFactory/VehicleFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/AbstractFactory/VehicleFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/AbstractFactory/Wheel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/AbstractFactory/Wheel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Builder/Builder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Builder/Builder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Builder/Bus.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Builder/Bus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Builder/BusFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Builder/BusFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Builder/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Builder/Car.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Builder/CarFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Builder/CarFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Builder/Engine.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Builder/Engine.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Builder/Parts.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Builder/Parts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Builder/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Builder/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Builder/Vehicle.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Builder/Vehicle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Builder/VehicleFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Builder/VehicleFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Builder/Wheel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Builder/Wheel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/FactoryMethod/Bus.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/FactoryMethod/Bus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/FactoryMethod/BusFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/FactoryMethod/BusFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/FactoryMethod/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/FactoryMethod/Car.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/FactoryMethod/CarFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/FactoryMethod/CarFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/FactoryMethod/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/FactoryMethod/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/FactoryMethod/Vehicle.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/FactoryMethod/Vehicle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/FactoryMethod/VehicleFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/FactoryMethod/VehicleFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Multiton/Multiton.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Multiton/Multiton.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Multiton/Multiton.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Multiton/Multiton.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Multiton/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Multiton/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Pool/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Pool/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Pool/Thread.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Pool/Thread.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Pool/ThreadPool.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Pool/ThreadPool.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Prototype/BarPrototype.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Prototype/BarPrototype.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Prototype/FooPrototype.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Prototype/FooPrototype.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Prototype/Prototype.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Prototype/Prototype.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Prototype/Prototype.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Prototype/Prototype.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Prototype/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Prototype/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/SimpleFactory/Bus.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/SimpleFactory/Bus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/SimpleFactory/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/SimpleFactory/Car.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/SimpleFactory/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/SimpleFactory/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/SimpleFactory/SimpleFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/SimpleFactory/SimpleFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/SimpleFactory/SimpleFactory.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/SimpleFactory/SimpleFactory.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/SimpleFactory/Vehicle.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/SimpleFactory/Vehicle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Singleton/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Singleton/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/Singleton/Singleton.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Singleton/Singleton.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/StaticFactory/Bus.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/StaticFactory/Bus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/StaticFactory/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/StaticFactory/Car.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/StaticFactory/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/StaticFactory/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/StaticFactory/StaticFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/StaticFactory/StaticFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/StaticFactory/StaticFactory.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/StaticFactory/StaticFactory.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creational/StaticFactory/Vehicle.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/StaticFactory/Vehicle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/EAV/Attribute.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/More/EAV/Attribute.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/EAV/EAV.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/More/EAV/EAV.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/EAV/Entity.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/More/EAV/Entity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/EAV/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/More/EAV/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/EAV/Value.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/More/EAV/Value.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/Repository/Action.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/More/Repository/Action.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/Repository/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/More/Repository/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/Repository/PostAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/More/Repository/PostAction.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/Repository/PostID.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/More/Repository/PostID.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/Repository/PostStatus.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/More/Repository/PostStatus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/Repository/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/More/Repository/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/Repository/Repository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/More/Repository/Repository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/ServiceLocator/LogService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/More/ServiceLocator/LogService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/ServiceLocator/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/More/ServiceLocator/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/ServiceLocator/Service.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/More/ServiceLocator/Service.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/ServiceLocator/ServiceLocator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/More/ServiceLocator/ServiceLocator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/ServiceLocator/ServiceLocator.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/More/ServiceLocator/ServiceLocator.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Adapter/Adapter.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Adapter/Adapter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Adapter/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Adapter/Book.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Adapter/EBook.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Adapter/EBook.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Adapter/EBookAdapter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Adapter/EBookAdapter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Adapter/Kindle.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Adapter/Kindle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Adapter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Adapter/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Adapter/TextBook.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Adapter/TextBook.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Bridge/Bridge.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Bridge/Bridge.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Bridge/Formatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Bridge/Formatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Bridge/HTMLFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Bridge/HTMLFormatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Bridge/HelloWorldPrinter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Bridge/HelloWorldPrinter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Bridge/PingTestPrinter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Bridge/PingTestPrinter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Bridge/Printer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Bridge/Printer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Bridge/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Bridge/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Bridge/TextFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Bridge/TextFormatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Composite/Composite.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Composite/Composite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Composite/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Composite/Form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Composite/Input.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Composite/Input.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Composite/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Composite/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Composite/Renderable.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Composite/Renderable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Composite/Section.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Composite/Section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Composite/Text.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Composite/Text.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/DataMapper/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/DataMapper/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/DataMapper/StorageAdapter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/DataMapper/StorageAdapter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/DataMapper/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/DataMapper/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/DataMapper/UserMapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/DataMapper/UserMapper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Decorator/Booking.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Decorator/Booking.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Decorator/BookingDecorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Decorator/BookingDecorator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Decorator/ExtraBed.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Decorator/ExtraBed.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Decorator/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Decorator/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Decorator/StandardRoom.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Decorator/StandardRoom.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Decorator/WiFi.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Decorator/WiFi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/DependencyInjection/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/DependencyInjection/Config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/DependencyInjection/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/DependencyInjection/Connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/DependencyInjection/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/DependencyInjection/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Facade/BIOS.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Facade/BIOS.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Facade/Facade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Facade/Facade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Facade/OS.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Facade/OS.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Facade/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Facade/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/FluentInterface/FluentInterface.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/FluentInterface/FluentInterface.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/FluentInterface/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/FluentInterface/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/FluentInterface/SQL.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/FluentInterface/SQL.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Flyweight/Character.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Flyweight/Character.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Flyweight/Flyweight.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Flyweight/Flyweight.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Flyweight/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Flyweight/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Flyweight/Text.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Flyweight/Text.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Flyweight/TextFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Flyweight/TextFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Flyweight/Word.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Flyweight/Word.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Proxy/Proxy.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Proxy/Proxy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Proxy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Proxy/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Proxy/Record.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Proxy/Record.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Proxy/RecordProxy.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Proxy/RecordProxy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Registry/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Registry/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structural/Registry/Registry.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Registry/Registry.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Behavioral/ChainOfResponsibilities/ChainOfResponsibilitiesTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Behavioral/Iterator/IteratorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Behavioral/Iterator/IteratorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Behavioral/Mediator/MediatorTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Behavioral/Memento/MementoTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Behavioral/Memento/MementoTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Behavioral/NullObject/NullObjectTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Behavioral/NullObject/NullObjectTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Behavioral/Observer/ObserverTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Behavioral/Specification/SpecificationTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Behavioral/State/StateTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Behavioral/State/StateTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Behavioral/Strategy/StrategyTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Behavioral/Strategy/StrategyTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Behavioral/TemplateMethod/TemplateMethodTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Behavioral/TemplateMethod/TemplateMethodTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Behavioral/Visitor/VisitorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Behavioral/Visitor/VisitorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Creational/AbstractFactory/AbstractFactoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Creational/AbstractFactory/AbstractFactoryTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Creational/Builder/BuilderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Creational/Builder/BuilderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Creational/FactoryMethod/FactoryMethodTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Creational/FactoryMethod/FactoryMethodTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Creational/Multiton/MultitonTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Creational/Multiton/MultitonTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Creational/Pool/PoolTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Creational/Pool/PoolTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Creational/Prototype/PrototypeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Creational/Prototype/PrototypeTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Creational/SimpleFactory/SimpleFactoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Creational/SimpleFactory/SimpleFactoryTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Creational/Singleton/SingletonTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Creational/Singleton/SingletonTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Creational/StaticFactory/StaticFactoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Creational/StaticFactory/StaticFactoryTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/More/EAV/EAVTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/More/EAV/EAVTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/More/Repository/RepositoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/More/Repository/RepositoryTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/More/ServiceLocator/ServiceLocatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/More/ServiceLocator/ServiceLocatorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Structural/Adapter/AdapterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Structural/Adapter/AdapterTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Structural/Bridge/BridgeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Structural/Bridge/BridgeTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Structural/Composite/CompositeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Structural/Composite/CompositeTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Structural/DataMapper/DataMapperTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Structural/DataMapper/DataMapperTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Structural/Decorator/DecoratorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Structural/Decorator/DecoratorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Structural/DependencyInjection/DependencyInjectionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Structural/DependencyInjection/DependencyInjectionTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Structural/Facade/FacadeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Structural/Facade/FacadeTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Structural/FluentInterface/FluentInterfaceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Structural/FluentInterface/FluentInterfaceTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Structural/Flyweight/FlyweightTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Structural/Flyweight/FlyweightTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Structural/Proxy/ProxyTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Structural/Proxy/ProxyTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Structural/Registry/RegistryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Structural/Registry/RegistryTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -311,6 +106,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Behavioral" type="462c0819:PsiDirectoryNode" />
               <item name="NullObject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Behavioral" type="462c0819:PsiDirectoryNode" />
+              <item name="Observer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Behavioral" type="462c0819:PsiDirectoryNode" />
+              <item name="Specification" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
@@ -566,16 +375,18 @@
       <workItem from="1576241689133" duration="1390000" />
       <workItem from="1576245946062" duration="616000" />
       <workItem from="1576246573025" duration="1880000" />
+      <workItem from="1576249837845" duration="624000" />
+      <workItem from="1576252265658" duration="26000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7696000" />
+    <option name="totallyTimeSpent" value="8346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2599364" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26391098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1237,7 +1048,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="224.0" y="288.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="224.0" y="289.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -1245,6 +1056,7 @@
             <Category>Constructors</Category>
             <Category>Methods</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
@@ -1261,7 +1073,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="217.5" y="235.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="218.0" y="235.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -1269,6 +1081,7 @@
             <Category>Constructors</Category>
             <Category>Methods</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
@@ -1294,6 +1107,7 @@
             <Category>Constructors</Category>
             <Category>Methods</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
@@ -1329,7 +1143,7 @@
               <point x="-46.66666666666666" y="36.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-461.0" y="-184.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-461.0" y="-184.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -1337,6 +1151,7 @@
             <Category>Constructors</Category>
             <Category>Methods</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
@@ -1362,6 +1177,7 @@
             <Category>Constructors</Category>
             <Category>Methods</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
@@ -1386,6 +1202,7 @@
             <Category>Constructors</Category>
             <Category>Methods</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
@@ -1405,6 +1222,60 @@
           <notes />
           <edges />
           <settings layout="Hierarchic Group" zoom="1.0" x="163.0" y="241.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Behavioral/Specification">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Behavioral/Specification</OriginalElement>
+          <nodes>
+            <node x="" y="">\Kuriv\PHPDesignPatterns\Behavioral\Specification\Specification</node>
+            <node x="" y="">\Kuriv\PHPDesignPatterns\Behavioral\Specification\Item</node>
+            <node x="" y="">\Kuriv\PHPDesignPatterns\Behavioral\Specification\AndSpecification</node>
+            <node x="" y="">\Kuriv\PHPDesignPatterns\Behavioral\Specification\NotSpecification</node>
+            <node x="" y="">\Kuriv\PHPDesignPatterns\Behavioral\Specification\OrSpecification</node>
+            <node x="" y="">\Kuriv\PHPDesignPatterns\Behavioral\Specification\PriceSpecification</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="412.0" y="181.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Behavioral/Observer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Behavioral/Observer</OriginalElement>
+          <nodes>
+            <node x="" y="">\Kuriv\PHPDesignPatterns\Behavioral\Observer\UserObserver</node>
+            <node x="" y="">\SplObserver</node>
+            <node x="" y="">\Kuriv\PHPDesignPatterns\Behavioral\Observer\User</node>
+            <node x="" y="">\SplSubject</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="184.5" y="167.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
