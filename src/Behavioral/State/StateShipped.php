@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Behavioral\State;
+namespace Kuriv\PHPDesignPatterns\Behavioral\State;
 
 class StateShipped implements State
 {

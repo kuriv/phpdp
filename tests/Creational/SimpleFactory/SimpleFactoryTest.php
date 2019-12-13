@@ -1,11 +1,8 @@
 <?php
 
-namespace PHPDesignPatterns\Creational\SimpleFactory;
+namespace Kuriv\PHPDesignPatterns\Creational\SimpleFactory;
 
 use PHPUnit\Framework\TestCase;
-use PHPDesignPatterns\Creational\SimpleFactory\SimpleFactory;
-use PHPDesignPatterns\Creational\SimpleFactory\Bus;
-use PHPDesignPatterns\Creational\SimpleFactory\Car;
 
 class SimpleFactoryTest extends TestCase
 {

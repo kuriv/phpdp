@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Structural\DependencyInjection;
+namespace Kuriv\PHPDesignPatterns\Structural\DependencyInjection;
 
 class Config
 {

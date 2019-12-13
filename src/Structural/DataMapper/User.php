@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Structural\DataMapper;
+namespace Kuriv\PHPDesignPatterns\Structural\DataMapper;
 
 class User
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Creational\FactoryMethod;
+namespace Kuriv\PHPDesignPatterns\Creational\FactoryMethod;
 
 abstract class Vehicle
 {

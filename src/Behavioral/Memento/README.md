@@ -13,7 +13,7 @@ State.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\Memento;
+namespace Kuriv\PHPDesignPatterns\Behavioral\Memento;
 
 use InvalidArgumentException;
 
@@ -48,7 +48,7 @@ class State
     const STATE_CLOSED = 'Closed';
 
     /**
-     * Store the state;
+     * Store the state.
      *
      * @var string
      */
@@ -99,7 +99,7 @@ Ticket.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\Memento;
+namespace Kuriv\PHPDesignPatterns\Behavioral\Memento;
 
 class Ticket
 {
@@ -177,7 +177,7 @@ class Ticket
     }
 
     /**
-     * Get the state string.
+     * Get the state instance.
      *
      * @param  void
      * @return State
@@ -195,7 +195,7 @@ Memento.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\Memento;
+namespace Kuriv\PHPDesignPatterns\Behavioral\Memento;
 
 class Memento
 {
@@ -218,7 +218,7 @@ class Memento
     }
 
     /**
-     * Get the state string.
+     * Get the state instance.
      *
      * @param  void
      * @return State
@@ -238,7 +238,7 @@ MementoTest.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\Memento;
+namespace Kuriv\PHPDesignPatterns\Behavioral\Memento;
 
 use PHPUnit\Framework\TestCase;
 

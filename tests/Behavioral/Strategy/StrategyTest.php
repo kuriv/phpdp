@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Behavioral\Strategy;
+namespace Kuriv\PHPDesignPatterns\Behavioral\Strategy;
 
 use PHPUnit\Framework\TestCase;
 

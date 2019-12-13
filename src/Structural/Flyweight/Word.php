@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Structural\Flyweight;
+namespace Kuriv\PHPDesignPatterns\Structural\Flyweight;
 
 class Word implements Text
 {

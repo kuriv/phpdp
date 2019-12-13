@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Creational\SimpleFactory;
+namespace Kuriv\PHPDesignPatterns\Creational\SimpleFactory;
 
 abstract class Vehicle
 {

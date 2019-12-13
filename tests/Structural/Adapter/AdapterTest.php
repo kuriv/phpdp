@@ -1,11 +1,8 @@
 <?php
 
-namespace PHPDesignPatterns\Structural\Adapter;
+namespace Kuriv\PHPDesignPatterns\Structural\Adapter;
 
 use PHPUnit\Framework\TestCase;
-use PHPDesignPatterns\Structural\Adapter\TextBook;
-use PHPDesignPatterns\Structural\Adapter\Kindle;
-use PHPDesignPatterns\Structural\Adapter\EBookAdapter;
 
 class AdapterTest extends TestCase
 {

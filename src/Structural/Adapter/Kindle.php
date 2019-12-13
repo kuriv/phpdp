@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Structural\Adapter;
+namespace Kuriv\PHPDesignPatterns\Structural\Adapter;
 
 class Kindle implements EBook
 {

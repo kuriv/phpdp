@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Structural\Registry;
+namespace Kuriv\PHPDesignPatterns\Structural\Registry;
 
 use InvalidArgumentException;
 use stdClass;

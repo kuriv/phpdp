@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Structural\Bridge;
+namespace Kuriv\PHPDesignPatterns\Structural\Bridge;
 
 abstract class Printer
 {

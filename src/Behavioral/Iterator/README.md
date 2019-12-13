@@ -13,7 +13,7 @@ Book.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\Iterator;
+namespace Kuriv\PHPDesignPatterns\Behavioral\Iterator;
 
 class Book
 {
@@ -85,7 +85,7 @@ BookList.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\Iterator;
+namespace Kuriv\PHPDesignPatterns\Behavioral\Iterator;
 
 use Countable;
 use Iterator;
@@ -207,7 +207,7 @@ IteratorTest.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\Iterator;
+namespace Kuriv\PHPDesignPatterns\Behavioral\Iterator;
 
 use PHPUnit\Framework\TestCase;
 

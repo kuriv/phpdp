@@ -13,7 +13,7 @@ State.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\State;
+namespace Kuriv\PHPDesignPatterns\Behavioral\State;
 
 interface State
 {
@@ -41,7 +41,7 @@ StateCreated.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\State;
+namespace Kuriv\PHPDesignPatterns\Behavioral\State;
 
 class StateCreated implements State
 {
@@ -75,7 +75,7 @@ StateShipped.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\State;
+namespace Kuriv\PHPDesignPatterns\Behavioral\State;
 
 class StateShipped implements State
 {
@@ -109,7 +109,7 @@ StateDone.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\State;
+namespace Kuriv\PHPDesignPatterns\Behavioral\State;
 
 class StateDone implements State
 {
@@ -142,7 +142,7 @@ Order.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\State;
+namespace Kuriv\PHPDesignPatterns\Behavioral\State;
 
 class Order
 {
@@ -209,7 +209,7 @@ StateTest.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\State;
+namespace Kuriv\PHPDesignPatterns\Behavioral\State;
 
 use PHPUnit\Framework\TestCase;
 

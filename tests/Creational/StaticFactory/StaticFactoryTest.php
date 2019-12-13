@@ -1,11 +1,8 @@
 <?php
 
-namespace PHPDesignPatterns\Creational\StaticFactory;
+namespace Kuriv\PHPDesignPatterns\Creational\StaticFactory;
 
 use PHPUnit\Framework\TestCase;
-use PHPDesignPatterns\Creational\StaticFactory\StaticFactory;
-use PHPDesignPatterns\Creational\StaticFactory\Bus;
-use PHPDesignPatterns\Creational\StaticFactory\Car;
 
 class StaticFactoryTest extends TestCase
 {

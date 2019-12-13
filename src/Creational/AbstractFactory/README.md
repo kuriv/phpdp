@@ -1,6 +1,6 @@
 # AbstractFactory
 
-To create series of related or dependent objects without specifying their concrete classes. Usually the created classes all implement the same interface. The client of the abstract factory does not care about how these objects are created, it just knows how they go together.
+To create series of related or dependent objects without specifying their concrete classes. Usually the created classes all implement the same interface. The client of this pattern does not care about how these objects are created, it just knows how they go together.
 
 ## UML
 
@@ -13,7 +13,7 @@ Engine.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\AbstractFactory;
+namespace Kuriv\PHPDesignPatterns\Creational\AbstractFactory;
 
 abstract class Engine
 {
@@ -26,7 +26,7 @@ BusEngine.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\AbstractFactory;
+namespace Kuriv\PHPDesignPatterns\Creational\AbstractFactory;
 
 class BusEngine extends Engine
 {
@@ -39,7 +39,7 @@ CarEngine.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\AbstractFactory;
+namespace Kuriv\PHPDesignPatterns\Creational\AbstractFactory;
 
 class CarEngine extends Engine
 {
@@ -52,7 +52,7 @@ Wheel.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\AbstractFactory;
+namespace Kuriv\PHPDesignPatterns\Creational\AbstractFactory;
 
 abstract class Wheel
 {
@@ -65,7 +65,7 @@ BusWheel.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\AbstractFactory;
+namespace Kuriv\PHPDesignPatterns\Creational\AbstractFactory;
 
 class BusWheel extends Wheel
 {
@@ -78,7 +78,7 @@ CarWheel.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\AbstractFactory;
+namespace Kuriv\PHPDesignPatterns\Creational\AbstractFactory;
 
 class CarWheel extends Wheel
 {
@@ -91,7 +91,7 @@ VehicleFactory.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\AbstractFactory;
+namespace Kuriv\PHPDesignPatterns\Creational\AbstractFactory;
 
 interface VehicleFactory
 {
@@ -119,7 +119,7 @@ BusFactory.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\AbstractFactory;
+namespace Kuriv\PHPDesignPatterns\Creational\AbstractFactory;
 
 class BusFactory implements VehicleFactory
 {
@@ -153,7 +153,7 @@ CarFactory.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\AbstractFactory;
+namespace Kuriv\PHPDesignPatterns\Creational\AbstractFactory;
 
 class CarFactory implements VehicleFactory
 {
@@ -189,15 +189,9 @@ AbstractFactoryTest.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\AbstractFactory;
+namespace Kuriv\PHPDesignPatterns\Creational\AbstractFactory;
 
 use PHPUnit\Framework\TestCase;
-use PHPDesignPatterns\Creational\AbstractFactory\BusFactory;
-use PHPDesignPatterns\Creational\AbstractFactory\CarFactory;
-use PHPDesignPatterns\Creational\AbstractFactory\Bus;
-use PHPDesignPatterns\Creational\AbstractFactory\Car;
-use PHPDesignPatterns\Creational\AbstractFactory\Engine;
-use PHPDesignPatterns\Creational\AbstractFactory\Wheel;
 
 class AbstractFactoryTest extends TestCase
 {

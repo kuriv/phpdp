@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Structural\Composite;
+namespace Kuriv\PHPDesignPatterns\Structural\Composite;
 
 class Section implements Renderable
 {

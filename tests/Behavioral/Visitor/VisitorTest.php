@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Behavioral\Visitor;
+namespace Kuriv\PHPDesignPatterns\Behavioral\Visitor;
 
 use PHPUnit\Framework\TestCase;
 

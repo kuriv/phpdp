@@ -13,7 +13,7 @@ Renderable.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Composite;
+namespace Kuriv\PHPDesignPatterns\Structural\Composite;
 
 interface Renderable
 {
@@ -33,7 +33,7 @@ Text.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Composite;
+namespace Kuriv\PHPDesignPatterns\Structural\Composite;
 
 class Text implements Renderable
 {
@@ -74,7 +74,7 @@ Input.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Composite;
+namespace Kuriv\PHPDesignPatterns\Structural\Composite;
 
 class Input implements Renderable
 {
@@ -97,7 +97,7 @@ Section.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Composite;
+namespace Kuriv\PHPDesignPatterns\Structural\Composite;
 
 class Section implements Renderable
 {
@@ -143,7 +143,7 @@ Form.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Composite;
+namespace Kuriv\PHPDesignPatterns\Structural\Composite;
 
 class Form implements Renderable
 {
@@ -191,7 +191,7 @@ CompositeTest.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Composite;
+namespace Kuriv\PHPDesignPatterns\Structural\Composite;
 
 use PHPUnit\Framework\TestCase;
 

@@ -1,10 +1,8 @@
 <?php
 
-namespace PHPDesignPatterns\Creational\Prototype;
+namespace Kuriv\PHPDesignPatterns\Creational\Prototype;
 
 use PHPUnit\Framework\TestCase;
-use PHPDesignPatterns\Creational\Prototype\FooPrototype;
-use PHPDesignPatterns\Creational\Prototype\BarPrototype;
 
 class PrototypeTest extends TestCase
 {

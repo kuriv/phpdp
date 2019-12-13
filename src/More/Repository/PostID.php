@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\More\Repository;
+namespace Kuriv\PHPDesignPatterns\More\Repository;
 
 use InvalidArgumentException;
 

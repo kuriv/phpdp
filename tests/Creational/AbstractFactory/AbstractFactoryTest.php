@@ -1,14 +1,8 @@
 <?php
 
-namespace PHPDesignPatterns\Creational\AbstractFactory;
+namespace Kuriv\PHPDesignPatterns\Creational\AbstractFactory;
 
 use PHPUnit\Framework\TestCase;
-use PHPDesignPatterns\Creational\AbstractFactory\BusFactory;
-use PHPDesignPatterns\Creational\AbstractFactory\CarFactory;
-use PHPDesignPatterns\Creational\AbstractFactory\Bus;
-use PHPDesignPatterns\Creational\AbstractFactory\Car;
-use PHPDesignPatterns\Creational\AbstractFactory\Engine;
-use PHPDesignPatterns\Creational\AbstractFactory\Wheel;
 
 class AbstractFactoryTest extends TestCase
 {

@@ -1,10 +1,8 @@
 <?php
 
-namespace PHPDesignPatterns\Structural\Facade;
+namespace Kuriv\PHPDesignPatterns\Structural\Facade;
 
 use PHPUnit\Framework\TestCase;
-use PHPDesignPatterns\Structural\Facade\BIOS;
-use PHPDesignPatterns\Structural\Facade\OS;
 
 class FacadeTest extends TestCase
 {

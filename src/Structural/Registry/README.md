@@ -15,7 +15,7 @@ Registry.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Registry;
+namespace Kuriv\PHPDesignPatterns\Structural\Registry;
 
 use InvalidArgumentException;
 use stdClass;
@@ -75,9 +75,10 @@ RegistryTest.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Registry;
+namespace Kuriv\PHPDesignPatterns\Structural\Registry;
 
 use PHPUnit\Framework\TestCase;
+use InvalidArgumentException;
 use stdClass;
 
 class RegistryTest extends TestCase
@@ -91,15 +92,19 @@ class RegistryTest extends TestCase
         $this->assertInstanceOf(stdClass::class, $storedClass);
     }
 
-    // public function testThrowsExceptionWhenTryingToSetInvalidKey()
-    // {
-    //     Registry::set('bar', new stdClass);
-    // }
+    public function testThrowsExceptionWhenTryingToSetInvalidKey()
+    {
+        $this->expectException(InvalidArgumentException::class);
+        $this->expectExceptionMessage('Invalid key given');
+        Registry::set('bar', new stdClass);
+    }
 
-    // public function testThrowsExceptionWhenTryingToGetNotSetKey()
-    // {
-    //     Registry::get('bar');
-    // }
+    public function testThrowsExceptionWhenTryingToGetNotSetKey()
+    {
+        $this->expectException(InvalidArgumentException::class);
+        $this->expectExceptionMessage('Invalid key given');
+        Registry::get('bar');
+    }
 }
 
 ```

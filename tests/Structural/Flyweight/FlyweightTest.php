@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Structural\Flyweight;
+namespace Kuriv\PHPDesignPatterns\Structural\Flyweight;
 
 use PHPUnit\Framework\TestCase;
 
@@ -16,19 +16,13 @@ class FlyweightTest extends TestCase
         foreach ($this->characters as $character) {
             foreach ($this->fonts as $font) {
                 $flyweight = $factory->getInstance($character);
-                $this->assertSame(
-                    sprintf('Character %s with font %s', $character, $font),
-                    $flyweight->render($font)
-                );
+                $this->assertSame(sprintf('Character %s with font %s', $character, $font), $flyweight->render($font));
             }
         }
 
         foreach ($this->fonts as $word) {
             $flyweight = $factory->getInstance($word);
-            $this->assertSame(
-                sprintf('Word %s with font foo', $word),
-                $flyweight->render('foo')
-            );
+            $this->assertSame(sprintf('Word %s with font foo', $word), $flyweight->render('foo'));
         }
 
         $this->assertCount(count($this->characters) + count($this->fonts), $factory);

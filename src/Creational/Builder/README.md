@@ -13,7 +13,7 @@ Parts.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\Builder;
+namespace Kuriv\PHPDesignPatterns\Creational\Builder;
 
 abstract class Parts
 {
@@ -26,7 +26,7 @@ Engine.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\Builder;
+namespace Kuriv\PHPDesignPatterns\Creational\Builder;
 
 class Engine extends Parts
 {
@@ -39,7 +39,7 @@ Wheel.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\Builder;
+namespace Kuriv\PHPDesignPatterns\Creational\Builder;
 
 class Wheel extends Parts
 {
@@ -52,7 +52,7 @@ Vehicle.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\Builder;
+namespace Kuriv\PHPDesignPatterns\Creational\Builder;
 
 abstract class Vehicle
 {
@@ -83,7 +83,7 @@ Bus.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\Builder;
+namespace Kuriv\PHPDesignPatterns\Creational\Builder;
 
 class Bus extends Vehicle
 {
@@ -96,7 +96,7 @@ Car.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\Builder;
+namespace Kuriv\PHPDesignPatterns\Creational\Builder;
 
 class Car extends Vehicle
 {
@@ -109,7 +109,7 @@ VehicleFactory.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\Builder;
+namespace Kuriv\PHPDesignPatterns\Creational\Builder;
 
 interface VehicleFactory
 {
@@ -153,7 +153,7 @@ BusFactory.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\Builder;
+namespace Kuriv\PHPDesignPatterns\Creational\Builder;
 
 class BusFactory implements VehicleFactory
 {
@@ -219,7 +219,7 @@ CarFactory.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\Builder;
+namespace Kuriv\PHPDesignPatterns\Creational\Builder;
 
 class CarFactory implements VehicleFactory
 {
@@ -285,7 +285,7 @@ Builder.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\Builder;
+namespace Kuriv\PHPDesignPatterns\Creational\Builder;
 
 class Builder
 {
@@ -313,14 +313,9 @@ BuilderTest.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\Builder;
+namespace Kuriv\PHPDesignPatterns\Creational\Builder;
 
 use PHPUnit\Framework\TestCase;
-use PHPDesignPatterns\Creational\Builder\BusFactory;
-use PHPDesignPatterns\Creational\Builder\CarFactory;
-use PHPDesignPatterns\Creational\Builder\Builder;
-use PHPDesignPatterns\Creational\Builder\Bus;
-use PHPDesignPatterns\Creational\Builder\Car;
 
 class BuilderTest extends TestCase
 {

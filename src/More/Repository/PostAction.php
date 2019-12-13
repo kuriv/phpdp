@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\More\Repository;
+namespace Kuriv\PHPDesignPatterns\More\Repository;
 
 use OutOfBoundsException;
 
@@ -40,9 +40,7 @@ class PostAction implements Action
     public function find(int $id): array
     {
         if (!isset($this->data[$id])) {
-            throw new OutOfBoundsException(
-                sprintf('No data found for ID %d', $id)
-            );
+            throw new OutOfBoundsException(sprintf('No data found for ID %d', $id));
         }
         return $this->data[$id];
     }
@@ -67,9 +65,7 @@ class PostAction implements Action
     public function delete(int $id)
     {
         if (!isset($this->data[$id])) {
-            throw new OutOfBoundsException(
-                sprintf('No data found for ID %d', $id)
-            );
+            throw new OutOfBoundsException(sprintf('No data found for ID %d', $id));
         }
         unset($this->data[$id]);
     }

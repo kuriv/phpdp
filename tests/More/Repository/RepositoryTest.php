@@ -1,10 +1,9 @@
 <?php
 
-namespace PHPDesignPatterns\More\Repository;
-
-use OutOfBoundsException;
+namespace Kuriv\PHPDesignPatterns\More\Repository;
 
 use PHPUnit\Framework\TestCase;
+use OutOfBoundsException;
 
 class RepositoryTest extends TestCase
 {
@@ -14,22 +13,21 @@ class RepositoryTest extends TestCase
         $this->assertEquals(1, $repository->generateID()->getID());
     }
 
-    // public function testThrowsExceptionWhenTryingToFindPostWhichDoesNotExist()
-    // {
-    //     $this->expectException(OutOfBoundsException::class);
-    //     $this->expectExceptionMessage('Post with ID 42 does not exist');
-    //     $repository = new Repository(new PostAction);
-    //     $repository->find(PostID::getInstance(42));
-    // }
+    public function testThrowsExceptionWhenTryingToFindPostWhichDoesNotExist()
+    {
+        $repository = new Repository(new PostAction);
+        $this->expectException(OutOfBoundsException::class);
+        $this->expectExceptionMessage('Post with ID 42 does not exist');
+        $repository->find(PostID::getInstance(42));
+    }
 
-    // public function testCanSavePostDraft()
-    // {
-    //     $repository = new Repository(new PostAction);
-    //     $postID = $repository->generateID();
-    //     $post = Post::draft($postID, 'Repository Pattern', 'PHP Design Patterns');
-    //     $repository->save($post);
-    //     $repository->find($postID);
-    //     $this->assertEquals($postID, $repository->find($postID)->getID());
-    //     // $this->assertEquals(PostStatus::STATE_DRAFT, $post->getStatus()->toString());
-    // }
+    public function testCanSavePostDraft()
+    {
+        $repository = new Repository(new PostAction);
+        $post_id = $repository->generateID();
+        $post = Post::draft($post_id, 'Repository Pattern', 'PHP Design Patterns');
+        $repository->save($post);
+        $this->assertEquals($post_id, $repository->find($post_id)->getPostID());
+        $this->assertEquals(PostStatus::STATUS_DRAFT, (string) $post->getPostStatus());
+    }
 }

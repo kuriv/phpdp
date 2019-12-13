@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\More\EAV;
+namespace Kuriv\PHPDesignPatterns\More\EAV;
 
 class Attribute
 {

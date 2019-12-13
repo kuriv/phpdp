@@ -13,7 +13,7 @@ Prototype.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\Prototype;
+namespace Kuriv\PHPDesignPatterns\Creational\Prototype;
 
 abstract class Prototype
 {
@@ -33,7 +33,7 @@ FooPrototype.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\Prototype;
+namespace Kuriv\PHPDesignPatterns\Creational\Prototype;
 
 class FooPrototype extends Prototype
 {
@@ -55,7 +55,7 @@ BarPrototype.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\Prototype;
+namespace Kuriv\PHPDesignPatterns\Creational\Prototype;
 
 class BarPrototype extends Prototype
 {
@@ -79,11 +79,9 @@ PrototypeTest.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\Prototype;
+namespace Kuriv\PHPDesignPatterns\Creational\Prototype;
 
 use PHPUnit\Framework\TestCase;
-use PHPDesignPatterns\Creational\Prototype\FooPrototype;
-use PHPDesignPatterns\Creational\Prototype\BarPrototype;
 
 class PrototypeTest extends TestCase
 {

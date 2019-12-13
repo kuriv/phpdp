@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Structural\Composite;
+namespace Kuriv\PHPDesignPatterns\Structural\Composite;
 
 class Form implements Renderable
 {

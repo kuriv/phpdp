@@ -13,7 +13,7 @@ Comparator.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\Strategy;
+namespace Kuriv\PHPDesignPatterns\Behavioral\Strategy;
 
 interface Comparator
 {
@@ -34,7 +34,7 @@ FindMinComparator.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\Strategy;
+namespace Kuriv\PHPDesignPatterns\Behavioral\Strategy;
 
 class FindMinComparator implements Comparator
 {
@@ -58,7 +58,7 @@ FindMaxComparator.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\Strategy;
+namespace Kuriv\PHPDesignPatterns\Behavioral\Strategy;
 
 class FindMaxComparator implements Comparator
 {
@@ -82,7 +82,7 @@ Context.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\Strategy;
+namespace Kuriv\PHPDesignPatterns\Behavioral\Strategy;
 
 class Context
 {
@@ -126,7 +126,7 @@ StrategyTest.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\Strategy;
+namespace Kuriv\PHPDesignPatterns\Behavioral\Strategy;
 
 use PHPUnit\Framework\TestCase;
 

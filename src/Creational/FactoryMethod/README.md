@@ -13,7 +13,7 @@ Vehicle.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\FactoryMethod;
+namespace Kuriv\PHPDesignPatterns\Creational\FactoryMethod;
 
 abstract class Vehicle
 {
@@ -26,7 +26,7 @@ Bus.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\FactoryMethod;
+namespace Kuriv\PHPDesignPatterns\Creational\FactoryMethod;
 
 class Bus extends Vehicle
 {
@@ -39,7 +39,7 @@ Car.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\FactoryMethod;
+namespace Kuriv\PHPDesignPatterns\Creational\FactoryMethod;
 
 class Car extends Vehicle
 {
@@ -52,7 +52,7 @@ VehicleFactory.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\FactoryMethod;
+namespace Kuriv\PHPDesignPatterns\Creational\FactoryMethod;
 
 interface VehicleFactory
 {
@@ -72,7 +72,7 @@ BusFactory.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\FactoryMethod;
+namespace Kuriv\PHPDesignPatterns\Creational\FactoryMethod;
 
 class BusFactory implements VehicleFactory
 {
@@ -95,7 +95,7 @@ CarFactory.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\FactoryMethod;
+namespace Kuriv\PHPDesignPatterns\Creational\FactoryMethod;
 
 class CarFactory implements VehicleFactory
 {
@@ -120,13 +120,9 @@ FactoryMethodTest.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\FactoryMethod;
+namespace Kuriv\PHPDesignPatterns\Creational\FactoryMethod;
 
 use PHPUnit\Framework\TestCase;
-use PHPDesignPatterns\Creational\FactoryMethod\BusFactory;
-use PHPDesignPatterns\Creational\FactoryMethod\CarFactory;
-use PHPDesignPatterns\Creational\FactoryMethod\Bus;
-use PHPDesignPatterns\Creational\FactoryMethod\Car;
 
 class FactoryMethodTest extends TestCase
 {

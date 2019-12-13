@@ -13,7 +13,7 @@ Formatter.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Bridge;
+namespace Kuriv\PHPDesignPatterns\Structural\Bridge;
 
 interface Formatter
 {
@@ -33,7 +33,7 @@ TextFormatter.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Bridge;
+namespace Kuriv\PHPDesignPatterns\Structural\Bridge;
 
 class TextFormatter implements Formatter
 {
@@ -56,7 +56,7 @@ HTMLFormatter.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Bridge;
+namespace Kuriv\PHPDesignPatterns\Structural\Bridge;
 
 class HTMLFormatter implements Formatter
 {
@@ -79,7 +79,7 @@ Printer.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Bridge;
+namespace Kuriv\PHPDesignPatterns\Structural\Bridge;
 
 abstract class Printer
 {
@@ -117,7 +117,7 @@ PingTestPrinter.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Bridge;
+namespace Kuriv\PHPDesignPatterns\Structural\Bridge;
 
 class PingTestPrinter extends Printer
 {
@@ -140,7 +140,7 @@ HelloWorldPrinter.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Bridge;
+namespace Kuriv\PHPDesignPatterns\Structural\Bridge;
 
 class HelloWorldPrinter extends Printer
 {
@@ -165,13 +165,9 @@ BridgeTest.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Bridge;
+namespace Kuriv\PHPDesignPatterns\Structural\Bridge;
 
 use PHPUnit\Framework\TestCase;
-use PHPDesignPatterns\Structural\Bridge\TextFormatter;
-use PHPDesignPatterns\Structural\Bridge\HTMLFormatter;
-use PHPDesignPatterns\Structural\Bridge\PingTestPrinter;
-use PHPDesignPatterns\Structural\Bridge\HelloWorldPrinter;
 
 class BridgeTest extends TestCase
 {

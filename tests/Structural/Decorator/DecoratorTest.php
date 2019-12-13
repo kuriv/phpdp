@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Structural\Decorator;
+namespace Kuriv\PHPDesignPatterns\Structural\Decorator;
 
 use PHPUnit\Framework\TestCase;
 
@@ -22,8 +22,7 @@ class DecoratorTest extends TestCase
 
     public function testCanCalculatePriceForStandardRoomBookingWithWiFiAndExtraBed()
     {
-        $booking = new WiFi(new StandardRoom);
-        $booking = new ExtraBed($booking);
+        $booking = new ExtraBed(new WiFi(new StandardRoom));
         $this->assertSame(250, $booking->calculatePrice());
         $this->assertSame('Standard room with wifi with extra bed', $booking->getDescription());
     }

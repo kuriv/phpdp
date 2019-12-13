@@ -13,7 +13,7 @@ SQL.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\FluentInterface;
+namespace Kuriv\PHPDesignPatterns\Structural\FluentInterface;
 
 class SQL
 {
@@ -100,10 +100,9 @@ FluentInterfaceTest.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\FluentInterface;
+namespace Kuriv\PHPDesignPatterns\Structural\FluentInterface;
 
 use PHPUnit\Framework\TestCase;
-use PHPDesignPatterns\Structural\FluentInterface\SQL;
 
 class FluentInterfaceTest extends TestCase
 {

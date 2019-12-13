@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Creational\Prototype;
+namespace Kuriv\PHPDesignPatterns\Creational\Prototype;
 
 abstract class Prototype
 {

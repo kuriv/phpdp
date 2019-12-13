@@ -1,9 +1,8 @@
 <?php
 
-namespace PHPDesignPatterns\Creational\Pool;
+namespace Kuriv\PHPDesignPatterns\Creational\Pool;
 
 use PHPUnit\Framework\TestCase;
-use PHPDesignPatterns\Creational\Pool\ThreadPool;
 
 class PoolTest extends TestCase
 {

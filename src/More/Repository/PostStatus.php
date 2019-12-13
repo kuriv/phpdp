@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\More\Repository;
+namespace Kuriv\PHPDesignPatterns\More\Repository;
 
 use InvalidArgumentException;
 
@@ -72,12 +72,23 @@ class PostStatus
     }
 
     /**
+     * Return the current status string.
+     *
+     * @param  void
+     * @return string
+     */
+    public function __toString(): string
+    {
+        return $this->status_string;
+    }
+
+    /**
      * Get the created instance by status ID.
      *
      * @param  int    $status_id
      * @return PostStatus
      */
-    public static function getInstanceByStatusID(int $status_id): PostStatus
+    public static function getInstanceByID(int $status_id): PostStatus
     {
         if (!isset(self::$validStatus[$status_id])) {
             throw new InvalidArgumentException('Invalid status ID given');
@@ -91,7 +102,7 @@ class PostStatus
      * @param  string $status_string
      * @return PostStatus
      */
-    public static function getInstanceByStatusString(string $status_string): PostStatus
+    public static function getInstanceByString(string $status_string): PostStatus
     {
         if (!in_array($status_string, self::$validStatus, true)) {
             throw new InvalidArgumentException('Invalid status string given');

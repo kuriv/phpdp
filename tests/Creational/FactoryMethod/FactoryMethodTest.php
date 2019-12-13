@@ -1,12 +1,8 @@
 <?php
 
-namespace PHPDesignPatterns\Creational\FactoryMethod;
+namespace Kuriv\PHPDesignPatterns\Creational\FactoryMethod;
 
 use PHPUnit\Framework\TestCase;
-use PHPDesignPatterns\Creational\FactoryMethod\BusFactory;
-use PHPDesignPatterns\Creational\FactoryMethod\CarFactory;
-use PHPDesignPatterns\Creational\FactoryMethod\Bus;
-use PHPDesignPatterns\Creational\FactoryMethod\Car;
 
 class FactoryMethodTest extends TestCase
 {

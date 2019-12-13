@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Behavioral\Iterator;
+namespace Kuriv\PHPDesignPatterns\Behavioral\Iterator;
 
 class Book
 {

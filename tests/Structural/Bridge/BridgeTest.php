@@ -1,12 +1,8 @@
 <?php
 
-namespace PHPDesignPatterns\Structural\Bridge;
+namespace Kuriv\PHPDesignPatterns\Structural\Bridge;
 
 use PHPUnit\Framework\TestCase;
-use PHPDesignPatterns\Structural\Bridge\TextFormatter;
-use PHPDesignPatterns\Structural\Bridge\HTMLFormatter;
-use PHPDesignPatterns\Structural\Bridge\PingTestPrinter;
-use PHPDesignPatterns\Structural\Bridge\HelloWorldPrinter;
 
 class BridgeTest extends TestCase
 {

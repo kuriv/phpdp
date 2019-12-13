@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\More\ServiceLocator;
+namespace Kuriv\PHPDesignPatterns\More\ServiceLocator;
 
 interface Service
 {

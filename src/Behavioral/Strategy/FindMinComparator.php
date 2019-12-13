@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Behavioral\Strategy;
+namespace Kuriv\PHPDesignPatterns\Behavioral\Strategy;
 
 class FindMinComparator implements Comparator
 {

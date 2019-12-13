@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\More\ServiceLocator;
+namespace Kuriv\PHPDesignPatterns\More\ServiceLocator;
 
 use PHPUnit\Framework\TestCase;
 
@@ -19,6 +19,6 @@ class ServiceLocatorTest extends TestCase
         $serviceLocator = new ServiceLocator;
         $serviceLocator->addArray(LogService::class, []);
         $this->assertTrue($serviceLocator->has(LogService::class));
-        $this->assertInstanceOf(LogService::class, $serviceLocator->get(LogService::class));
+        $this->assertInstanceOf(LogService::class, $serviceLocator->getInstance(LogService::class));
     }
 }

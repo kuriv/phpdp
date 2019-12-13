@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Behavioral\Memento;
+namespace Kuriv\PHPDesignPatterns\Behavioral\Memento;
 
 class Ticket
 {
@@ -78,7 +78,7 @@ class Ticket
     }
 
     /**
-     * Get the state string.
+     * Get the state instance.
      *
      * @param  void
      * @return State

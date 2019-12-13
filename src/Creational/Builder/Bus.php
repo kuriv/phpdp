@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Creational\Builder;
+namespace Kuriv\PHPDesignPatterns\Creational\Builder;
 
 class Bus extends Vehicle
 {

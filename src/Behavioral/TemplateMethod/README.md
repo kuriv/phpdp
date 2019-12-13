@@ -13,7 +13,7 @@ Schedule.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\TemplateMethod;
+namespace Kuriv\PHPDesignPatterns\Behavioral\TemplateMethod;
 
 abstract class Schedule
 {
@@ -86,7 +86,7 @@ People.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\TemplateMethod;
+namespace Kuriv\PHPDesignPatterns\Behavioral\TemplateMethod;
 
 class People extends Schedule
 {
@@ -109,7 +109,7 @@ Programmer.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\TemplateMethod;
+namespace Kuriv\PHPDesignPatterns\Behavioral\TemplateMethod;
 
 class Programmer extends Schedule
 {
@@ -134,7 +134,7 @@ TemplateMethodTest.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\TemplateMethod;
+namespace Kuriv\PHPDesignPatterns\Behavioral\TemplateMethod;
 
 use PHPUnit\Framework\TestCase;
 

@@ -15,7 +15,7 @@ Singleton.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\Singleton;
+namespace Kuriv\PHPDesignPatterns\Creational\Singleton;
 
 final class Singleton
 {
@@ -78,10 +78,9 @@ SingletonTest.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\Singleton;
+namespace Kuriv\PHPDesignPatterns\Creational\Singleton;
 
 use PHPUnit\Framework\TestCase;
-use PHPDesignPatterns\Creational\Singleton\Singleton;
 
 class SingletonTest extends TestCase
 {

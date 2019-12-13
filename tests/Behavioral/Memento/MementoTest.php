@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Behavioral\Memento;
+namespace Kuriv\PHPDesignPatterns\Behavioral\Memento;
 
 use PHPUnit\Framework\TestCase;
 

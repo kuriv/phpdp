@@ -13,7 +13,7 @@ Booking.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Decorator;
+namespace Kuriv\PHPDesignPatterns\Structural\Decorator;
 
 interface Booking
 {
@@ -41,7 +41,7 @@ StandardRoom.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Decorator;
+namespace Kuriv\PHPDesignPatterns\Structural\Decorator;
 
 class StandardRoom implements Booking
 {
@@ -75,7 +75,7 @@ BookingDecorator.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Decorator;
+namespace Kuriv\PHPDesignPatterns\Structural\Decorator;
 
 abstract class BookingDecorator implements Booking
 {
@@ -105,7 +105,7 @@ WiFi.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Decorator;
+namespace Kuriv\PHPDesignPatterns\Structural\Decorator;
 
 class WiFi extends BookingDecorator
 {
@@ -139,7 +139,7 @@ ExtraBed.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Decorator;
+namespace Kuriv\PHPDesignPatterns\Structural\Decorator;
 
 class ExtraBed extends BookingDecorator
 {
@@ -175,7 +175,7 @@ DecoratorTest.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Decorator;
+namespace Kuriv\PHPDesignPatterns\Structural\Decorator;
 
 use PHPUnit\Framework\TestCase;
 
@@ -197,8 +197,7 @@ class DecoratorTest extends TestCase
 
     public function testCanCalculatePriceForStandardRoomBookingWithWiFiAndExtraBed()
     {
-        $booking = new WiFi(new StandardRoom);
-        $booking = new ExtraBed($booking);
+        $booking = new ExtraBed(new WiFi(new StandardRoom));
         $this->assertSame(250, $booking->calculatePrice());
         $this->assertSame('Standard room with wifi with extra bed', $booking->getDescription());
     }

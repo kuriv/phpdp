@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Structural\Decorator;
+namespace Kuriv\PHPDesignPatterns\Structural\Decorator;
 
 abstract class BookingDecorator implements Booking
 {

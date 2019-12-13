@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\More\EAV;
+namespace Kuriv\PHPDesignPatterns\More\EAV;
 
 class Entity
 {
@@ -16,20 +16,20 @@ class Entity
      *
      * @var array
      */
-    private $values = [];
+    private $instances = [];
 
     /**
      * Store the entity name and several instances to the current instance.
      *
      * @param  string $name
-     * @param  array  $values
+     * @param  array  $instances
      * @return void
      */
-    public function __construct(string $name, array $values)
+    public function __construct(string $name, array $instances)
     {
         $this->name = $name;
-        foreach ($values as $value) {
-            $this->values[] = $value;
+        foreach ($instances as $instance) {
+            $this->instances[] = $instance;
         }
     }
 
@@ -42,8 +42,8 @@ class Entity
     public function __toString(): string
     {
         $string[] = $this->name;
-        foreach ($this->values as $value) {
-            $string[] = (string) $value;
+        foreach ($this->instances as $instance) {
+            $string[] = (string) $instance;
         }
         return implode(', ', $string);
     }

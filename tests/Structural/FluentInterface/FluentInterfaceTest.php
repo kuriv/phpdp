@@ -1,9 +1,8 @@
 <?php
 
-namespace PHPDesignPatterns\Structural\FluentInterface;
+namespace Kuriv\PHPDesignPatterns\Structural\FluentInterface;
 
 use PHPUnit\Framework\TestCase;
-use PHPDesignPatterns\Structural\FluentInterface\SQL;
 
 class FluentInterfaceTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Creational\Multiton;
+namespace Kuriv\PHPDesignPatterns\Creational\Multiton;
 
 final class Multiton
 {

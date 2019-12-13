@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Structural\Proxy;
+namespace Kuriv\PHPDesignPatterns\Structural\Proxy;
 
 class RecordProxy extends Record
 {

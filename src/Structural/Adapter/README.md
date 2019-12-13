@@ -13,7 +13,7 @@ Book.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Adapter;
+namespace Kuriv\PHPDesignPatterns\Structural\Adapter;
 
 interface Book
 {
@@ -49,7 +49,7 @@ TextBook.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Adapter;
+namespace Kuriv\PHPDesignPatterns\Structural\Adapter;
 
 class TextBook implements Book
 {
@@ -101,7 +101,7 @@ EBook.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Adapter;
+namespace Kuriv\PHPDesignPatterns\Structural\Adapter;
 
 interface EBook
 {
@@ -137,7 +137,7 @@ Kindle.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Adapter;
+namespace Kuriv\PHPDesignPatterns\Structural\Adapter;
 
 class Kindle implements EBook
 {
@@ -197,7 +197,7 @@ EBookAdapter.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Adapter;
+namespace Kuriv\PHPDesignPatterns\Structural\Adapter;
 
 class EBookAdapter implements Book
 {
@@ -262,12 +262,9 @@ AdapterTest.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Adapter;
+namespace Kuriv\PHPDesignPatterns\Structural\Adapter;
 
 use PHPUnit\Framework\TestCase;
-use PHPDesignPatterns\Structural\Adapter\TextBook;
-use PHPDesignPatterns\Structural\Adapter\Kindle;
-use PHPDesignPatterns\Structural\Adapter\EBookAdapter;
 
 class AdapterTest extends TestCase
 {

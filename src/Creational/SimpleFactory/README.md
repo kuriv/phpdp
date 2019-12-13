@@ -1,6 +1,6 @@
 # SimpleFactory
 
-It differs from the static factory because it is not static. Therefore, you can have multiple factories, differently parameterized, you can subclass it and you can mock it. It always should be preferred over a static factory.
+It differs from the `StaticFactory` because it is not static. Therefore, you can have multiple factories, differently parameterized, you can subclass it and you can mock it. It always should be preferred over a static factory.
 
 ## UML
 
@@ -13,7 +13,7 @@ Vehicle.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\SimpleFactory;
+namespace Kuriv\PHPDesignPatterns\Creational\SimpleFactory;
 
 abstract class Vehicle
 {
@@ -26,7 +26,7 @@ Bus.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\SimpleFactory;
+namespace Kuriv\PHPDesignPatterns\Creational\SimpleFactory;
 
 class Bus extends Vehicle
 {
@@ -39,7 +39,7 @@ Car.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\SimpleFactory;
+namespace Kuriv\PHPDesignPatterns\Creational\SimpleFactory;
 
 class Car extends Vehicle
 {
@@ -52,7 +52,7 @@ SimpleFactory.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\SimpleFactory;
+namespace Kuriv\PHPDesignPatterns\Creational\SimpleFactory;
 
 class SimpleFactory
 {
@@ -82,12 +82,9 @@ SimpleFactoryTest.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\SimpleFactory;
+namespace Kuriv\PHPDesignPatterns\Creational\SimpleFactory;
 
 use PHPUnit\Framework\TestCase;
-use PHPDesignPatterns\Creational\SimpleFactory\SimpleFactory;
-use PHPDesignPatterns\Creational\SimpleFactory\Bus;
-use PHPDesignPatterns\Creational\SimpleFactory\Car;
 
 class SimpleFactoryTest extends TestCase
 {

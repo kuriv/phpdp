@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Behavioral\Memento;
+namespace Kuriv\PHPDesignPatterns\Behavioral\Memento;
 
 use InvalidArgumentException;
 
@@ -35,7 +35,7 @@ class State
     const STATE_CLOSED = 'Closed';
 
     /**
-     * Store the state;
+     * Store the state.
      *
      * @var string
      */

@@ -13,7 +13,7 @@ BIOS.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Facade;
+namespace Kuriv\PHPDesignPatterns\Structural\Facade;
 
 interface BIOS
 {
@@ -49,7 +49,7 @@ OS.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Facade;
+namespace Kuriv\PHPDesignPatterns\Structural\Facade;
 
 interface OS
 {
@@ -59,7 +59,7 @@ interface OS
      * @param  void
      * @return void
      */
-    public function shutdown();
+    public function login();
 
     /**
      * Just a test method.
@@ -67,7 +67,7 @@ interface OS
      * @param  void
      * @return void
      */
-    public function login();
+    public function shutdown();
 }
 
 ```
@@ -77,7 +77,7 @@ Facade.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Facade;
+namespace Kuriv\PHPDesignPatterns\Structural\Facade;
 
 class Facade
 {
@@ -142,11 +142,9 @@ FacadeTest.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Facade;
+namespace Kuriv\PHPDesignPatterns\Structural\Facade;
 
 use PHPUnit\Framework\TestCase;
-use PHPDesignPatterns\Structural\Facade\BIOS;
-use PHPDesignPatterns\Structural\Facade\OS;
 
 class FacadeTest extends TestCase
 {

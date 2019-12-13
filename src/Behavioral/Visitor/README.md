@@ -13,7 +13,7 @@ Role.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\Visitor;
+namespace Kuriv\PHPDesignPatterns\Behavioral\Visitor;
 
 interface Role
 {
@@ -33,7 +33,7 @@ User.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\Visitor;
+namespace Kuriv\PHPDesignPatterns\Behavioral\Visitor;
 
 class User implements Role
 {
@@ -74,7 +74,7 @@ Group.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\Visitor;
+namespace Kuriv\PHPDesignPatterns\Behavioral\Visitor;
 
 class Group implements Role
 {
@@ -115,7 +115,7 @@ RoleVisitor.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\Visitor;
+namespace Kuriv\PHPDesignPatterns\Behavioral\Visitor;
 
 interface RoleVisitor
 {
@@ -143,7 +143,7 @@ RecordVisitor.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\Visitor;
+namespace Kuriv\PHPDesignPatterns\Behavioral\Visitor;
 
 class RecordVisitor implements RoleVisitor
 {
@@ -197,7 +197,7 @@ VisitorTest.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\Visitor;
+namespace Kuriv\PHPDesignPatterns\Behavioral\Visitor;
 
 use PHPUnit\Framework\TestCase;
 

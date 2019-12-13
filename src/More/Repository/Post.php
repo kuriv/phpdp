@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\More\Repository;
+namespace Kuriv\PHPDesignPatterns\More\Repository;
 
 class Post
 {
@@ -9,7 +9,7 @@ class Post
      *
      * @var PostID
      */
-    private $id;
+    private $post_id;
 
     /**
      * Store the title.
@@ -30,36 +30,36 @@ class Post
      *
      * @var PostStatus
      */
-    private $status;
+    private $post_status;
 
     /**
      * Store the ID instance, title, content and status instance to the current instance.
      *
-     * @param  PostID     $id
+     * @param  PostID     $post_id
      * @param  string     $title
      * @param  string     $content
-     * @param  PostStatus $status
+     * @param  PostStatus $post_status
      * @return void
      */
-    private function __construct(PostID $id, string $title, string $content, PostStatus $status)
+    private function __construct(PostID $post_id, string $title, string $content, PostStatus $post_status)
     {
-        $this->id = $id;
+        $this->post_id = $post_id;
         $this->title = $title;
         $this->content = $content;
-        $this->status = $status;
+        $this->post_status = $post_status;
     }
 
     /**
      * Get the instance of the draft.
      *
-     * @param  PostID $id
+     * @param  PostID $post_id
      * @param  string $title
      * @param  string $content
      * @return Post
      */
-    public static function draft(PostID $id, string $title, string $content): Post
+    public static function draft(PostID $post_id, string $title, string $content): Post
     {
-        return new self($id, $title, $content, PostStatus::getInstanceByStatusString(PostStatus::STATUS_DRAFT));
+        return new self($post_id, $title, $content, PostStatus::getInstanceByString(PostStatus::STATUS_DRAFT));
     }
 
     /**
@@ -70,7 +70,7 @@ class Post
      */
     public static function getInstance(array $array): Post
     {
-        return new self(PostID::getInstance($array['id']), $array['title'], $array['content'], PostStatus::getInstanceByStatusID($array['status_id']));
+        return new self(PostID::getInstance($array['id']), $array['title'], $array['content'], PostStatus::getInstanceByID($array['status_id']));
     }
 
     /**
@@ -79,9 +79,9 @@ class Post
      * @param  void
      * @return PostID
      */
-    public function getID(): PostID
+    public function getPostID(): PostID
     {
-        return $this->id;
+        return $this->post_id;
     }
 
     /**
@@ -112,8 +112,8 @@ class Post
      * @param  void
      * @return PostStatus
      */
-    public function getStatus(): PostStatus
+    public function getPostStatus(): PostStatus
     {
-        return $this->status;
+        return $this->post_status;
     }
 }

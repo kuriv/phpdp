@@ -13,12 +13,12 @@ Printer.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\NullObject;
+namespace Kuriv\PHPDesignPatterns\Behavioral\NullObject;
 
 interface Printer
 {
     /**
-     * Print the input string.
+     * Print the string.
      *
      * @param  string $string
      * @return void
@@ -33,12 +33,12 @@ TextPrinter.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\NullObject;
+namespace Kuriv\PHPDesignPatterns\Behavioral\NullObject;
 
 class TextPrinter implements Printer
 {
     /**
-     * Print the input string.
+     * Print the string.
      *
      * @param  string $string
      * @return void
@@ -56,7 +56,7 @@ NullPrinter.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\NullObject;
+namespace Kuriv\PHPDesignPatterns\Behavioral\NullObject;
 
 class NullPrinter implements Printer
 {
@@ -78,7 +78,7 @@ Service.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\NullObject;
+namespace Kuriv\PHPDesignPatterns\Behavioral\NullObject;
 
 class Service
 {
@@ -101,12 +101,12 @@ class Service
     }
 
     /**
-     * Test something here.
+     * Print something here.
      *
      * @param  void
      * @return void
      */
-    public function test()
+    public function print()
     {
         $this->printer->print('You are now in ' . __METHOD__);
     }
@@ -121,7 +121,7 @@ NullObjectTest.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Behavioral\NullObject;
+namespace Kuriv\PHPDesignPatterns\Behavioral\NullObject;
 
 use PHPUnit\Framework\TestCase;
 
@@ -130,15 +130,15 @@ class NullObjectTest extends TestCase
     public function testTextPrinter()
     {
         $service = new Service(new TextPrinter);
-        $this->expectOutputString('You are now in PHPDesignPatterns\Behavioral\NullObject\Service::test');
-        $service->test();
+        $this->expectOutputString('You are now in ' . Service::class . '::print');
+        $service->print();
     }
 
     public function testNullPrinter()
     {
         $service = new Service(new NullPrinter);
         $this->expectOutputString('');
-        $service->test();
+        $service->print();
     }
 }
 

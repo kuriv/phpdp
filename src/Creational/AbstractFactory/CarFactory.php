@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Creational\AbstractFactory;
+namespace Kuriv\PHPDesignPatterns\Creational\AbstractFactory;
 
 class CarFactory implements VehicleFactory
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\More\Repository;
+namespace Kuriv\PHPDesignPatterns\More\Repository;
 
 use OutOfBoundsException;
 
@@ -30,29 +30,41 @@ class Repository
      * @param  void
      * @return PostID
      */
-    public function generatePostID(): PostID
+    public function generateID(): PostID
     {
         return PostID::getInstance($this->action->generateID());
     }
 
-    public function find(PostID $id): Post
+    /**
+     * Get the specified instance.
+     *
+     * @param  PostID $post_id
+     * @return Post
+     */
+    public function find(PostID $post_id): Post
     {
         try {
-            $id = $id->getID();
-            $post = $this->action->find($id);
+            $id = $post_id->getID();
+            $array = $this->action->find($id);
         } catch (OutOfBoundsException $e) {
             throw new OutOfBoundsException(sprintf('Post with ID %d does not exist', $id), 0, $e);
         }
-        return Post::getInstance($post);
+        return Post::getInstance($array);
     }
 
+    /**
+     * Save the data.
+     *
+     * @param  Post   $post
+     * @return void
+     */
     public function save(Post $post)
     {
         $this->action->save([
-            'id'        => $post->getID()->getID(),
+            'id'        => $post->getPostID()->getID(),
             'title'     => $post->getTitle(),
             'content'   => $post->getContent(),
-            'status_id' => $post->getStatus()->getStatusID()
+            'status_id' => $post->getPostStatus()->getStatusID()
         ]);
     }
 }

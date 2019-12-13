@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Behavioral\NullObject;
+namespace Kuriv\PHPDesignPatterns\Behavioral\NullObject;
 
 interface Printer
 {

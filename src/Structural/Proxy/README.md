@@ -13,7 +13,7 @@ Record.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Proxy;
+namespace Kuriv\PHPDesignPatterns\Structural\Proxy;
 
 use InvalidArgumentException;
 
@@ -71,7 +71,7 @@ RecordProxy.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Proxy;
+namespace Kuriv\PHPDesignPatterns\Structural\Proxy;
 
 class RecordProxy extends Record
 {
@@ -99,7 +99,7 @@ ProxyTest.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\Proxy;
+namespace Kuriv\PHPDesignPatterns\Structural\Proxy;
 
 use PHPUnit\Framework\TestCase;
 

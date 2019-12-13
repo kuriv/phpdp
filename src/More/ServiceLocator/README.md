@@ -15,7 +15,7 @@ ServiceLocator.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\More\ServiceLocator;
+namespace Kuriv\PHPDesignPatterns\More\ServiceLocator;
 
 use OutOfRangeException;
 use InvalidArgumentException;
@@ -77,7 +77,7 @@ class ServiceLocator
      * @param  string $class
      * @return Service
      */
-    public function get(string $class): Service
+    public function getInstance(string $class): Service
     {
         if (isset($this->instances[$class])) {
             return $this->instances[$class];
@@ -101,9 +101,7 @@ class ServiceLocator
                 break;
         }
         if (!$instance instanceof Service) {
-            throw new InvalidArgumentException(
-                sprintf('Could not register service: %s is no instance of Service', get_class($instance))
-            );
+            throw new InvalidArgumentException(sprintf('Could not register service: %s is not instance of Service', get_class($instance)));
         }
         $this->addInstance($class, $instance);
         return $instance;
@@ -117,7 +115,7 @@ Service.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\More\ServiceLocator;
+namespace Kuriv\PHPDesignPatterns\More\ServiceLocator;
 
 interface Service
 {
@@ -130,7 +128,7 @@ LogService.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\More\ServiceLocator;
+namespace Kuriv\PHPDesignPatterns\More\ServiceLocator;
 
 class LogService implements Service
 {
@@ -145,7 +143,7 @@ ServiceLocatorTest.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\More\ServiceLocator;
+namespace Kuriv\PHPDesignPatterns\More\ServiceLocator;
 
 use PHPUnit\Framework\TestCase;
 
@@ -164,7 +162,7 @@ class ServiceLocatorTest extends TestCase
         $serviceLocator = new ServiceLocator;
         $serviceLocator->addArray(LogService::class, []);
         $this->assertTrue($serviceLocator->has(LogService::class));
-        $this->assertInstanceOf(LogService::class, $serviceLocator->get(LogService::class));
+        $this->assertInstanceOf(LogService::class, $serviceLocator->getInstance(LogService::class));
     }
 }
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Behavioral\TemplateMethod;
+namespace Kuriv\PHPDesignPatterns\Behavioral\TemplateMethod;
 
 use PHPUnit\Framework\TestCase;
 

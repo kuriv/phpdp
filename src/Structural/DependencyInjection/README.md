@@ -13,7 +13,7 @@ Config.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\DependencyInjection;
+namespace Kuriv\PHPDesignPatterns\Structural\DependencyInjection;
 
 class Config
 {
@@ -94,7 +94,7 @@ Connection.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\DependencyInjection;
+namespace Kuriv\PHPDesignPatterns\Structural\DependencyInjection;
 
 class Connection
 {
@@ -142,7 +142,7 @@ DependencyInjectionTest.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Structural\DependencyInjection;
+namespace Kuriv\PHPDesignPatterns\Structural\DependencyInjection;
 
 use PHPUnit\Framework\TestCase;
 

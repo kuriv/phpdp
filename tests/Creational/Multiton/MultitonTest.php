@@ -1,9 +1,8 @@
 <?php
 
-namespace PHPDesignPatterns\Creational\Multiton;
+namespace Kuriv\PHPDesignPatterns\Creational\Multiton;
 
 use PHPUnit\Framework\TestCase;
-use PHPDesignPatterns\Creational\Multiton\Multiton;
 
 class MultitonTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Creational\Singleton;
+namespace Kuriv\PHPDesignPatterns\Creational\Singleton;
 
 final class Singleton
 {

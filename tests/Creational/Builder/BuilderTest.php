@@ -1,13 +1,8 @@
 <?php
 
-namespace PHPDesignPatterns\Creational\Builder;
+namespace Kuriv\PHPDesignPatterns\Creational\Builder;
 
 use PHPUnit\Framework\TestCase;
-use PHPDesignPatterns\Creational\Builder\BusFactory;
-use PHPDesignPatterns\Creational\Builder\CarFactory;
-use PHPDesignPatterns\Creational\Builder\Builder;
-use PHPDesignPatterns\Creational\Builder\Bus;
-use PHPDesignPatterns\Creational\Builder\Car;
 
 class BuilderTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Behavioral\NullObject;
+namespace Kuriv\PHPDesignPatterns\Behavioral\NullObject;
 
 class Service
 {
@@ -23,12 +23,12 @@ class Service
     }
 
     /**
-     * Test something here.
+     * Print something here.
      *
      * @param  void
      * @return void
      */
-    public function test()
+    public function print()
     {
         $this->printer->print('You are now in ' . __METHOD__);
     }

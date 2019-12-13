@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Structural\FluentInterface;
+namespace Kuriv\PHPDesignPatterns\Structural\FluentInterface;
 
 class SQL
 {

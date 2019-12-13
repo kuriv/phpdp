@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Structural\Flyweight;
+namespace Kuriv\PHPDesignPatterns\Structural\Flyweight;
 
 use Countable;
 
@@ -16,24 +16,24 @@ class TextFactory implements Countable
     /**
      * Get the specified instance.
      *
-     * @param  string $string
+     * @param  string $text
      * @return Text
      */
-    public function getInstance(string $string): Text
+    public function getInstance(string $text): Text
     {
-        $this->instances[$string] ?? $this->instances[$string] = $this->createInstance($string);
-        return $this->instances[$string];
+        $this->instances[$text] ?? $this->instances[$text] = $this->createInstance($text);
+        return $this->instances[$text];
     }
 
     /**
      * Create the specified instance.
      *
-     * @param  string $string
+     * @param  string $text
      * @return Text
      */
-    private function createInstance(string $string): Text
+    private function createInstance(string $text): Text
     {
-        return strlen($string) == 1 ? new Character($string) : new Word($string);
+        return strlen($text) == 1 ? new Character($text) : new Word($text);
     }
 
     /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Structural\Facade;
+namespace Kuriv\PHPDesignPatterns\Structural\Facade;
 
 interface OS
 {
@@ -10,7 +10,7 @@ interface OS
      * @param  void
      * @return void
      */
-    public function shutdown();
+    public function login();
 
     /**
      * Just a test method.
@@ -18,5 +18,5 @@ interface OS
      * @param  void
      * @return void
      */
-    public function login();
+    public function shutdown();
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Creational\Pool;
+namespace Kuriv\PHPDesignPatterns\Creational\Pool;
 
 use Countable;
 

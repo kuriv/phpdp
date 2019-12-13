@@ -13,7 +13,7 @@ Thread.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\Pool;
+namespace Kuriv\PHPDesignPatterns\Creational\Pool;
 
 class Thread
 {
@@ -26,7 +26,7 @@ ThreadPool.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\Pool;
+namespace Kuriv\PHPDesignPatterns\Creational\Pool;
 
 use Countable;
 
@@ -94,10 +94,9 @@ PoolTest.php
 ```php
 <?php
 
-namespace PHPDesignPatterns\Creational\Pool;
+namespace Kuriv\PHPDesignPatterns\Creational\Pool;
 
 use PHPUnit\Framework\TestCase;
-use PHPDesignPatterns\Creational\Pool\ThreadPool;
 
 class PoolTest extends TestCase
 {

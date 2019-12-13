@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Structural\DataMapper;
+namespace Kuriv\PHPDesignPatterns\Structural\DataMapper;
 
 use InvalidArgumentException;
 
@@ -34,9 +34,7 @@ class UserMapper
     {
         $result = $this->adapter->find($id);
         if (empty($result)) {
-            throw new InvalidArgumentException(
-                sprintf('User #%d not found', $id)
-            );
+            throw new InvalidArgumentException(sprintf('User #%d not found', $id));
         }
         return User::getInstance($result);
     }

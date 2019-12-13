@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPDesignPatterns\Structural\Facade;
+namespace Kuriv\PHPDesignPatterns\Structural\Facade;
 
 interface BIOS
 {
