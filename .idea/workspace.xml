@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2f03888-21b4-486d-a716-cb83551bb6fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,6 +67,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -91,7 +91,21 @@
               <item name="phpdp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Behavioral" type="462c0819:PsiDirectoryNode" />
+              <item name="Command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Behavioral" type="462c0819:PsiDirectoryNode" />
               <item name="Iterator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Behavioral" type="462c0819:PsiDirectoryNode" />
+              <item name="Mediator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="phpdp" type="b2602c69:ProjectViewProjectNode" />
@@ -332,7 +346,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -377,16 +390,17 @@
       <workItem from="1576246573025" duration="1880000" />
       <workItem from="1576249837845" duration="624000" />
       <workItem from="1576252265658" duration="26000" />
+      <workItem from="1576311851603" duration="736000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8346000" />
+    <option name="totallyTimeSpent" value="9082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26391098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26589826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1275,7 +1289,35 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="184.5" y="167.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="185.0" y="167.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Github/phpdp/src/Behavioral/Command">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Behavioral/Command</OriginalElement>
+          <nodes>
+            <node x="" y="">\Kuriv\PHPDesignPatterns\Behavioral\Command\UndoableCommand</node>
+            <node x="" y="">\Kuriv\PHPDesignPatterns\Behavioral\Command\Receiver</node>
+            <node x="" y="">\Kuriv\PHPDesignPatterns\Behavioral\Command\Command</node>
+            <node x="" y="">\Kuriv\PHPDesignPatterns\Behavioral\Command\Invoker</node>
+            <node x="" y="">\Kuriv\PHPDesignPatterns\Behavioral\Command\AddMessageDateCommand</node>
+            <node x="" y="">\Kuriv\PHPDesignPatterns\Behavioral\Command\HelloWorldCommand</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="257.5" y="253.5" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>

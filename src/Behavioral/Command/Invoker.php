@@ -12,7 +12,7 @@ class Invoker
     private $command;
 
     /**
-     * Set the specified command instance.
+     * Store the command instance to the current instance.
      *
      * @param  Command $command
      * @return void
