@@ -9,7 +9,7 @@ final class Singleton
      *
      * @var Singleton
      */
-    private static $instance;
+    private static Singleton $instance;
 
     /**
      * Prevent the instance from being constructed.
