@@ -49,7 +49,6 @@ final class Multiton
      */
     public static function getInstance(string $name): Multiton
     {
-        static::$instances[$name] ?? static::$instances[$name] = new static;
-        return static::$instances[$name];
+        return static::$instances[$name] ??= new static;
     }
 }

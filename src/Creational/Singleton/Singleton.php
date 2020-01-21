@@ -49,7 +49,6 @@ final class Singleton
      */
     public static function getInstance(): Singleton
     {
-        static::$instance ?? static::$instance = new static;
-        return static::$instance;
+        return static::$instance ??= new static;
     }
 }
