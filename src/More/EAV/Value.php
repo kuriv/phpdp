@@ -9,14 +9,14 @@ class Value
      *
      * @var Attribute
      */
-    private $attribute;
+    private Attribute $attribute;
 
     /**
      * Store the value string.
      *
      * @var string
      */
-    private $value;
+    private string $value;
 
     /**
      * Store the attribute instance and value string to the current instance.

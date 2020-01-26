@@ -9,14 +9,14 @@ class Entity
      *
      * @var string
      */
-    private $name;
+    private string $name;
 
     /**
      * Store several instances.
      *
      * @var array
      */
-    private $instances = [];
+    private array $instances = [];
 
     /**
      * Store the entity name and several instances to the current instance.
@@ -41,10 +41,10 @@ class Entity
      */
     public function __toString(): string
     {
-        $string[] = $this->name;
+        $info[] = $this->name;
         foreach ($this->instances as $instance) {
-            $string[] = (string) $instance;
+            $info[] = (string) $instance;
         }
-        return implode(', ', $string);
+        return implode(', ', $info);
     }
 }

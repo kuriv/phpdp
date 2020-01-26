@@ -9,7 +9,7 @@ class Attribute
      *
      * @var string
      */
-    private $name;
+    private string $name;
 
     /**
      * Store the attribute name to the current instance.
