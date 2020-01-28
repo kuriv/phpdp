@@ -88,7 +88,7 @@ abstract class Printer
      *
      * @var Formatter
      */
-    protected $formatter;
+    protected Formatter $formatter;
 
     /**
      * Store the instance that used for bridging.

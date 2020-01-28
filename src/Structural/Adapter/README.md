@@ -58,7 +58,7 @@ class TextBook implements Book
      *
      * @var int
      */
-    private $page;
+    private int $page;
 
     /**
      * Open a book.
@@ -146,14 +146,14 @@ class Kindle implements EBook
      *
      * @var int
      */
-    private $page;
+    private int $page;
 
     /**
      * Total pages.
      *
      * @var int
      */
-    private $totalPages;
+    private int $totalPages;
 
     /**
      * Unlock the screen.
@@ -206,7 +206,7 @@ class EBookAdapter implements Book
      *
      * @var EBook
      */
-    private $instance;
+    private EBook $instance;
 
     /**
      * Save the instance that needs to be adapted.
