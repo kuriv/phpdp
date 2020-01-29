@@ -7,7 +7,7 @@ use InvalidArgumentException;
 
 class DataMapperTest extends TestCase
 {
-    private $data = [
+    private array $data = [
         1 => [
             'username' => 'foo',
             'email' => 'foo@foo.com'
