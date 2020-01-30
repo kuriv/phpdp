@@ -1,6 +1,6 @@
 # SimpleFactory
 
-It differs from the `StaticFactory` because it is not static. Therefore, you can have multiple factories, differently parameterized, you can subclass it and you can mock it. It always should be preferred over a static factory.
+> It differs from the `StaticFactory` because it is not static. Therefore, you can have multiple factories, differently parameterized, you can subclass it and you can mock it. It always should be preferred over a static factory.
 
 ## UML
 

@@ -2,7 +2,7 @@
 
 **THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND MAINTAINABILITY USE DEPENDENCY INJECTION!**
 
-To have only a list of named instances that are used, like a singleton but with several instances.
+> To have only a list of named instances that are used, like a singleton but with several instances.
 
 ## UML
 

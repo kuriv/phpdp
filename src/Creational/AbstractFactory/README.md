@@ -1,6 +1,6 @@
 # AbstractFactory
 
-To create series of related or dependent objects without specifying their concrete classes. Usually the created classes all implement the same interface. The client of this pattern does not care about how these objects are created, it just knows how they go together.
+> To create series of related or dependent objects without specifying their concrete classes. Usually the created classes all implement the same interface. The client of this pattern does not care about how these objects are created, it just knows how they go together.
 
 ## UML
 
