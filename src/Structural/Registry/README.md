@@ -2,7 +2,7 @@
 
 **REMEMBER THAT THIS INTRODUCES GLOBAL STATE, WHICH SHOULD BE AVOIDED AT ALL TIMES! INSTEAD IMPLEMENT IT USING DEPENDENCY INJECTION!**
 
-To implement a central storage for objects often used throughout the application, is typically implemented using an abstract class with only static methods, or using the `Singleton` pattern.
+> To implement a central storage for objects often used throughout the application, is typically implemented using an abstract class with only static methods, or using the `Singleton` pattern.
 
 ## UML
 

@@ -1,6 +1,6 @@
 # Decorator
 
-To dynamically add new functionality to class instances.
+> To dynamically add new functionality to class instances.
 
 ## UML
 

@@ -1,6 +1,6 @@
 # Composite
 
-To treat a group of objects the same way as a single instance of the object.
+> To treat a group of objects the same way as a single instance of the object.
 
 ## UML
 

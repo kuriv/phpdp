@@ -1,6 +1,6 @@
 # Proxy
 
-To interface to anything that is expensive or impossible to duplicate.
+> To interface to anything that is expensive or impossible to duplicate.
 
 ## UML
 

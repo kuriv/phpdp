@@ -1,6 +1,6 @@
 # DataMapper
 
-`DataMapper` is a Data Access Layer that performs bidirectional transfer of data between a persistent data store and an in memory data representation. The goal of the pattern is to keep the in memory representation and the persistent data store independent of each other and the data mapper itself. The layer is composed of one or more mappers, performing the data transfer. Generic mappers will handle many different domain entity types, dedicated mappers will handle one or a few.
+> `DataMapper` is a Data Access Layer that performs bidirectional transfer of data between a persistent data store and an in memory data representation. The goal of the pattern is to keep the in memory representation and the persistent data store independent of each other and the data mapper itself. The layer is composed of one or more mappers, performing the data transfer. Generic mappers will handle many different domain entity types, dedicated mappers will handle one or a few.
 
 ## UML
 

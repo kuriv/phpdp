@@ -1,6 +1,6 @@
 # Facade
 
-The primary goal of a `Facade` pattern is not to avoid you having to read the manual of a complex API. It's only a side-effect. The first goal is to reduce coupling and follow the Law of Demeter. A `Facade` is meant to decouple a client and a sub-system by embedding many interface, and of course to reduce complexity.
+> The primary goal of a `Facade` pattern is not to avoid you having to read the manual of a complex API. It's only a side-effect. The first goal is to reduce coupling and follow the Law of Demeter. A `Facade` is meant to decouple a client and a sub-system by embedding many interface, and of course to reduce complexity.
 
 ## UML
 
