@@ -1,6 +1,6 @@
 # TemplateMethod
 
-`TemplateMethod` is a behavioral design pattern. Perhaps you have encountered it many times already. The idea is to let subclasses of this abstract template "finish" the behavior of an algorithm. The user has just to implement one method and the superclass do the job. It is an easy way to decouple concrete classes and reduce copy-paste, that's why you'll find it everywhere.
+> `TemplateMethod` is a behavioral design pattern. Perhaps you have encountered it many times already. The idea is to let subclasses of this abstract template "finish" the behavior of an algorithm. The user has just to implement one method and the superclass do the job. It is an easy way to decouple concrete classes and reduce copy-paste, that's why you'll find it everywhere.
 
 ## UML
 

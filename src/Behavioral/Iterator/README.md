@@ -1,6 +1,6 @@
 # Iterator
 
-To make an object iterable and to make it appear like a collection of objects.
+> To make an object iterable and to make it appear like a collection of objects.
 
 ## UML
 

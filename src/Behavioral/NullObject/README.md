@@ -1,6 +1,6 @@
 # NullObject
 
-`NullObject` is not a GoF design pattern but a schema which appears frequently enough to be considered a pattern.
+> `NullObject` is not a GoF design pattern but a schema which appears frequently enough to be considered a pattern.
 
 ## UML
 
