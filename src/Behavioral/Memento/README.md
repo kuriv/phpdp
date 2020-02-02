@@ -1,6 +1,6 @@
 # Memento
 
-This pattern provides the ability to restore an object to it's previous state or to gain access to state of the object.
+> This pattern provides the ability to restore an object to it's previous state or to gain access to state of the object.
 
 ## UML
 

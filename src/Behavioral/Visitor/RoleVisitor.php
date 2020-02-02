@@ -10,7 +10,7 @@ interface RoleVisitor
      * @param  User   $role
      * @return void
      */
-    public function recordUser(User $role);
+    public function recordUser(User $user);
 
     /**
      * Record group access.
@@ -18,5 +18,5 @@ interface RoleVisitor
      * @param  Group  $role
      * @return void
      */
-    public function recordGroup(Group $role);
+    public function recordGroup(Group $group);
 }

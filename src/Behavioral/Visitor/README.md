@@ -1,6 +1,6 @@
 # Visitor
 
-This pattern lets you outsource operations on objects to other objects. The main reason to do this is to keep a separation of concerns. But classes have to define a contract to allow visitors. The contract is an abstract class but you can have also a clean interface. In that case, each Visitor has to choose itself which method to invoke on the visitor.
+> This pattern lets you outsource operations on objects to other objects. The main reason to do this is to keep a separation of concerns. But classes have to define a contract to allow visitors. The contract is an abstract class but you can have also a clean interface. In that case, each Visitor has to choose itself which method to invoke on the visitor.
 
 ## UML
 
@@ -42,7 +42,7 @@ class User implements Role
      *
      * @var string
      */
-    private $name;
+    private string $name;
 
     /**
      * Store the name to the current instance.
@@ -83,7 +83,7 @@ class Group implements Role
      *
      * @var string
      */
-    private $name;
+    private string $name;
 
     /**
      * Store the name to the current instance.
@@ -125,7 +125,7 @@ interface RoleVisitor
      * @param  User   $role
      * @return void
      */
-    public function recordUser(User $role);
+    public function recordUser(User $user);
 
     /**
      * Record group access.
@@ -133,7 +133,7 @@ interface RoleVisitor
      * @param  Group  $role
      * @return void
      */
-    public function recordGroup(Group $role);
+    public function recordGroup(Group $group);
 }
 
 ```
@@ -152,7 +152,7 @@ class RecordVisitor implements RoleVisitor
      *
      * @var array
      */
-    private $record = [];
+    private array $record = [];
 
     /**
      * Record user access.
@@ -206,13 +206,13 @@ class VisitorTest extends TestCase
     public function testVisitSomeRole()
     {
         $visitor = new RecordVisitor;
-        $role = new User('Kuriv');
-        $role->access($visitor);
-        $this->assertSame($role, $visitor->getRecord()[0]);
+        $user = new User('Kuriv');
+        $user->access($visitor);
+        $this->assertSame($user, $visitor->getRecord()[0]);
 
-        $role = new Group('Administrators');
-        $role->access($visitor);
-        $this->assertSame($role, $visitor->getRecord()[1]);
+        $group = new Group('Administrators');
+        $group->access($visitor);
+        $this->assertSame($group, $visitor->getRecord()[1]);
     }
 }
 

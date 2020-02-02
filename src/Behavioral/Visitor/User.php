@@ -9,7 +9,7 @@ class User implements Role
      *
      * @var string
      */
-    private $name;
+    private string $name;
 
     /**
      * Store the name to the current instance.

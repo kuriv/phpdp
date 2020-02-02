@@ -9,7 +9,7 @@ class RecordVisitor implements RoleVisitor
      *
      * @var array
      */
-    private $record = [];
+    private array $record = [];
 
     /**
      * Record user access.
