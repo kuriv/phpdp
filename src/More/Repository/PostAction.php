@@ -11,14 +11,14 @@ class PostAction implements Action
      *
      * @var int
      */
-    private $id;
+    private int $id = 0;
 
     /**
      * Store the data.
      *
      * @var array
      */
-    private $data = [];
+    private array $data = [];
 
     /**
      * Generate an ID.

@@ -2,7 +2,7 @@
 
 **THIS IS CONSIDERED TO BE AN ANTI-PATTERN!**
 
-To implement a loosely coupled architecture in order to get better testable, maintainable and extendable code. `DependencyInjection` pattern and `ServiceLocator` pattern are an implementation of the Inverse of control pattern.
+> To implement a loosely coupled architecture in order to get better testable, maintainable and extendable code. `DependencyInjection` pattern and `ServiceLocator` pattern are an implementation of the Inverse of control pattern.
 
 ## UML
 

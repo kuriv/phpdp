@@ -11,7 +11,7 @@ class Repository
      *
      * @var Action
      */
-    private $action;
+    private Action $action;
 
     /**
      * Store the action instance to the current instance.
@@ -38,18 +38,18 @@ class Repository
     /**
      * Get the specified instance.
      *
-     * @param  PostID $post_id
+     * @param  PostID $id
      * @return Post
      */
-    public function find(PostID $post_id): Post
+    public function find(PostID $id): Post
     {
         try {
-            $id = $post_id->getID();
-            $array = $this->action->find($id);
+            $id = $id->getID();
+            $result = $this->action->find($id);
         } catch (OutOfBoundsException $e) {
             throw new OutOfBoundsException(sprintf('Post with ID %d does not exist', $id), 0, $e);
         }
-        return Post::getInstance($array);
+        return Post::getInstance($result);
     }
 
     /**
@@ -61,10 +61,10 @@ class Repository
     public function save(Post $post)
     {
         $this->action->save([
-            'id'        => $post->getPostID()->getID(),
+            'id'        => $post->getID()->getID(),
             'title'     => $post->getTitle(),
             'content'   => $post->getContent(),
-            'status_id' => $post->getPostStatus()->getStatusID()
+            'status_id' => $post->getStatus()->getStatusID()
         ]);
     }
 }

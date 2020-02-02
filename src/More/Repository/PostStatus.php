@@ -39,7 +39,7 @@ class PostStatus
      *
      * @var array
      */
-    private static $validStatus = [
+    private static array $validStatus = [
         self::STATUS_DRAFT_ID     => self::STATUS_DRAFT,
         self::STATUS_PUBLISHED_ID => self::STATUS_PUBLISHED
     ];
@@ -49,14 +49,14 @@ class PostStatus
      *
      * @var int
      */
-    private $status_id;
+    private int $status_id;
 
     /**
      * Store the status string.
      *
      * @var string
      */
-    private $status_string;
+    private string $status_string;
 
     /**
      * Store the status ID and status string to the current instance.
@@ -88,7 +88,7 @@ class PostStatus
      * @param  int    $status_id
      * @return PostStatus
      */
-    public static function getInstanceByID(int $status_id): PostStatus
+    public static function getInstanceByStatusID(int $status_id): PostStatus
     {
         if (!isset(self::$validStatus[$status_id])) {
             throw new InvalidArgumentException('Invalid status ID given');
@@ -102,12 +102,12 @@ class PostStatus
      * @param  string $status_string
      * @return PostStatus
      */
-    public static function getInstanceByString(string $status_string): PostStatus
+    public static function getInstanceByStatusString(string $status_string): PostStatus
     {
         if (!in_array($status_string, self::$validStatus, true)) {
             throw new InvalidArgumentException('Invalid status string given');
         }
-        return new self(array_search($status_string, self::$validStatus), $status_string);
+        return new self(array_search($status_string, self::$validStatus, true), $status_string);
     }
 
     /**

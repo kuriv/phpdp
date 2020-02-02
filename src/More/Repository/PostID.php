@@ -11,7 +11,7 @@ class PostID
      *
      * @var int
      */
-    private $id;
+    private int $id;
 
     /**
      * Store the ID to the current instance.

@@ -1,6 +1,6 @@
 # EAV
 
-The Entity–Attribute–Value (EAV) model is a data model to describe entities where the number of attributes that can be used to describe them is potentially vast, but the number that will actually apply to a given entity is relatively modest.
+> The Entity–Attribute–Value (EAV) model is a data model to describe entities where the number of attributes that can be used to describe them is potentially vast, but the number that will actually apply to a given entity is relatively modest.
 
 ## UML
 

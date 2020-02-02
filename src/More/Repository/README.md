@@ -1,6 +1,6 @@
 # Repository
 
-Mediates between the domain and data mapping layers using a collection-like interface for accessing domain objects. `Repository` encapsulates the set of objects persisted in a data store and the operations performed over them, providing a more object-oriented view of the persistence layer. `Repository` also supports the objective of achieving a clean separation and one-way dependency between the domain and data mapping layers.
+> Mediates between the domain and data mapping layers using a collection-like interface for accessing domain objects. `Repository` encapsulates the set of objects persisted in a data store and the operations performed over them, providing a more object-oriented view of the persistence layer. `Repository` also supports the objective of achieving a clean separation and one-way dependency between the domain and data mapping layers.
 
 ## UML
 
@@ -22,57 +22,57 @@ class Post
      *
      * @var PostID
      */
-    private $post_id;
+    private PostID $id;
 
     /**
      * Store the title.
      *
      * @var string
      */
-    private $title;
+    private string $title;
 
     /**
      * Store the content.
      *
      * @var string
      */
-    private $content;
+    private string $content;
 
     /**
      * Store the status instance.
      *
      * @var PostStatus
      */
-    private $post_status;
+    private PostStatus $status;
 
     /**
      * Store the ID instance, title, content and status instance to the current instance.
      *
-     * @param  PostID     $post_id
+     * @param  PostID     $id
      * @param  string     $title
      * @param  string     $content
-     * @param  PostStatus $post_status
+     * @param  PostStatus $status
      * @return void
      */
-    private function __construct(PostID $post_id, string $title, string $content, PostStatus $post_status)
+    private function __construct(PostID $id, string $title, string $content, PostStatus $status)
     {
-        $this->post_id = $post_id;
+        $this->id = $id;
         $this->title = $title;
         $this->content = $content;
-        $this->post_status = $post_status;
+        $this->status = $status;
     }
 
     /**
      * Get the instance of the draft.
      *
-     * @param  PostID $post_id
+     * @param  PostID $id
      * @param  string $title
      * @param  string $content
      * @return Post
      */
-    public static function draft(PostID $post_id, string $title, string $content): Post
+    public static function draft(PostID $id, string $title, string $content): Post
     {
-        return new self($post_id, $title, $content, PostStatus::getInstanceByString(PostStatus::STATUS_DRAFT));
+        return new self($id, $title, $content, PostStatus::getInstanceByStatusString(PostStatus::STATUS_DRAFT));
     }
 
     /**
@@ -83,7 +83,7 @@ class Post
      */
     public static function getInstance(array $array): Post
     {
-        return new self(PostID::getInstance($array['id']), $array['title'], $array['content'], PostStatus::getInstanceByID($array['status_id']));
+        return new self(PostID::getInstance($array['id']), $array['title'], $array['content'], PostStatus::getInstanceByStatusID($array['status_id']));
     }
 
     /**
@@ -92,9 +92,9 @@ class Post
      * @param  void
      * @return PostID
      */
-    public function getPostID(): PostID
+    public function getID(): PostID
     {
-        return $this->post_id;
+        return $this->id;
     }
 
     /**
@@ -125,9 +125,9 @@ class Post
      * @param  void
      * @return PostStatus
      */
-    public function getPostStatus(): PostStatus
+    public function getStatus(): PostStatus
     {
-        return $this->post_status;
+        return $this->status;
     }
 }
 
@@ -149,7 +149,7 @@ class PostID
      *
      * @var int
      */
-    private $id;
+    private int $id;
 
     /**
      * Store the ID to the current instance.
@@ -234,7 +234,7 @@ class PostStatus
      *
      * @var array
      */
-    private static $validStatus = [
+    private static array $validStatus = [
         self::STATUS_DRAFT_ID     => self::STATUS_DRAFT,
         self::STATUS_PUBLISHED_ID => self::STATUS_PUBLISHED
     ];
@@ -244,14 +244,14 @@ class PostStatus
      *
      * @var int
      */
-    private $status_id;
+    private int $status_id;
 
     /**
      * Store the status string.
      *
      * @var string
      */
-    private $status_string;
+    private string $status_string;
 
     /**
      * Store the status ID and status string to the current instance.
@@ -283,7 +283,7 @@ class PostStatus
      * @param  int    $status_id
      * @return PostStatus
      */
-    public static function getInstanceByID(int $status_id): PostStatus
+    public static function getInstanceByStatusID(int $status_id): PostStatus
     {
         if (!isset(self::$validStatus[$status_id])) {
             throw new InvalidArgumentException('Invalid status ID given');
@@ -297,12 +297,12 @@ class PostStatus
      * @param  string $status_string
      * @return PostStatus
      */
-    public static function getInstanceByString(string $status_string): PostStatus
+    public static function getInstanceByStatusString(string $status_string): PostStatus
     {
         if (!in_array($status_string, self::$validStatus, true)) {
             throw new InvalidArgumentException('Invalid status string given');
         }
-        return new self(array_search($status_string, self::$validStatus), $status_string);
+        return new self(array_search($status_string, self::$validStatus, true), $status_string);
     }
 
     /**
@@ -390,14 +390,14 @@ class PostAction implements Action
      *
      * @var int
      */
-    private $id;
+    private int $id = 0;
 
     /**
      * Store the data.
      *
      * @var array
      */
-    private $data = [];
+    private array $data = [];
 
     /**
      * Generate an ID.
@@ -468,7 +468,7 @@ class Repository
      *
      * @var Action
      */
-    private $action;
+    private Action $action;
 
     /**
      * Store the action instance to the current instance.
@@ -495,18 +495,18 @@ class Repository
     /**
      * Get the specified instance.
      *
-     * @param  PostID $post_id
+     * @param  PostID $id
      * @return Post
      */
-    public function find(PostID $post_id): Post
+    public function find(PostID $id): Post
     {
         try {
-            $id = $post_id->getID();
-            $array = $this->action->find($id);
+            $id = $id->getID();
+            $result = $this->action->find($id);
         } catch (OutOfBoundsException $e) {
             throw new OutOfBoundsException(sprintf('Post with ID %d does not exist', $id), 0, $e);
         }
-        return Post::getInstance($array);
+        return Post::getInstance($result);
     }
 
     /**
@@ -518,10 +518,10 @@ class Repository
     public function save(Post $post)
     {
         $this->action->save([
-            'id'        => $post->getPostID()->getID(),
+            'id'        => $post->getID()->getID(),
             'title'     => $post->getTitle(),
             'content'   => $post->getContent(),
-            'status_id' => $post->getPostStatus()->getStatusID()
+            'status_id' => $post->getStatus()->getStatusID()
         ]);
     }
 }
@@ -559,11 +559,11 @@ class RepositoryTest extends TestCase
     public function testCanSavePostDraft()
     {
         $repository = new Repository(new PostAction);
-        $post_id = $repository->generateID();
-        $post = Post::draft($post_id, 'Repository Pattern', 'PHP Design Patterns');
+        $id = $repository->generateID();
+        $post = Post::draft($id, 'Repository', 'PHP Design Patterns');
         $repository->save($post);
-        $this->assertEquals($post_id, $repository->find($post_id)->getPostID());
-        $this->assertEquals(PostStatus::STATUS_DRAFT, (string) $post->getPostStatus());
+        $this->assertEquals($id, $repository->find($id)->getID());
+        $this->assertEquals(PostStatus::STATUS_DRAFT, (string) $post->getStatus());
     }
 }
 
