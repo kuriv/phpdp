@@ -1,6 +1,6 @@
 # StaticFactory
 
-> Similar to the `AbstractFactory` , this pattern is used to create series of related or dependent objects. The difference between this and the `AbstractFactory` pattern is that this pattern uses just one static method to create all types of objects it can create.
+> Similar to the `AbstractFactory` , this pattern is used to create series of related or dependent objects. The difference between this and the `AbstractFactory` is that this pattern uses just one static method to create all types of objects it can create.
 
 ## UML
 
