@@ -1,6 +1,8 @@
 # phpdp
 
-[![phpdp][phpdp-image]][phpdp-url]
+<a href="https://github.com/kuriv/phpdp">
+	<img src="phpdp.png" width="80" height="80" align="right">
+</a>
 
 > Sample code for several design patterns in PHP.
 
@@ -34,7 +36,23 @@ composer require kuriv/phpdp
 
 ### [More](src/More)
 
+* [EAV](src/More/EAV)
+* [Repository](src/More/Repository)
+* [ServiceLocator](src/More/ServiceLocator)
+
 ### [Structural](src/Structural)
+
+* [Adapter](src/Structural/Adapter)
+* [Bridge](src/Structural/Bridge)
+* [Composite](src/Structural/Composite)
+* [DataMapper](src/Structural/DataMapper)
+* [Decorator](src/Structural/Decorator)
+* [DependencyInjection](src/Structural/DependencyInjection)
+* [Facade](src/Structural/Facade)
+* [FluentInterface](src/Structural/FluentInterface)
+* [Flyweight](src/Structural/Flyweight)
+* [Proxy](src/Structural/Proxy)
+* [Registry](src/Structural/Registry)
 
 ## License
 
@@ -42,8 +60,6 @@ composer require kuriv/phpdp
 
 
 
-[phpdp-image]: https://github.com/kuriv/phpdp/phpdp.png	"phpdp"
-[phpdp-url]: https://github.com/kuriv/phpdp	"phpdp"
 [build-image]: https://img.shields.io/badge/build-passing-brightgreen	"build"
 [build-url]: https://github.com/kuriv/phpdp	"build"
 [version-image]: https://img.shields.io/badge/version-v1.0.1-blue	"version"
