@@ -15,8 +15,6 @@ Handler.php
 
 namespace Kuriv\PHPDesignPatterns\Behavioral\ChainOfResponsibilities;
 
-use Psr\Http\Message\RequestInterface;
-
 abstract class Handler
 {
     /**
@@ -40,10 +38,10 @@ abstract class Handler
     /**
      * Return the processed data.
      *
-     * @param  RequestInterface $request
+     * @param  int    $request
      * @return string
      */
-    final public function handle(RequestInterface $request): string
+    final public function handle(int $request): string
     {
         $data = $this->process($request);
         if (empty($data) && isset($this->handler)) {
@@ -55,80 +53,78 @@ abstract class Handler
     /**
      * Process required data.
      *
-     * @param  RequestInterface $request
+     * @param  int    $request
      * @return string
      */
-    abstract protected function process(RequestInterface $request): string;
+    abstract protected function process(int $request): string;
 }
 
 ```
 
-HttpInMemoryCacheHandler.php
+FooHandler.php
 
 ```php
 <?php
 
 namespace Kuriv\PHPDesignPatterns\Behavioral\ChainOfResponsibilities;
 
-use Psr\Http\Message\RequestInterface;
-
-class HttpInMemoryCacheHandler extends Handler
+class FooHandler extends Handler
 {
-    /**
-     * Store some data here.
-     *
-     * @var array
-     */
-    private array $data = [];
-
-    /**
-     * Store some data to the current instance and store the handler instance to the parent instance.
-     *
-     * @param  array        $data
-     * @param  Handler|null $handler
-     * @return void
-     */
-    public function __construct(array $data, Handler $handler = null)
-    {
-        $this->data = $data;
-        parent::__construct($handler);
-    }
-
     /**
      * Process required data.
      *
-     * @param  RequestInterface $request
+     * @param  int    $request
      * @return string
      */
-    protected function process(RequestInterface $request): string
+    protected function process(int $request): string
     {
-        $key = sprintf('%s?%s', $request->getUri()->getPath(), $request->getUri()->getQuery());
-        return ($request->getMethod() == 'GET' && isset($this->data[$key])) ? $this->data[$key] : '';
+        return $request > 0 ? 'Foo' : '';
     }
 }
 
 ```
 
-SlowDatabaseHandler.php
+BarHandler.php
 
 ```php
 <?php
 
 namespace Kuriv\PHPDesignPatterns\Behavioral\ChainOfResponsibilities;
 
-use Psr\Http\Message\RequestInterface;
-
-class SlowDatabaseHandler extends Handler
+class BarHandler extends Handler
 {
     /**
      * Process required data.
      *
-     * @param  RequestInterface $request
+     * @param  int    $request
      * @return string
      */
-    protected function process(RequestInterface $request): string
+    protected function process(int $request): string
     {
-        return 'Hello World!';
+        return $request < 0 ? 'Bar' : '';
+    }
+}
+
+```
+
+BazHandler.php
+
+```php
+<?php
+
+namespace Kuriv\PHPDesignPatterns\Behavioral\ChainOfResponsibilities;
+
+class BazHandler extends Handler
+{
+    /**
+     * Process required data.
+     *
+     * @param  int    $request
+     * @return string
+     */
+    protected function process(int $request): string
+    {
+        return $request == 0 ? 'Baz' : '';
     }
 }
 
@@ -144,33 +140,16 @@ ChainOfResponsibilitiesTest.php
 namespace Kuriv\PHPDesignPatterns\Behavioral\ChainOfResponsibilities;
 
 use PHPUnit\Framework\TestCase;
-use Psr\Http\Message\UriInterface;
-use Psr\Http\Message\RequestInterface;
 
 class ChainOfResponsibilitiesTest extends TestCase
 {
-    public function testCanRequestKeyInFastStorage()
-    {
-        $chain = new HttpInMemoryCacheHandler(['/foo/bar?index=1' => 'Hello In Memory!'], new SlowDatabaseHandler);
-        $uri = $this->createMock(UriInterface::class);
-        $uri->method('getPath')->willReturn('/foo/bar');
-        $uri->method('getQuery')->willReturn('index=1');
-        $request = $this->createMock(RequestInterface::class);
-        $request->method('getMethod')->willReturn('GET');
-        $request->method('getUri')->willReturn($uri);
-        $this->assertSame('Hello In Memory!', $chain->handle($request));
-    }
+    private $requests = [1, -1, 2, 0];
 
-    public function testCanRequestKeyInSlowStorage()
+    public function testCanHandleDifferentRequests()
     {
-        $chain = new HttpInMemoryCacheHandler(['/foo/bar?index=1' => 'Hello In Memory!'], new SlowDatabaseHandler);
-        $uri = $this->createMock(UriInterface::class);
-        $uri->method('getPath')->willReturn('/foo/baz');
-        $uri->method('getQuery')->willReturn('');
-        $request = $this->createMock(RequestInterface::class);
-        $request->method('getMethod')->willReturn('GET');
-        $request->method('getUri')->willReturn($uri);
-        $this->assertSame('Hello World!', $chain->handle($request));
+        $handler = new FooHandler(new BarHandler(new BazHandler));
+        $data = array_map(fn(int $value): string => $handler->handle($value), $this->requests);
+        $this->assertEquals(['Foo', 'Bar', 'Foo', 'Baz'], $data);
     }
 }
 

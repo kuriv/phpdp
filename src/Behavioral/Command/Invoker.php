@@ -23,12 +23,12 @@ class Invoker
     }
 
     /**
-     * Run the command.
+     * Execute some commands here.
      *
      * @param  void
      * @return void
      */
-    public function run()
+    public function execute()
     {
         $this->command->execute();
     }

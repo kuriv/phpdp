@@ -2,8 +2,6 @@
 
 namespace Kuriv\PHPDesignPatterns\Behavioral\ChainOfResponsibilities;
 
-use Psr\Http\Message\RequestInterface;
-
 abstract class Handler
 {
     /**
@@ -27,10 +25,10 @@ abstract class Handler
     /**
      * Return the processed data.
      *
-     * @param  RequestInterface $request
+     * @param  int    $request
      * @return string
      */
-    final public function handle(RequestInterface $request): string
+    final public function handle(int $request): string
     {
         $data = $this->process($request);
         if (empty($data) && isset($this->handler)) {
@@ -42,8 +40,8 @@ abstract class Handler
     /**
      * Process required data.
      *
-     * @param  RequestInterface $request
+     * @param  int    $request
      * @return string
      */
-    abstract protected function process(RequestInterface $request): string;
+    abstract protected function process(int $request): string;
 }

@@ -1,6 +1,6 @@
 # Command
 
-> To encapsulate invocation and decoupling. This pattern uses a "Command" to delegate the method call against the Receiver and presents the same method. Therefore, the Invoker just knows to call the method to process the command of the client. This pattern can also be aggregated to combine more complex commands with minimum copy-paste and relying on composition over inheritance.
+> To encapsulate invocation and decoupling. This pattern uses a "Command" to delegate the method call against the receiver and presents the same method. Therefore, the Invoker just knows to call the method to process the command of the client. This pattern can also be aggregated to combine more complex commands with minimum copy-paste and relying on composition over inheritance.
 
 ## UML
 
@@ -63,79 +63,7 @@ class HelloWorldCommand implements Command
      */
     public function execute()
     {
-        $this->receiver->write('Hello World');
-    }
-}
-
-```
-
-UndoableCommand.php
-
-```php
-<?php
-
-namespace Kuriv\PHPDesignPatterns\Behavioral\Command;
-
-interface UndoableCommand extends Command
-{
-    /**
-     * Execute some other commands here.
-     *
-     * @param  void
-     * @return void
-     */
-    public function undo();
-}
-
-```
-
-AddMessageDateCommand.php
-
-```php
-<?php
-
-namespace Kuriv\PHPDesignPatterns\Behavioral\Command;
-
-class AddMessageDateCommand implements UndoableCommand
-{
-    /**
-     * Store the receiver instance.
-     *
-     * @var Receiver
-     */
-    private Receiver $receiver;
-
-    /**
-     * Store the receiver instance to the current instance.
-     *
-     * @param  Receiver $receiver
-     * @return void
-     */
-    public function __construct(Receiver $receiver)
-    {
-        $this->receiver = $receiver;
-    }
-
-    /**
-     * Execute some commands here.
-     *
-     * @param  void
-     * @return void
-     */
-    public function execute()
-    {
-        $this->receiver->enable();
-    }
-
-    /**
-     * Execute some other commands here.
-     *
-     * @param  void
-     * @return void
-     */
-    public function undo()
-    {
-        $this->receiver->disable();
+        $this->receiver->addOutput('Hello World');
     }
 }
 
@@ -169,12 +97,12 @@ class Invoker
     }
 
     /**
-     * Run the command.
+     * Execute some commands here.
      *
      * @param  void
      * @return void
      */
-    public function run()
+    public function execute()
     {
         $this->command->execute();
     }
@@ -192,13 +120,6 @@ namespace Kuriv\PHPDesignPatterns\Behavioral\Command;
 class Receiver
 {
     /**
-     * Store the date display status.
-     *
-     * @var bool
-     */
-    private bool $display = false;
-
-    /**
      * Store the output string.
      *
      * @var array
@@ -206,16 +127,13 @@ class Receiver
     private array $output = [];
 
     /**
-     * Write the output string.
+     * Add the output string.
      *
      * @param  string $string
      * @return void
      */
-    public function write(string $string)
+    public function addOutput(string $string)
     {
-        if ($this->display) {
-            $string .= ' ['.date('Y-m-d').']';
-        }
         $this->output[] = $string;
     }
 
@@ -228,28 +146,6 @@ class Receiver
     public function getOutput(): string
     {
         return implode("\n", $this->output);
-    }
-
-    /**
-     * Enable date display.
-     *
-     * @param  void
-     * @return void
-     */
-    public function enable()
-    {
-        $this->display = true;
-    }
-
-    /**
-     * Disable date display.
-     *
-     * @param  void
-     * @return void
-     */
-    public function disable()
-    {
-        $this->display = false;
     }
 }
 
@@ -273,40 +169,8 @@ class CommandTest extends TestCase
         $invoker = new Invoker;
         $receiver = new Receiver;
         $invoker->setCommand(new HelloWorldCommand($receiver));
-        $invoker->run();
+        $invoker->execute();
         $this->assertSame('Hello World', $receiver->getOutput());
-    }
-}
-
-```
-
-UndoableCommandTest.php
-
-```php
-<?php
-
-namespace Kuriv\PHPDesignPatterns\Behavioral\Command;
-
-use PHPUnit\Framework\TestCase;
-
-class UndoableCommandTest extends TestCase
-{
-    public function testInvocation()
-    {
-        $invoker = new Invoker;
-        $receiver = new Receiver;
-        $invoker->setCommand(new HelloWorldCommand($receiver));
-        $invoker->run();
-        $this->assertSame('Hello World', $receiver->getOutput());
-
-        $addMessageDateCommand = new AddMessageDateCommand($receiver);
-        $addMessageDateCommand->execute();
-        $invoker->run();
-        $this->assertSame("Hello World\nHello World [".date('Y-m-d').']', $receiver->getOutput());
-
-        $addMessageDateCommand->undo();
-        $invoker->run();
-        $this->assertSame("Hello World\nHello World [".date('Y-m-d')."]\nHello World", $receiver->getOutput());
     }
 }
 

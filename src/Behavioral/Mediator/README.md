@@ -1,6 +1,6 @@
 # Mediator
 
-> This pattern provides an easy way to decouple many components working together. All components are only coupled to the Mediator interface and it is a good thing because in OOP, one good friend is better than many. This is the key-feature of this pattern.
+> This pattern provides an easy way to decouple many components working together. All components are only coupled to the `Mediator` interface and it is a good thing because in OOP, one good friend is better than many. This is the key-feature of this pattern.
 
 ## UML
 

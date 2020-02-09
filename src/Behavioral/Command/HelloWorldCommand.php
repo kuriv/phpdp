@@ -30,6 +30,6 @@ class HelloWorldCommand implements Command
      */
     public function execute()
     {
-        $this->receiver->write('Hello World');
+        $this->receiver->addOutput('Hello World');
     }
 }

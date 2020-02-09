@@ -22,6 +22,19 @@ composer require kuriv/phpdp
 
 ### [Behavioral](src/Behavioral)
 
+* [ChainOfResponsibilities](src/Behavioral/ChainOfResponsibilities)
+* [Command](src/Behavioral/Command)
+* [Iterator](src/Behavioral/Iterator)
+* [Mediator](src/Behavioral/Mediator)
+* [Memento](src/Behavioral/Memento)
+* [NullObject](src/Behavioral/NullObject)
+* [Observer](src/Behavioral/Observer)
+* [Specification](src/Behavioral/Specification)
+* [State](src/Behavioral/State)
+* [Strategy](src/Behavioral/Strategy)
+* [TemplateMethod](src/Behavioral/TemplateMethod)
+* [Visitor](src/Behavioral/Visitor)
+
 ### [Creational](src/Creational)
 
 * [AbstractFactory](src/Creational/AbstractFactory)
