@@ -69,7 +69,7 @@ composer require kuriv/phpdp
 
 ## License
 
-`phpdp` is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+`phpdp` is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT) .
 
 
 
