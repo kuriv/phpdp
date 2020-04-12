@@ -12,6 +12,12 @@
 
 ## Installation
 
+**Git**
+
+```
+git clone https://github.com/kuriv/phpdp.git
+```
+
 **Composer**
 
 ```
