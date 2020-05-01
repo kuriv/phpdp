@@ -12,5 +12,6 @@ class FooPrototype extends Prototype
      */
     public function __clone()
     {
+        //
     }
 }

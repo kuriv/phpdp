@@ -34,6 +34,7 @@ final class Singleton
      */
     private function __construct()
     {
+        //
     }
 
     /**
@@ -44,6 +45,7 @@ final class Singleton
      */
     private function __clone()
     {
+        //
     }
 
     /**
@@ -54,6 +56,7 @@ final class Singleton
      */
     private function __wakeup()
     {
+        //
     }
 
     /**

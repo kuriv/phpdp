@@ -8,14 +8,14 @@ class FactoryMethodTest extends TestCase
 {
     public function testCanCreateBus()
     {
-        $busFactory = new BusFactory;
+        $busFactory = new BusFactory();
         $bus = $busFactory->createVehicle();
         $this->assertInstanceOf(Bus::class, $bus);
     }
 
     public function testCanCreateCar()
     {
-        $carFactory = new CarFactory;
+        $carFactory = new CarFactory();
         $car = $carFactory->createVehicle();
         $this->assertInstanceOf(Car::class, $car);
     }

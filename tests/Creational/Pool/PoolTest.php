@@ -8,7 +8,7 @@ class PoolTest extends TestCase
 {
     public function testCanGetNewInstancesWithCreate()
     {
-        $pool = new ThreadPool;
+        $pool = new ThreadPool();
         $firstThread = $pool->createThread();
         $secondThread = $pool->createThread();
         $this->assertCount(2, $pool);
@@ -17,7 +17,7 @@ class PoolTest extends TestCase
 
     public function testCanGetSameInstanceTwiceWhenReleaseItFirst()
     {
-        $pool = new ThreadPool;
+        $pool = new ThreadPool();
         $firstThread = $pool->createThread();
         $pool->releaseThread($firstThread);
         $secondThread = $pool->createThread();

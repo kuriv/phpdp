@@ -17,6 +17,7 @@ namespace Kuriv\PHPDesignPatterns\Creational\Pool;
 
 class Thread
 {
+    //
 }
 
 ```
@@ -54,7 +55,7 @@ class ThreadPool implements Countable
      */
     public function createThread(): Thread
     {
-        $thread = count($this->idleThread) == 0 ? new Thread : array_pop($this->idleThread);
+        $thread = count($this->idleThread) == 0 ? new Thread() : array_pop($this->idleThread);
         return $this->busyThread[spl_object_hash($thread)] = $thread;
     }
 
@@ -102,7 +103,7 @@ class PoolTest extends TestCase
 {
     public function testCanGetNewInstancesWithCreate()
     {
-        $pool = new ThreadPool;
+        $pool = new ThreadPool();
         $firstThread = $pool->createThread();
         $secondThread = $pool->createThread();
         $this->assertCount(2, $pool);
@@ -111,7 +112,7 @@ class PoolTest extends TestCase
 
     public function testCanGetSameInstanceTwiceWhenReleaseItFirst()
     {
-        $pool = new ThreadPool;
+        $pool = new ThreadPool();
         $firstThread = $pool->createThread();
         $pool->releaseThread($firstThread);
         $secondThread = $pool->createThread();

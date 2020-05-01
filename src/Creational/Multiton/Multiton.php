@@ -19,6 +19,7 @@ final class Multiton
      */
     private function __construct()
     {
+        //
     }
 
     /**
@@ -29,6 +30,7 @@ final class Multiton
      */
     private function __clone()
     {
+        //
     }
 
     /**
@@ -39,6 +41,7 @@ final class Multiton
      */
     private function __wakeup()
     {
+        //
     }
 
     /**

@@ -12,7 +12,7 @@ class CarFactory implements VehicleFactory
      */
     public function createEngine(): Engine
     {
-        return new CarEngine;
+        return new CarEngine();
     }
 
     /**
@@ -23,6 +23,6 @@ class CarFactory implements VehicleFactory
      */
     public function createWheel(): Wheel
     {
-        return new CarWheel;
+        return new CarWheel();
     }
 }

@@ -19,7 +19,7 @@ class BusFactory implements VehicleFactory
      */
     public function createVehicle()
     {
-        $this->vehicle = new Bus;
+        $this->vehicle = new Bus();
     }
 
     /**
@@ -30,7 +30,7 @@ class BusFactory implements VehicleFactory
      */
     public function installEngine()
     {
-        $this->vehicle->installParts('busEngine', new Engine);
+        $this->vehicle->installParts('busEngine', new Engine());
     }
 
     /**
@@ -41,10 +41,10 @@ class BusFactory implements VehicleFactory
      */
     public function installWheel()
     {
-        $this->vehicle->installParts('busWheel1', new Wheel);
-        $this->vehicle->installParts('busWheel2', new Wheel);
-        $this->vehicle->installParts('busWheel3', new Wheel);
-        $this->vehicle->installParts('busWheel4', new Wheel);
+        $this->vehicle->installParts('busWheel1', new Wheel());
+        $this->vehicle->installParts('busWheel2', new Wheel());
+        $this->vehicle->installParts('busWheel3', new Wheel());
+        $this->vehicle->installParts('busWheel4', new Wheel());
     }
 
     /**

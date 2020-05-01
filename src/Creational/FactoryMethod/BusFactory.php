@@ -12,6 +12,6 @@ class BusFactory implements VehicleFactory
      */
     public function createVehicle(): Vehicle
     {
-        return new Bus;
+        return new Bus();
     }
 }

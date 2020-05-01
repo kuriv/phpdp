@@ -17,6 +17,7 @@ namespace Kuriv\PHPDesignPatterns\Creational\AbstractFactory;
 
 abstract class Engine
 {
+    //
 }
 
 ```
@@ -30,6 +31,7 @@ namespace Kuriv\PHPDesignPatterns\Creational\AbstractFactory;
 
 class BusEngine extends Engine
 {
+    //
 }
 
 ```
@@ -43,6 +45,7 @@ namespace Kuriv\PHPDesignPatterns\Creational\AbstractFactory;
 
 class CarEngine extends Engine
 {
+    //
 }
 
 ```
@@ -56,6 +59,7 @@ namespace Kuriv\PHPDesignPatterns\Creational\AbstractFactory;
 
 abstract class Wheel
 {
+    //
 }
 
 ```
@@ -69,6 +73,7 @@ namespace Kuriv\PHPDesignPatterns\Creational\AbstractFactory;
 
 class BusWheel extends Wheel
 {
+    //
 }
 
 ```
@@ -82,6 +87,7 @@ namespace Kuriv\PHPDesignPatterns\Creational\AbstractFactory;
 
 class CarWheel extends Wheel
 {
+    //
 }
 
 ```
@@ -131,7 +137,7 @@ class BusFactory implements VehicleFactory
      */
     public function createEngine(): Engine
     {
-        return new BusEngine;
+        return new BusEngine();
     }
 
     /**
@@ -142,7 +148,7 @@ class BusFactory implements VehicleFactory
      */
     public function createWheel(): Wheel
     {
-        return new BusWheel;
+        return new BusWheel();
     }
 }
 
@@ -165,7 +171,7 @@ class CarFactory implements VehicleFactory
      */
     public function createEngine(): Engine
     {
-        return new CarEngine;
+        return new CarEngine();
     }
 
     /**
@@ -176,7 +182,7 @@ class CarFactory implements VehicleFactory
      */
     public function createWheel(): Wheel
     {
-        return new CarWheel;
+        return new CarWheel();
     }
 }
 
@@ -197,28 +203,28 @@ class AbstractFactoryTest extends TestCase
 {
     public function testCanCreateBusEngine()
     {
-        $busFactory = new BusFactory;
+        $busFactory = new BusFactory();
         $busEngine = $busFactory->createEngine();
         $this->assertInstanceOf(Engine::class, $busEngine);
     }
 
     public function testCanCreateBusWheel()
     {
-        $busFactory = new BusFactory;
+        $busFactory = new BusFactory();
         $busWheel = $busFactory->createWheel();
         $this->assertInstanceOf(Wheel::class, $busWheel);
     }
 
     public function testCanCreateCarEngine()
     {
-        $carFactory = new CarFactory;
+        $carFactory = new CarFactory();
         $carEngine = $carFactory->createEngine();
         $this->assertInstanceOf(Engine::class, $carEngine);
     }
 
     public function testCanCreateCarWheel()
     {
-        $carFactory = new CarFactory;
+        $carFactory = new CarFactory();
         $carWheel = $carFactory->createWheel();
         $this->assertInstanceOf(Wheel::class, $carWheel);
     }

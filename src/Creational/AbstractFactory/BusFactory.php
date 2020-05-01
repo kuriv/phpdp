@@ -12,7 +12,7 @@ class BusFactory implements VehicleFactory
      */
     public function createEngine(): Engine
     {
-        return new BusEngine;
+        return new BusEngine();
     }
 
     /**
@@ -23,6 +23,6 @@ class BusFactory implements VehicleFactory
      */
     public function createWheel(): Wheel
     {
-        return new BusWheel;
+        return new BusWheel();
     }
 }

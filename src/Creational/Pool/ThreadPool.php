@@ -28,7 +28,7 @@ class ThreadPool implements Countable
      */
     public function createThread(): Thread
     {
-        $thread = count($this->idleThread) == 0 ? new Thread : array_pop($this->idleThread);
+        $thread = count($this->idleThread) == 0 ? new Thread() : array_pop($this->idleThread);
         return $this->busyThread[spl_object_hash($thread)] = $thread;
     }
 

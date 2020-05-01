@@ -19,7 +19,7 @@ class CarFactory implements VehicleFactory
      */
     public function createVehicle()
     {
-        $this->vehicle = new Car;
+        $this->vehicle = new Car();
     }
 
     /**
@@ -30,7 +30,7 @@ class CarFactory implements VehicleFactory
      */
     public function installEngine()
     {
-        $this->vehicle->installParts('carEngine', new Engine);
+        $this->vehicle->installParts('carEngine', new Engine());
     }
 
     /**
@@ -41,10 +41,10 @@ class CarFactory implements VehicleFactory
      */
     public function installWheel()
     {
-        $this->vehicle->installParts('carWheel1', new Wheel);
-        $this->vehicle->installParts('carWheel2', new Wheel);
-        $this->vehicle->installParts('carWheel3', new Wheel);
-        $this->vehicle->installParts('carWheel4', new Wheel);
+        $this->vehicle->installParts('carWheel1', new Wheel());
+        $this->vehicle->installParts('carWheel2', new Wheel());
+        $this->vehicle->installParts('carWheel3', new Wheel());
+        $this->vehicle->installParts('carWheel4', new Wheel());
     }
 
     /**

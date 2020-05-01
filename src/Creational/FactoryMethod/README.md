@@ -17,6 +17,7 @@ namespace Kuriv\PHPDesignPatterns\Creational\FactoryMethod;
 
 abstract class Vehicle
 {
+    //
 }
 
 ```
@@ -30,6 +31,7 @@ namespace Kuriv\PHPDesignPatterns\Creational\FactoryMethod;
 
 class Bus extends Vehicle
 {
+    //
 }
 
 ```
@@ -43,6 +45,7 @@ namespace Kuriv\PHPDesignPatterns\Creational\FactoryMethod;
 
 class Car extends Vehicle
 {
+    //
 }
 
 ```
@@ -84,7 +87,7 @@ class BusFactory implements VehicleFactory
      */
     public function createVehicle(): Vehicle
     {
-        return new Bus;
+        return new Bus();
     }
 }
 
@@ -107,7 +110,7 @@ class CarFactory implements VehicleFactory
      */
     public function createVehicle(): Vehicle
     {
-        return new Car;
+        return new Car();
     }
 }
 
@@ -128,14 +131,14 @@ class FactoryMethodTest extends TestCase
 {
     public function testCanCreateBus()
     {
-        $busFactory = new BusFactory;
+        $busFactory = new BusFactory();
         $bus = $busFactory->createVehicle();
         $this->assertInstanceOf(Bus::class, $bus);
     }
 
     public function testCanCreateCar()
     {
-        $carFactory = new CarFactory;
+        $carFactory = new CarFactory();
         $car = $carFactory->createVehicle();
         $this->assertInstanceOf(Car::class, $car);
     }

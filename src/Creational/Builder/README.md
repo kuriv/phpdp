@@ -17,6 +17,7 @@ namespace Kuriv\PHPDesignPatterns\Creational\Builder;
 
 abstract class Parts
 {
+    //
 }
 
 ```
@@ -30,6 +31,7 @@ namespace Kuriv\PHPDesignPatterns\Creational\Builder;
 
 class Engine extends Parts
 {
+    //
 }
 
 ```
@@ -43,6 +45,7 @@ namespace Kuriv\PHPDesignPatterns\Creational\Builder;
 
 class Wheel extends Parts
 {
+    //
 }
 
 ```
@@ -87,6 +90,7 @@ namespace Kuriv\PHPDesignPatterns\Creational\Builder;
 
 class Bus extends Vehicle
 {
+    //
 }
 
 ```
@@ -100,6 +104,7 @@ namespace Kuriv\PHPDesignPatterns\Creational\Builder;
 
 class Car extends Vehicle
 {
+    //
 }
 
 ```
@@ -172,7 +177,7 @@ class BusFactory implements VehicleFactory
      */
     public function createVehicle()
     {
-        $this->vehicle = new Bus;
+        $this->vehicle = new Bus();
     }
 
     /**
@@ -183,7 +188,7 @@ class BusFactory implements VehicleFactory
      */
     public function installEngine()
     {
-        $this->vehicle->installParts('busEngine', new Engine);
+        $this->vehicle->installParts('busEngine', new Engine());
     }
 
     /**
@@ -194,10 +199,10 @@ class BusFactory implements VehicleFactory
      */
     public function installWheel()
     {
-        $this->vehicle->installParts('busWheel1', new Wheel);
-        $this->vehicle->installParts('busWheel2', new Wheel);
-        $this->vehicle->installParts('busWheel3', new Wheel);
-        $this->vehicle->installParts('busWheel4', new Wheel);
+        $this->vehicle->installParts('busWheel1', new Wheel());
+        $this->vehicle->installParts('busWheel2', new Wheel());
+        $this->vehicle->installParts('busWheel3', new Wheel());
+        $this->vehicle->installParts('busWheel4', new Wheel());
     }
 
     /**
@@ -238,7 +243,7 @@ class CarFactory implements VehicleFactory
      */
     public function createVehicle()
     {
-        $this->vehicle = new Car;
+        $this->vehicle = new Car();
     }
 
     /**
@@ -249,7 +254,7 @@ class CarFactory implements VehicleFactory
      */
     public function installEngine()
     {
-        $this->vehicle->installParts('carEngine', new Engine);
+        $this->vehicle->installParts('carEngine', new Engine());
     }
 
     /**
@@ -260,10 +265,10 @@ class CarFactory implements VehicleFactory
      */
     public function installWheel()
     {
-        $this->vehicle->installParts('carWheel1', new Wheel);
-        $this->vehicle->installParts('carWheel2', new Wheel);
-        $this->vehicle->installParts('carWheel3', new Wheel);
-        $this->vehicle->installParts('carWheel4', new Wheel);
+        $this->vehicle->installParts('carWheel1', new Wheel());
+        $this->vehicle->installParts('carWheel2', new Wheel());
+        $this->vehicle->installParts('carWheel3', new Wheel());
+        $this->vehicle->installParts('carWheel4', new Wheel());
     }
 
     /**
@@ -321,15 +326,15 @@ class BuilderTest extends TestCase
 {
     public function testCanBuildBus()
     {
-        $busFactory = new BusFactory;
-        $bus = (new Builder)->build($busFactory);
+        $busFactory = new BusFactory();
+        $bus = (new Builder())->build($busFactory);
         $this->assertInstanceOf(Bus::class, $bus);
     }
 
     public function testCanBuildCar()
     {
-        $carFactory = new CarFactory;
-        $car = (new Builder)->build($carFactory);
+        $carFactory = new CarFactory();
+        $car = (new Builder())->build($carFactory);
         $this->assertInstanceOf(Car::class, $car);
     }
 }

@@ -12,5 +12,6 @@ class BarPrototype extends Prototype
      */
     public function __clone()
     {
+        //
     }
 }

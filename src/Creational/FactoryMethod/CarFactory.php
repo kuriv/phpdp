@@ -12,6 +12,6 @@ class CarFactory implements VehicleFactory
      */
     public function createVehicle(): Vehicle
     {
-        return new Car;
+        return new Car();
     }
 }

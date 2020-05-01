@@ -17,6 +17,7 @@ namespace Kuriv\PHPDesignPatterns\Creational\StaticFactory;
 
 abstract class Vehicle
 {
+    //
 }
 
 ```
@@ -30,6 +31,7 @@ namespace Kuriv\PHPDesignPatterns\Creational\StaticFactory;
 
 class Bus extends Vehicle
 {
+    //
 }
 
 ```
@@ -43,6 +45,7 @@ namespace Kuriv\PHPDesignPatterns\Creational\StaticFactory;
 
 class Car extends Vehicle
 {
+    //
 }
 
 ```
@@ -65,10 +68,10 @@ class StaticFactory
     public static function createVehicle(string $name): Vehicle
     {
         if ($name == 'Bus') {
-            return new Bus;
+            return new Bus();
         }
         if ($name == 'Car') {
-            return new Car;
+            return new Car();
         }
     }
 }

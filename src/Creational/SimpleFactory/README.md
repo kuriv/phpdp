@@ -17,6 +17,7 @@ namespace Kuriv\PHPDesignPatterns\Creational\SimpleFactory;
 
 abstract class Vehicle
 {
+    //
 }
 
 ```
@@ -30,6 +31,7 @@ namespace Kuriv\PHPDesignPatterns\Creational\SimpleFactory;
 
 class Bus extends Vehicle
 {
+    //
 }
 
 ```
@@ -43,6 +45,7 @@ namespace Kuriv\PHPDesignPatterns\Creational\SimpleFactory;
 
 class Car extends Vehicle
 {
+    //
 }
 
 ```
@@ -65,10 +68,10 @@ class SimpleFactory
     public function createVehicle(string $name): Vehicle
     {
         if ($name == 'Bus') {
-            return new Bus;
+            return new Bus();
         }
         if ($name == 'Car') {
-            return new Car;
+            return new Car();
         }
     }
 }
@@ -90,13 +93,13 @@ class SimpleFactoryTest extends TestCase
 {
     public function testCanCreateBus()
     {
-        $bus = (new SimpleFactory)->createVehicle('Bus');
+        $bus = (new SimpleFactory())->createVehicle('Bus');
         $this->assertInstanceOf(Bus::class, $bus);
     }
 
     public function testCanCreateCar()
     {
-        $car = (new SimpleFactory)->createVehicle('Car');
+        $car = (new SimpleFactory())->createVehicle('Car');
         $this->assertInstanceOf(Car::class, $car);
     }
 }

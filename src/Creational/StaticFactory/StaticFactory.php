@@ -13,10 +13,10 @@ class StaticFactory
     public static function createVehicle(string $name): Vehicle
     {
         if ($name == 'Bus') {
-            return new Bus;
+            return new Bus();
         }
         if ($name == 'Car') {
-            return new Car;
+            return new Car();
         }
     }
 }
