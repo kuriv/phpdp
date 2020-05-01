@@ -11,28 +11,28 @@ class State
      *
      * @var string
      */
-    const STATE_CREATED = 'Created';
+    public const STATE_CREATED = 'Created';
 
     /**
      * Just a test constant.
      *
      * @var string
      */
-    const STATE_OPENED = 'Opened';
+    public const STATE_OPENED = 'Opened';
 
     /**
      * Just a test constant.
      *
      * @var string
      */
-    const STATE_ASSIGNED = 'Assigned';
+    public const STATE_ASSIGNED = 'Assigned';
 
     /**
      * Just a test constant.
      *
      * @var string
      */
-    const STATE_CLOSED = 'Closed';
+    public const STATE_CLOSED = 'Closed';
 
     /**
      * Store the state.

@@ -11,28 +11,28 @@ class PostStatus
      *
      * @var int
      */
-    const STATUS_DRAFT_ID = 1;
+    public const STATUS_DRAFT_ID = 1;
 
     /**
      * Just a test constant.
      *
      * @var string
      */
-    const STATUS_DRAFT = 'Draft';
+    public const STATUS_DRAFT = 'Draft';
 
     /**
      * Just a test constant.
      *
      * @var int
      */
-    const STATUS_PUBLISHED_ID = 2;
+    public const STATUS_PUBLISHED_ID = 2;
 
     /**
      * Just a test constant.
      *
      * @var string
      */
-    const STATUS_PUBLISHED = 'Published';
+    public const STATUS_PUBLISHED = 'Published';
 
     /**
      * Define an array of allowed status.

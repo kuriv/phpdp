@@ -8,7 +8,7 @@ class MementoTest extends TestCase
 {
     public function testOpenTicketAssignAndSetBackToOpen()
     {
-        $ticket = new Ticket;
+        $ticket = new Ticket();
         $ticket->open();
         $this->assertSame(State::STATE_OPENED, (string) $ticket->getState());
 

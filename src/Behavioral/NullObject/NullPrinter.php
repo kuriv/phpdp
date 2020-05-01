@@ -12,5 +12,6 @@ class NullPrinter implements Printer
      */
     public function print(string $string)
     {
+        //
     }
 }

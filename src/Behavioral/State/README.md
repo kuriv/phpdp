@@ -53,7 +53,7 @@ class StateCreated implements State
      */
     public function proceed(Order $order)
     {
-        $order->setState(new StateShipped);
+        $order->setState(new StateShipped());
     }
 
     /**
@@ -87,7 +87,7 @@ class StateShipped implements State
      */
     public function proceed(Order $order)
     {
-        $order->setState(new StateDone);
+        $order->setState(new StateDone());
     }
 
     /**
@@ -121,6 +121,7 @@ class StateDone implements State
      */
     public function proceed(Order $order)
     {
+        //
     }
 
     /**
@@ -162,7 +163,7 @@ class Order
     public static function createOrder(): Order
     {
         $order = new self;
-        $order->setState(new StateCreated);
+        $order->setState(new StateCreated());
         return $order;
     }
 

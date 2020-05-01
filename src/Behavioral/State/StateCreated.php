@@ -12,7 +12,7 @@ class StateCreated implements State
      */
     public function proceed(Order $order)
     {
-        $order->setState(new StateShipped);
+        $order->setState(new StateShipped());
     }
 
     /**

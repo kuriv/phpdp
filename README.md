@@ -81,7 +81,7 @@ composer require kuriv/phpdp
 
 [build-image]: https://img.shields.io/badge/build-passing-brightgreen	"build"
 [build-url]: https://github.com/kuriv/phpdp	"build"
-[version-image]: https://img.shields.io/badge/version-v1.0.1-blue	"version"
+[version-image]: https://img.shields.io/badge/version-v1.0.2-blue	"version"
 [version-url]: https://github.com/kuriv/phpdp	"version"
 [license-image]: https://img.shields.io/badge/license-MIT-green	"license"
 [license-url]: https://github.com/kuriv/phpdp	"license"

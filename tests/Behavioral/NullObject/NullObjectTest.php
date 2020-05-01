@@ -8,14 +8,14 @@ class NullObjectTest extends TestCase
 {
     public function testTextPrinter()
     {
-        $service = new Service(new TextPrinter);
+        $service = new Service(new TextPrinter());
         $this->expectOutputString('You are now in ' . Service::class . '::print');
         $service->print();
     }
 
     public function testNullPrinter()
     {
-        $service = new Service(new NullPrinter);
+        $service = new Service(new NullPrinter());
         $this->expectOutputString('');
         $service->print();
     }

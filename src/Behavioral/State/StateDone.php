@@ -12,6 +12,7 @@ class StateDone implements State
      */
     public function proceed(Order $order)
     {
+        //
     }
 
     /**

@@ -20,7 +20,7 @@ class Order
     public static function createOrder(): Order
     {
         $order = new self;
-        $order->setState(new StateCreated);
+        $order->setState(new StateCreated());
         return $order;
     }
 

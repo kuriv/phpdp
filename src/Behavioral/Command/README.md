@@ -166,8 +166,8 @@ class CommandTest extends TestCase
 {
     public function testInvocation()
     {
-        $invoker = new Invoker;
-        $receiver = new Receiver;
+        $invoker = new Invoker();
+        $receiver = new Receiver();
         $invoker->setCommand(new HelloWorldCommand($receiver));
         $invoker->execute();
         $this->assertSame('Hello World', $receiver->getOutput());

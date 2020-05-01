@@ -30,7 +30,7 @@ abstract class Handler
      * @param  Handler|null $handler
      * @return void
      */
-    public function __construct(Handler $handler = null)
+    public function __construct(?Handler $handler = null)
     {
         $this->handler = $handler;
     }
@@ -143,11 +143,11 @@ use PHPUnit\Framework\TestCase;
 
 class ChainOfResponsibilitiesTest extends TestCase
 {
-    private $requests = [1, -1, 2, 0];
+    private array $requests = [1, -1, 2, 0];
 
     public function testCanHandleDifferentRequests()
     {
-        $handler = new FooHandler(new BarHandler(new BazHandler));
+        $handler = new FooHandler(new BarHandler(new BazHandler()));
         $data = array_map(fn(int $value): string => $handler->handle($value), $this->requests);
         $this->assertEquals(['Foo', 'Bar', 'Foo', 'Baz'], $data);
     }

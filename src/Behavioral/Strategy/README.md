@@ -138,14 +138,14 @@ class StrategyTest extends TestCase
 
     public function testFindMinComparator()
     {
-        $context = new Context(new FindMinComparator);
+        $context = new Context(new FindMinComparator());
         $min = $context->compare($this->a, $this->b);
         $this->assertEquals(2, $min);
     }
 
     public function testFindMaxComparator()
     {
-        $context = new Context(new FindMaxComparator);
+        $context = new Context(new FindMaxComparator());
         $max = $context->compare($this->a, $this->b);
         $this->assertEquals(3, $max);
     }

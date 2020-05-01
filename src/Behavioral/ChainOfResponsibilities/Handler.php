@@ -17,7 +17,7 @@ abstract class Handler
      * @param  Handler|null $handler
      * @return void
      */
-    public function __construct(Handler $handler = null)
+    public function __construct(?Handler $handler = null)
     {
         $this->handler = $handler;
     }

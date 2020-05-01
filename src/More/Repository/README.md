@@ -206,28 +206,28 @@ class PostStatus
      *
      * @var int
      */
-    const STATUS_DRAFT_ID = 1;
+    public const STATUS_DRAFT_ID = 1;
 
     /**
      * Just a test constant.
      *
      * @var string
      */
-    const STATUS_DRAFT = 'Draft';
+    public const STATUS_DRAFT = 'Draft';
 
     /**
      * Just a test constant.
      *
      * @var int
      */
-    const STATUS_PUBLISHED_ID = 2;
+    public const STATUS_PUBLISHED_ID = 2;
 
     /**
      * Just a test constant.
      *
      * @var string
      */
-    const STATUS_PUBLISHED = 'Published';
+    public const STATUS_PUBLISHED = 'Published';
 
     /**
      * Define an array of allowed status.
@@ -544,13 +544,13 @@ class RepositoryTest extends TestCase
 {
     public function testCanGenerateID()
     {
-        $repository = new Repository(new PostAction);
+        $repository = new Repository(new PostAction());
         $this->assertEquals(1, $repository->generateID()->getID());
     }
 
     public function testThrowsExceptionWhenTryingToFindPostWhichDoesNotExist()
     {
-        $repository = new Repository(new PostAction);
+        $repository = new Repository(new PostAction());
         $this->expectException(OutOfBoundsException::class);
         $this->expectExceptionMessage('Post with ID 42 does not exist');
         $repository->find(PostID::getInstance(42));
@@ -558,7 +558,7 @@ class RepositoryTest extends TestCase
 
     public function testCanSavePostDraft()
     {
-        $repository = new Repository(new PostAction);
+        $repository = new Repository(new PostAction());
         $id = $repository->generateID();
         $post = Post::draft($id, 'Repository', 'PHP Design Patterns');
         $repository->save($post);

@@ -8,7 +8,7 @@ class VisitorTest extends TestCase
 {
     public function testVisitSomeRole()
     {
-        $visitor = new RecordVisitor;
+        $visitor = new RecordVisitor();
         $user = new User('Kuriv');
         $user->access($visitor);
         $this->assertSame($user, $visitor->getRecord()[0]);

@@ -8,7 +8,7 @@ class TemplateMethodTest extends TestCase
 {
     public function testCanGetScheduleOfPeople()
     {
-        $people = new People;
+        $people = new People();
         $people->process();
         $this->assertEquals(
             ['Go to work', 'Date with girlfriend', 'Go to sleep'],
@@ -18,7 +18,7 @@ class TemplateMethodTest extends TestCase
 
     public function testCanGetScheduleOfProgrammer()
     {
-        $programmer = new Programmer;
+        $programmer = new Programmer();
         $programmer->process();
         $this->assertEquals(
             ['Go to work', 'Programmer has no girlfriend', 'Go to sleep'],
