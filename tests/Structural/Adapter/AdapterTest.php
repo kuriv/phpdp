@@ -8,7 +8,7 @@ class AdapterTest extends TestCase
 {
     public function testCanTurnPageOnTextBook()
     {
-        $textbook = new TextBook;
+        $textbook = new TextBook();
         $textbook->open();
         $textbook->turnPage();
         $this->assertSame(2, $textbook->getPage());
@@ -16,7 +16,7 @@ class AdapterTest extends TestCase
 
     public function testCanTurnPageOnKindleLikeInANormalTextBook()
     {
-        $kindle = new EBookAdapter(new Kindle);
+        $kindle = new EBookAdapter(new Kindle());
         $kindle->open();
         $kindle->turnPage();
         $this->assertSame(2, $kindle->getPage());

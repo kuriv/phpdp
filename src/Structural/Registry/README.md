@@ -85,7 +85,7 @@ class RegistryTest extends TestCase
 {
     public function testSetAndGet()
     {
-        $class = new stdClass;
+        $class = new stdClass();
         Registry::set('foo', $class);
         $storedClass = Registry::get('foo');
         $this->assertSame($class, $storedClass);
@@ -96,7 +96,7 @@ class RegistryTest extends TestCase
     {
         $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage('Invalid key given');
-        Registry::set('bar', new stdClass);
+        Registry::set('bar', new stdClass());
     }
 
     public function testThrowsExceptionWhenTryingToGetNotSetKey()
