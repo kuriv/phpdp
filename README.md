@@ -1,7 +1,7 @@
 # phpdp
 
 <a href="https://github.com/kuriv/phpdp">
-	<img src="phpdp.png" width="80" height="80" align="right">
+	<img src="phpdp.svg" width="80" height="80" align="right">
 </a>
 
 > Sample code for several design patterns in PHP.
@@ -81,7 +81,7 @@ composer require kuriv/phpdp
 
 [build-image]: https://api.travis-ci.org/kuriv/phpdp.svg?branch=master&amp;status=passed	"build"
 [build-url]: https://github.com/kuriv/phpdp	"build"
-[version-image]: https://img.shields.io/badge/version-v1.0.2-blue	"version"
+[version-image]: https://img.shields.io/badge/version-v1.0.3-blue	"version"
 [version-url]: https://github.com/kuriv/phpdp	"version"
 [license-image]: https://img.shields.io/badge/license-MIT-green	"license"
 [license-url]: https://github.com/kuriv/phpdp	"license"
